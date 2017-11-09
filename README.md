@@ -1,2 +1,3 @@
-# ubiweb.ca
-The main branded website for Ubiweb.
+# UBIWEB
+
+http://ubiweb.ca

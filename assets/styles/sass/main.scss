@@ -1,0 +1,568 @@
+/*
+ * Web Starter Kit
+ *
+ * Multi-screen layout styles for your page. Brought to you by the
+ * Web Starter Kit team.
+ *
+ */
+@import '_h5bp';
+
+/*
+ * Visual Style Guide styles
+ * Remove if you prefer to use a CSS library, like Bootstrap
+ */
+ // Core variables and mixins
+ @import "../../vendor/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+ @import "../../vendor/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+
+ // Core CSS
+ @import "../../vendor/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+ @import "../../vendor/bootstrap-sass/assets/stylesheets/bootstrap/type";
+ @import "../../vendor/bootstrap-sass/assets/stylesheets/bootstrap/grid";
+
+ // Utility classes
+ @import "../../vendor/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
+ @import "../../vendor/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+
+
+@import 'components/components';
+@import 'pages/pages';
+@import 'typed-cursor';
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  font-family: $fontHighlight;
+  font-weight: 300;
+  background-color: #fff;
+  box-sizing: border-box;
+  min-height: 100%;
+}
+
+body.open {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app-bar {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: $colorCyan500;
+  color: white;
+  overflow: hidden;
+  z-index: 1;
+
+  video {
+    display: none;
+  }
+}
+
+.app-bar-container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0 auto;
+}
+
+.app-bar.open,
+.app-bar.open ~ main {
+  -webkit-transform: translate(250px, 0);
+          transform: translate(250px, 0);
+}
+
+.app-bar .logo {
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 2em;
+  line-height: 60px;
+  margin: 0 16px;
+  padding: 0;
+  color: #fefefe;
+  float: none;
+  max-width: none;
+  font-weight: 300;
+  display: initial;
+}
+
+.app-bar .logo a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: normal;
+}
+
+.app-bar-actions {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  z-index: 2;
+}
+
+.app-bar button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  background-image: none;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  display: inline-block;
+  -webkit-transition: background-color 0.2s ease-out;
+          transition: background-color 0.2s ease-out;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.app-bar button img {
+  height: 24px;
+  width: 24px;
+}
+
+.app-bar button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.app-bar button:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  outline: 0;
+}
+
+.app-bar button:active {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.promote-layer {
+  /*
+  This may promote the layer to a composited
+  layer.
+
+  Replace with will-change when available
+
+  #perfmatters
+  */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.base,
+p,
+ul,
+ol {
+  font-size: 19px;
+}
+
+$navbar-height: 60px;
+.navdrawer-container {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 250px;
+  height: auto;
+  background-color: white;
+  color: $colorCyan800;
+  -webkit-transform: translate(-250px, 0);
+          transform: translate(-250px, 0);
+  overflow-y: auto;
+
+  h1 {
+    background: url(../images/ubiweb-logo-stroked.png) no-repeat center top;
+    background-size: contain;
+    width: 80%;
+    margin: auto;
+    text-indent: -9999px;
+  }
+
+}
+
+.navdrawer-container.open {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.app-bar,
+.navdrawer-container.opened,
+main {
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+          transition: transform 0.3s ease-out;
+}
+
+.navdrawer-container h4,
+.navdrawer-container ul li a {
+  height: $navbar-height;
+  padding: 0 20px;
+  line-height: $navbar-height;
+}
+
+.navdrawer-container h4 {
+  background-color: white;
+  color: #3367D6;
+}
+
+.navdrawer-container ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.navdrawer-container ul li a {
+  display: block;
+  text-decoration: none;
+  color: $colorCyan800;
+  font-weight: 900;
+  text-transform: uppercase;
+  -webkit-transition: background-color 0.2s ease-out;
+          transition: background-color 0.2s ease-out;
+  white-space: nowrap;
+}
+
+.navdrawer-container ul li {
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: white;
+  padding: 0;
+}
+
+.navdrawer-container ul li::before {
+  content: none;
+}
+
+.navdrawer-container ul li a:hover {
+  background-color: $colorCyan500;
+  color: white;
+}
+
+.navdrawer-container ul li a:focus {
+  background-color: $colorCyan600;
+  color: white;
+  outline: 0;
+}
+
+.navdrawer-container ul li a:active,
+.navdrawer-container ul li.active a {
+  background-color: $colorCyan800;
+  color: white;
+}
+
+.tagline {
+  font-size: 2em;
+  color: white;
+  padding: 1em;
+}
+
+  .typed-headline {
+    line-height: 1.2;
+  }
+
+.section {
+  padding: 3em 2em;
+  background: no-repeat 0 0 fixed;
+  background-size: cover;
+
+  h1 {
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 1.2;
+  }
+  &.section--red {
+    background-color: $colorRed600;
+    color: white;
+  }
+  &.section--cyan {
+    background-color: $colorCyan800;
+    color: white;
+  }
+}
+  .section__wrap {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+  }
+
+  .section--what {
+    background-image: url(../images/ubiweb-local-business.jpg);
+    text-align: center;
+    padding: 8em 2em;
+  }
+
+  .section--support {
+    background-image: url(../images/ubiweb-support.jpg);
+    text-align: center;
+    padding: 8em 2em;
+  }
+
+  .section--costs {
+    background-image: url(../images/ubiweb-control-costs.jpg);
+    text-align: center;
+    padding: 8em 2em;
+  }
+
+  .section--benefits {
+    padding-top: 1em;
+
+    img {
+      float: right;
+      margin-top: -3em;
+      margin-left: 3em;
+    }
+  }
+
+  .section--features {
+    padding-top: 2em;
+
+    img {
+      float: right;
+      margin-top: -5em;
+    }
+
+    table {
+      margin-left: -1.5em;
+    }
+    @media all and (min-width: 990px) {
+      table {
+        margin-left: auto;
+      }
+    }
+    td q {
+      display: block;
+      position: relative;
+      text-transform: uppercase;
+      padding-left: 2em;
+      font-weight: 700;
+      &:after {
+        content: none;
+      }
+      &:before {
+        position: absolute;
+        top: 0.2em;
+        left: 0;
+        font-size: 4em;
+        color: #ddd;
+        font-family: Georgia, serif;
+        content: "“";
+      }
+    }
+  }
+
+  .footer {
+    border-top: 2px solid white;
+    box-shadow: 0 -3px 1px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 2em;
+  }
+    .foot__copyright {
+      font-size: 0.8em;
+    }
+    .foot__contact {
+      font-size: 1.2em;
+      padding-top: 0;
+      margin-bottom: 0.5em;
+      color: $colorGrayLight;
+
+      a {
+        display: inline-block;
+        background-color: $colorCyan800;
+        color: white;
+        padding: 0.5em;
+        margin-left: 0.25em;
+        margin-right: 0.25em;
+        border: 2px solid transparent;
+        transition: all ease-in-out 200ms;
+        &:last-child {
+          background-color: $colorRed600;
+          &:hover {
+            color: $colorRed600;
+            border-color: $colorRed600;
+          }
+        }
+        &:hover {
+          background-color: white;
+          color: $colorCyan800;
+          border-color: $colorCyan800;
+        }
+      }
+    }
+/** Larger Screens - desktops and tablets **/
+@media all and (min-width: 990px) {
+  #isMobile {
+    display: none;
+  }
+  .app-bar {
+    position: relative;
+
+    video {
+      display: block;
+      opacity: 0.2;
+      position: absolute;
+      left: 0;
+      top: 0;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -1000;
+      overflow: hidden;
+    }
+
+  }
+
+  .app-bar.open,
+  .app-bar.open ~ main {
+    -webkit-transform: translate(0px, 0);
+            transform: translate(0px, 0);
+  }
+
+  .app-bar-container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    max-width: 864px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    background-color: transparent;
+  }
+
+  .tagline {
+    text-align: center;
+    position: relative;
+    top: -1*($navbar-height);
+    width: 100%;
+  }
+
+  .app-bar .logo {
+    float: left;
+    margin: 0;
+    padding: 0;
+    line-height: 130px;
+    font-size: 46px;
+  }
+
+  .app-bar-actions {
+    float: right;
+  }
+
+  .app-bar::after {
+    content: ' ';
+    display: block;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+  }
+
+  button.menu {
+    display: none;
+  }
+
+  .splash {
+    .navdrawer-container {
+      margin-top: -1*($navbar-height);
+    }
+  }
+  .navdrawer-container {
+    position: relative;
+    width: 100%;
+    height: $navbar-height;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    -webkit-transition: none;
+            transition: none;
+    overflow: visible;
+    box-shadow: 0 3px 1px rgba(0,0,0,0.1);
+
+    h1 {
+      background-position: 0 0;
+      float: left;
+      font-size: 2em;
+      margin: 0 0 0 $wideGutterWidth;
+      height: $navbar-height;
+      width: 300px;
+      position: relative;
+      top: -0.5em;
+      transition: all ease-in-out 200ms;
+    }
+
+    &.stuck {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 101;
+      margin-top: 0;
+
+      h1 {
+        top: 0.25em;
+        height: $navbar-height*(2/3);
+      }
+    }
+  }
+  .interior .navdrawer-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    margin-top: 0;
+
+    h1 {
+      top: 0.25em;
+      height: $navbar-height*(2/3);
+    }
+  }
+
+
+  .navdrawer-container ul {
+    text-align: right;
+    margin: 0 $wideGutterWidth 0 0;
+    font-size: 0.8em;
+    line-height: $navbar-height;
+    letter-spacing: -0.03em;
+  }
+
+  .navdrawer-container ul li {
+    display: inline-block;
+    border: none;
+  }
+
+  main {
+    padding-top: 0;
+    min-height: initial;
+  }
+
+  body {
+    overflow-y: scroll;
+  }
+  .tagline{
+    font-size: 4em;
+    padding: 1em;
+  }
+  .footer {
+    padding: 5em;
+  }
+  .foot__contact {
+    font-size: 3em;
+  }
+
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,800,600,700);

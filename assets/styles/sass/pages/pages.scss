@@ -1,0 +1,19 @@
+@import "packages";
+@import "templates";
+@import "contact";
+
+.interior {
+  main {
+    background: #ecf0f1;
+  }
+
+  .app-bar {
+    height: 14%;
+  }
+  @media all and (min-width: 990px) {
+    .app-bar {
+      display: none;
+    }
+  }
+
+}

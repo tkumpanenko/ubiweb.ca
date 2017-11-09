@@ -1,0 +1,46 @@
+.npt-btn,
+.npt-format-2 .npt-btn:hover,
+.npt-format-3 .npt-btn:hover,
+.npt-format-2.npt-hex-hover .npt-item:hover .npt-hex,
+.npt-format-2.npt-hex-hover .npt-item:hover .npt-hex:after,
+.npt-format-2.npt-hex-hover .npt-item:hover .npt-hex:before,
+.npt-format-3 .npt-item-1 .npt-title,
+.npt-format-3 .npt-plan-cost {
+	 color: #16a085;
+}
+
+.npt-ribbon ,
+.npt-btn:hover,
+.npt-format-2 .npt-btn,
+.npt-format-3 .npt-btn,
+.npt-hex, 
+.npt-hex:before, 
+.npt-hex:after {
+	background-color: #16a085;
+}
+
+
+
+.tb-inner i,
+.tb-inner,
+.tb-inner:before, 
+.tb-inner:after,
+.title-bottom:after, 
+.title-bottom:before,
+
+
+
+.npt-btn:hover,
+.npt-btn,
+.npt-format-2 .npt-btn,
+.npt-format-3 .npt-btn,
+.npt-hex, 
+.npt-hex:before, 
+.npt-hex:after {
+	border-color:#16a085;
+}
+
+
+.npt-format-3 .npt-has-ability .npt-ability-icon {
+	 color: #16a085;
+}
