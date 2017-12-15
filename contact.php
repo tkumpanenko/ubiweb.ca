@@ -1,9 +1,4 @@
 <?php
-
-
-
-
-
   $page = basename(__FILE__, '.php');
   include "inc/start.php";
 

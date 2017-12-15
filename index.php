@@ -14,8 +14,8 @@ include "inc/start.php" ?><!DOCTYPE html>
 
     <link rel="stylesheet" href="assets/styles/ubiweb.css?v=1">
 
-    <script src="assets/vendor/modernizr/modernizr.js"></script>
-    <script src="assets/vendor/lazysizes/lazysizes.min.js" async></script>
+    <!--<script src="assets/vendor/modernizr/modernizr.js"></script>
+    <script src="assets/vendor/lazysizes/lazysizes.min.js" async></script>-->
 
 <body class="splash">
 
