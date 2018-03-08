@@ -60,38 +60,11 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(1);
-module.exports = __webpack_require__(3);
-
-
-/***/ }),
-/* 1 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_jquery__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_bootstrap_dist_js_bootstrap__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_bootstrap_dist_js_bootstrap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_bootstrap_dist_js_bootstrap__);
-
-window.$ = window.jQuery = __WEBPACK_IMPORTED_MODULE_0_jquery___default.a;
-
-
-__WEBPACK_IMPORTED_MODULE_0_jquery___default()(document).ready(function () {
-  var title = __WEBPACK_IMPORTED_MODULE_0_jquery___default()("title").text();
-  console.log(title + " is ready.");
-});
-
-/***/ }),
-/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -10462,17 +10435,69 @@ return jQuery;
 
 
 /***/ }),
-/* 3 */
-/***/ (function(module, exports) {
+/* 1 */
+/***/ (function(module, exports, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+__webpack_require__(2);
+module.exports = __webpack_require__(6);
+
 
 /***/ }),
-/* 4 */,
-/* 5 */,
-/* 6 */,
-/* 7 */,
-/* 8 */
+/* 2 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_jquery__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_bootstrap_dist_js_bootstrap__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_bootstrap_dist_js_bootstrap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_bootstrap_dist_js_bootstrap__);
+
+window.$ = window.jQuery = __WEBPACK_IMPORTED_MODULE_0_jquery___default.a;
+
+
+__WEBPACK_IMPORTED_MODULE_0_jquery___default()(document).ready(function () {
+  var title = __WEBPACK_IMPORTED_MODULE_0_jquery___default()("title").text();
+  console.log(title + " is ready.");
+
+  //$('.collapse').collapse();
+
+  var swiper = new Swiper('.JS--packages-slider.swiper-container', {
+    slidesPerView: 3
+    //spaceBetween:50,
+  });
+
+  var swiper = new Swiper('.JS--portfolio-slider.swiper-container', {
+    slidesPerView: 3,
+    loop: true,
+    navigation: {
+      nextEl: '.JS--portfolio-next',
+      prevEl: '.JS--portfolio-prev'
+    },
+    pagination: {
+      el: '.JS--portfolio-pagination',
+      clickable: true
+    }
+
+  });
+
+  var swiper = new Swiper('.JS--feedback-slider.swiper-container', {
+    slidesPerView: 3,
+    loop: true,
+    navigation: {
+      nextEl: '.JS--feedback-next',
+      prevEl: '.JS--feedback-prev'
+    },
+    pagination: {
+      el: '.JS--feedback-pagination',
+      clickable: true
+    }
+
+  });
+});
+
+/***/ }),
+/* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
@@ -10481,7 +10506,7 @@ return jQuery;
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
   */
 (function (global, factory) {
-	 true ? factory(exports, __webpack_require__(2), __webpack_require__(9)) :
+	 true ? factory(exports, __webpack_require__(0), __webpack_require__(4)) :
 	typeof define === 'function' && define.amd ? define(['exports', 'jquery', 'popper.js'], factory) :
 	(factory((global.bootstrap = {}),global.jQuery,global.Popper));
 }(this, (function (exports,$,Popper) { 'use strict';
@@ -14372,7 +14397,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 
 /***/ }),
-/* 9 */
+/* 4 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16815,10 +16840,10 @@ Popper.Defaults = Defaults;
 /* harmony default export */ __webpack_exports__["default"] = (Popper);
 //# sourceMappingURL=popper.js.map
 
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(10)))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(5)))
 
 /***/ }),
-/* 10 */
+/* 5 */
 /***/ (function(module, exports) {
 
 var g;
@@ -16843,6 +16868,12 @@ try {
 
 module.exports = g;
 
+
+/***/ }),
+/* 6 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);
