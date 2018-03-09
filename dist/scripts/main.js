@@ -10457,43 +10457,117 @@ window.$ = window.jQuery = __WEBPACK_IMPORTED_MODULE_0_jquery___default.a;
 
 
 __WEBPACK_IMPORTED_MODULE_0_jquery___default()(document).ready(function () {
-  var title = __WEBPACK_IMPORTED_MODULE_0_jquery___default()("title").text();
-  console.log(title + " is ready.");
 
-  //$('.collapse').collapse();
+    __WEBPACK_IMPORTED_MODULE_0_jquery___default()(window).bind('scroll', function () {
+        if (__WEBPACK_IMPORTED_MODULE_0_jquery___default()(window).scrollTop() > 20) {
+            __WEBPACK_IMPORTED_MODULE_0_jquery___default()('header').addClass('sticky');
+        } else {
+            __WEBPACK_IMPORTED_MODULE_0_jquery___default()('header').removeClass('sticky');
+        }
+    });
 
-  var swiper = new Swiper('.JS--packages-slider.swiper-container', {
-    slidesPerView: 3
-    //spaceBetween:50,
-  });
+    var title = __WEBPACK_IMPORTED_MODULE_0_jquery___default()("title").text();
+    console.log(title + " is ready.");
 
-  var swiper = new Swiper('.JS--portfolio-slider.swiper-container', {
-    slidesPerView: 3,
-    loop: true,
-    navigation: {
-      nextEl: '.JS--portfolio-next',
-      prevEl: '.JS--portfolio-prev'
-    },
-    pagination: {
-      el: '.JS--portfolio-pagination',
-      clickable: true
-    }
+    //$('.collapse').collapse();
 
-  });
+    var swiperPackages = new Swiper('.JS--packages-slider.swiper-container', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 10
+            },
+            480: {
+                slidesPerView: 1,
+                spaceBetween: 20
+            },
+            992: {
+                slidesPerView: 2,
+                spaceBetween: 20
+            }
+        }
+    });
 
-  var swiper = new Swiper('.JS--feedback-slider.swiper-container', {
-    slidesPerView: 3,
-    loop: true,
-    navigation: {
-      nextEl: '.JS--feedback-next',
-      prevEl: '.JS--feedback-prev'
-    },
-    pagination: {
-      el: '.JS--feedback-pagination',
-      clickable: true
-    }
+    var swiperPortfolio = new Swiper('.JS--portfolio-slider.swiper-container', {
+        slidesPerView: 3,
+        loop: true,
+        navigation: {
+            nextEl: '.JS--portfolio-next',
+            prevEl: '.JS--portfolio-prev'
+        },
+        pagination: {
+            el: '.JS--portfolio-pagination',
+            clickable: true
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 10
+            },
+            480: {
+                slidesPerView: 2,
+                spaceBetween: 20
+            },
+            992: {
+                slidesPerView: 2,
+                spaceBetween: 30
+            }
+        }
 
-  });
+    });
+
+    var swiperFeedback = new Swiper('.JS--feedback-slider.swiper-container', {
+        slidesPerView: 3,
+        loop: true,
+        navigation: {
+            nextEl: '.JS--feedback-next',
+            prevEl: '.JS--feedback-prev'
+        },
+        pagination: {
+            el: '.JS--feedback-pagination',
+            clickable: true
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 10
+            },
+            767: {
+                slidesPerView: 1,
+                spaceBetween: 20
+            },
+            992: {
+                slidesPerView: 2,
+                spaceBetween: 30
+            }
+        }
+
+    });
+
+    __WEBPACK_IMPORTED_MODULE_0_jquery___default()(document).on('click', 'a[href^="#"]', function (event) {
+        event.preventDefault();
+        var headerHeight = __WEBPACK_IMPORTED_MODULE_0_jquery___default()('header').outerHeight();
+
+        __WEBPACK_IMPORTED_MODULE_0_jquery___default()('html, body').animate({
+            scrollTop: __WEBPACK_IMPORTED_MODULE_0_jquery___default()(__WEBPACK_IMPORTED_MODULE_0_jquery___default.a.attr(this, 'href')).offset().top - headerHeight
+        }, 1000);
+    });
+
+    //Mobile menu
+
+    __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.mobile-menu-btn').click(function () {
+        if (__WEBPACK_IMPORTED_MODULE_0_jquery___default()(this).hasClass('active')) {
+            __WEBPACK_IMPORTED_MODULE_0_jquery___default()(this).removeClass('active');
+            __WEBPACK_IMPORTED_MODULE_0_jquery___default()('header').removeClass('active');
+            __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.mobile-menu').removeClass('active');
+        } else {
+            __WEBPACK_IMPORTED_MODULE_0_jquery___default()(this).addClass('active');
+            __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.mobile-menu').addClass('active');
+            __WEBPACK_IMPORTED_MODULE_0_jquery___default()('header').addClass('active');
+        }
+    });
 });
 
 /***/ }),

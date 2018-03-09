@@ -4,8 +4,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-
     <title>Barebones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="description" content="The HTML5 Herald">
     <meta name="author" content="SitePoint">
 
@@ -17,6 +17,63 @@
 </head>
 
 <body>
+
+
+<header>
+    <div class="mobile-menu-wrapper">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-auto">
+                <div class="logo-wrapper">
+                    <a href="/"> <img src="<?= asset('images/logo.png') ?>" alt="logo" class="logo"></a>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="mobile-menu">
+                    <ul class="menu">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#packages">Packages</a></li>
+                        <li><a href="#addons">Add-Ons</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#feedback">Testimonials</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#about" class="btn custom-btn red-btn menu-button">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="desktop-menu-wrapper">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-auto">
+                    <div class="logo-wrapper">
+                        <a href="/"> <img src="<?= asset('images/logo.png') ?>" alt="logo" class="logo"></a>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <ul class="menu">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#packages">Packages</a></li>
+                        <li><a href="#addons">Add-Ons</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#feedback">Testimonials</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#about" class="btn custom-btn red-btn menu-button">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 
 <div class="hero-banner-wrapper" style="background-image: url(<?= asset('images/hero.jpg') ?>);">
     <div class="container">
@@ -133,8 +190,8 @@
 
     <!---------------Packages section----------------------------->
 
-    <section class="packages-section" style="background-image:url(<?= asset('images/packages-bg.jpg') ?>);">
-        <div class="packages-overlay"></div>
+    <section class="packages-section" id="packages"
+             style="background-image:url(<?= asset('images/packages-bg-min.png') ?>);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-10">
@@ -234,7 +291,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="main-guarantee-text">
-                        <div class="row justify-content-end">
+                        <div class="row justify-content-lg-end">
                             <div class="col-lg-6">
                                 <div class="guarantee-title-wrapper">
                                     <h2 class="guarantee-title">90<br>day</h2>
@@ -276,7 +333,7 @@
 
 
     <!-------------------Add-ons section------------------------------>
-    <section class="addons">
+    <section class="addons" id="addons">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-11">
@@ -349,7 +406,8 @@
 
     <!--------------------------Feedback section------------------------------------------>
 
-    <section class="feedback-section" style="background-image:url(<?= asset('images/feedback-bg-min.jpg') ?>); ">
+    <section class="feedback-section" id="feedback"
+             style="background-image:url(<?= asset('images/feedback-bg-min.png') ?>); ">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -420,7 +478,8 @@
                                                     Praesent luctus, mi sit amet tincidunt sollicitudin,
                                                     augue neque facilisis enim, ut semper velit elit non ante.
                                                     Donec felis elit, malesuada non augue at, facilisis porttitor dolor.
-                                                    Fusce a hendrerit metus. Praesent porta ultricies elit, sit amet convallis
+                                                    Fusce a hendrerit metus. Praesent porta ultricies elit, sit amet
+                                                    convallis
                                                     urna accumsan lobortis. Pellentesque sed efficit.
                                                 </p>
                                             </div>
@@ -446,7 +505,7 @@
 
     <!-----------------------Portfolio section-------------------------------->
 
-    <section class="portfolio-section">
+    <section class="portfolio-section" id="portfolio">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-10">
@@ -502,7 +561,7 @@
 
 
     <!----------------------Questions section--------------------------------->
-    <section class="questions-section">
+    <section class="questions-section" id="faq">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -519,7 +578,7 @@
                                 <div class="question-header" id="headingOne">
                                     <button class="btn btn-link btn-custom-link collapsed" data-toggle="collapse"
                                             data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Why do I need a website?
+                                        <i class="fa fa-chevron-right" aria-hidden="true"></i> Why do I need a website?
                                     </button>
                                 </div>
 
@@ -646,6 +705,235 @@
                 </div>
             </div>
         </div>
+    </section>
+
+
+    <!--------------------------Contact section--------------------------------------->
+
+    <section class="contact-us" id="about">
+
+        <div class="row align-items-justify no-gutters">
+            <div class="col-md-6 col-lg-4 order-1 order-md-1 order-lg-1 red-bg">
+                <div class="contact-form-wrapper">
+                    <h3 class="small-title white-title">Contact</h3>
+
+                    <p class="form-quote-text">Get your quote today by calling 514-XXX-XXXX <br> or filling in the
+                        form below</p>
+
+                    <form action="">
+                        <div class="form-field">
+                            <input type="text" name="name" id="name" required placeholder="Name *">
+                        </div>
+                        <div class="form-field">
+                            <input type="email" name="email" id="email" required placeholder="E-mail *">
+                        </div>
+                        <div class="form-field">
+                            <input type="text" name="phone" id="phone" required placeholder="Phone Number *">
+                        </div>
+                        <div class="form-field">
+                            <textarea name="message" id="messag" rows="4" placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-button-container">
+                            <input type="submit" class="btn custom-btn white-btn" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-12 order-md-3 order-3 order-lg-2 col-lg-4">
+                <div class="map-wrapper">
+                    <div class="map-container">
+                        <iframe width="100%" height="450" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Montreal+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 order-2 order-md-2 order-lg-3 align-self-center">
+                <div class="about-us-text-wrapper">
+                    <h3 class="small-title red-title">About us</h3>
+
+                    <div class="about-us-text">
+                        <p>
+                            Ubiweb operates under the parent company "Code Comment" since xxxx.
+                            Code Comment recognized a scarcity of custom web solutions for small business owners.
+                            Code Comment conceived Ubiweb to meet these business demands. With an archive of over
+                            200
+                            customers who trust our skilled workmanship, we boast a 94% renewal rate with our
+                            clients.
+                        </p>
+
+                        <p>
+                            We have expanded into 2 locations (Montreal and the South Shore) to offer you
+                            flexibility and convenience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!----------------------------Describe simple packages section---------------------------------->
+
+    <section class="describe-package-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="package-title red-title">Silver Package</h2>
+
+                    <h3 class="package-price dark-title">
+                        $228/Month
+                    </h3>
+
+                    <div class="package-price-description">
+                        <p>
+                            On a 12-month renewable term. Plan includes:
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 align-self-end">
+                    <div class="package-button-wrapper">
+                        <a class="btn custom-btn blue-bg" href="javascript:void(0);">Bronze Package</a>
+                        <a class="btn custom-btn blue-bg" href="javascript:void(0);">Gold Package</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--------------------------Get start today------------------------------------>
+    <section class="getStart-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title white-title">Get Started Today</h2>
+                </div>
+                <div class="col-12">
+                    <div class="buttons-wrapper">
+                        <a href="tel:(438)700-0598" class="btn custom-btn">
+                            (438) 700-0598
+                        </a>
+                        <a href="email:test@gmail.com" class="btn custom-btn">
+                            E-MAIL US
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!----------------------------------Guarantee add-ons section-------------------------------------------->
+
+    <section class="guarantee-addons-section">
+
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6 blue-bg">
+                    <div class="guarantee-column-wrapper">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-9">
+                                <div class="guarantee-text-block">
+                                    <h2 class="big-title white-title">90 Day</h2>
+
+                                    <h3 class="middle-title dark-title">Guarantee to find your name</h3>
+
+                                    <div class="promise-description">
+                                        <h3 class="small-title white-title">Our promise</h3>
+
+                                        <p>
+                                            All Ubiweb packages guarantee that you'll find your website on Google's
+                                            first
+                                            search page within 90 days of its creation or your money back.
+                                            This successfully results in higher traffic on your website,
+                                            connecting your business with consumers online.
+                                        </p>
+
+                                        <p class="small-promise-text">
+                                            * Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                                            Maecenas sed massa fermentum, efficitur mi ac, vulputate velit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-md-6">
+                    <div class="addons-column-wrapper">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-9">
+                                <div class="addons-description-container">
+                                    <h3 class="middle-title red-title">Add-ons</h3>
+
+                                    <p>Our versatile add-ons are suited to<br> promote your unique enterprise.</p>
+                                </div>
+                                <div class="addons-icon-container">
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-4">
+                                            <div class="icon-text-block">
+                                                <div class="icon-container">
+                                                    <img src="" alt="">
+                                                </div>
+                                                <h3 class="small-title dark-title">NEW-BIZ STARTER PACK</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4">
+                                            <div class="icon-text-block">
+                                                <div class="icon-container">
+                                                    <img src="" alt="">
+                                                </div>
+                                                <h3 class="small-title dark-title">Email</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4">
+                                            <div class="icon-text-block">
+                                                <div class="icon-container">
+                                                    <img src="" alt="">
+                                                </div>
+                                                <h3 class="small-title dark-title">Google adwards</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4">
+                                            <div class="icon-text-block">
+                                                <div class="icon-container">
+                                                    <img src="" alt="">
+                                                </div>
+                                                <h3 class="small-title dark-title">Translation &amp; Bilingual Site</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4">
+                                            <div class="icon-text-block">
+                                                <div class="icon-container">
+                                                    <img src="" alt="">
+                                                </div>
+                                                <h3 class="small-title dark-title">Logo refresh</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-4">
+                                            <div class="icon-text-block">
+                                                <div class="icon-container">
+                                                    <img src="" alt="">
+                                                </div>
+                                                <h3 class="small-title dark-title">Copywriting &amp; Content
+                                                    Creation</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
     </section>
 
 </main>

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Prompt:300,300i,400,400i,500,600,700,800');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
 @import url('/src/swiper-css/swiper.min.css');
+@import url('/src/font-awesome-css/font-awesome.min.css');
 
 body {
   font-family: 'Prompt', sans-serif;
@@ -18,6 +19,44 @@ body {
   }
 }
 
+.btn{
+  white-space: normal;
+}
+
+.red-bg{
+  background: $red;
+}
+
+
+.blue-bg{
+  background: $blue;
+}
+
+.white-title{
+  color:#fff;
+}
+
+.red-title{
+  color:$red;
+}
+
+.dark-title{
+  color:$dark;
+}
+
+
+.big-title{
+  font-size: 103px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.middle-title{
+  font-size: 25px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
 /*-----------Custom button-----------------------*/
 .custom-btn {
   color: #fff;
@@ -67,6 +106,12 @@ body {
   letter-spacing: 2px;
   &.dark-title {
     color: $dark-small-title;
+  }
+  &.red-title{
+    color:$red;
+  }
+  &.white-title{
+    color:#fff;
   }
   &.underline-title {
     position: relative;
