@@ -10,6 +10,11 @@ body {
   color: $body-text-color;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 .simple-text {
   &.white-text {
     color: #fff;
@@ -19,44 +24,80 @@ body {
   }
 }
 
-.btn{
+.btn {
   white-space: normal;
 }
 
-.red-bg{
+.red-bg {
   background: $red;
 }
 
-
-.blue-bg{
+.blue-bg {
   background: $blue;
 }
 
-.white-title{
-  color:#fff;
+.white-title {
+  color: #fff;
 }
 
-.red-title{
-  color:$red;
+.red-title {
+  color: $red;
 }
 
-.dark-title{
-  color:$dark;
+.dark-title {
+  color: $dark;
 }
 
-
-.big-title{
+.big-title {
   font-size: 103px;
   font-weight: 800;
   text-transform: uppercase;
 }
 
-.middle-title{
+.middle-title {
   font-size: 25px;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+/*--------------Icon text box-------------------*/
+
+.icon-text-block {
+  .icon-container {
+    text-align: center;
+  }
+}
+
+/*---------------Icons list-------------------*/
+.icons-list-wrapper {
+  .icons-list {
+    margin: 0;
+    list-style-type: none;
+    padding: 0 30px;
+    @media screen and (max-width: 992px){
+      padding: 0;
+    }
+    li {
+      color: $dark-subtitle;
+      padding-left:30px;
+      position: relative;
+      line-height: 2;
+      &:not(:last-child){
+        margin-bottom: 30px;
+      }
+      i{
+        color: $blue;
+        position: absolute;
+        left:0;
+        top:0;
+        display: block;
+        line-height: inherit;
+      }
+    }
+  }
+}
+
 /*-----------Custom button-----------------------*/
 .custom-btn {
   color: #fff;
@@ -107,11 +148,11 @@ body {
   &.dark-title {
     color: $dark-small-title;
   }
-  &.red-title{
-    color:$red;
+  &.red-title {
+    color: $red;
   }
-  &.white-title{
-    color:#fff;
+  &.white-title {
+    color: #fff;
   }
   &.underline-title {
     position: relative;
@@ -125,8 +166,6 @@ body {
       width: 20px;
       left: 50%;
       bottom: 0;
-      -webkit-transform: translate(-50%, 0);
-      -ms-transform: translate(-50%, 0);
       transform: translate(-50%, 0);
     }
   }
@@ -141,17 +180,7 @@ body {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
   align-items: center;
 }

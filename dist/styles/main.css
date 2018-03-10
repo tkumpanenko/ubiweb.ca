@@ -10001,6 +10001,11 @@ body {
   color: #7B7B7B;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 .simple-text.white-text {
   color: #fff;
 }
@@ -10044,6 +10049,46 @@ body {
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+/*--------------Icon text box-------------------*/
+
+.icon-text-block .icon-container {
+  text-align: center;
+}
+
+/*---------------Icons list-------------------*/
+
+.icons-list-wrapper .icons-list {
+  margin: 0;
+  list-style-type: none;
+  padding: 0 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .icons-list-wrapper .icons-list {
+    padding: 0;
+  }
+}
+
+.icons-list-wrapper .icons-list li {
+  color: #0F2830;
+  padding-left: 30px;
+  position: relative;
+  line-height: 2;
+}
+
+.icons-list-wrapper .icons-list li:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.icons-list-wrapper .icons-list li i {
+  color: #1AC0CF;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  line-height: inherit;
 }
 
 /*-----------Custom button-----------------------*/
@@ -10128,7 +10173,7 @@ body {
   left: 50%;
   bottom: 0;
   -webkit-transform: translate(-50%, 0);
-  transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
 }
 
 /*------------------Base swiper --------------------------*/
@@ -10141,46 +10186,15 @@ body {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-html,
-body {
-  height: 100%;
-}
-
-/*----------------------Header--------------------------*/
-
-header {
-  position: fixed;
-  width: 100%;
-  left: 0;
-  top: 0;
-  z-index: 99999;
-  padding: 20px 0;
-}
-
-header.sticky {
-  background: #fff;
-  -webkit-box-shadow: 0px 1px 8px 0px #cdcdcd;
-          box-shadow: 0px 1px 8px 0px #cdcdcd;
-}
-
-header.sticky .mobile-menu-btn span {
-  background: #0F282F;
-}
-
-header.active {
-  background: #fff;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 /*------------------Mobile menu---------------------*/
@@ -10268,7 +10282,7 @@ header.active {
 
 /*------------------Desktop nav-------------------------*/
 
-header.sticky .desktop-menu-wrapper .menu li:not(:last-child) a {
+.site-header.sticky .desktop-menu-wrapper .menu li:not(:last-child) a {
   color: #0F282F;
 }
 
@@ -10365,15 +10379,58 @@ header.sticky .desktop-menu-wrapper .menu li:not(:last-child) a {
   font-weight: 600;
 }
 
+/*----------------------Header--------------------------*/
+
+.site-header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 99999;
+  padding: 20px 0;
+}
+
+.site-header.sticky {
+  background: #fff;
+  -webkit-box-shadow: 0px 1px 8px 0px #cdcdcd;
+          box-shadow: 0px 1px 8px 0px #cdcdcd;
+}
+
+.site-header.sticky .mobile-menu-btn span {
+  background: #0F282F;
+}
+
+.site-header.active {
+  background: #fff;
+}
+
 /*-----------------Specialize section------------------------------*/
+
+.specialize-section {
+  padding: 0 0 50px;
+}
 
 .specialize-section .simple-text-block {
   text-align: center;
+  margin-bottom: 70px;
+}
+
+.specialize-section .simple-text-block .section-title {
+  margin-bottom: 25px;
+}
+
+.icon-text-block .icon-container {
+  min-height: 65px;
+  margin-bottom: 15px;
 }
 
 .icon-text-block .description-block {
   text-align: center;
   font-size: 15px;
+}
+
+.icon-text-block .description-block .small-title {
+  margin-bottom: 15px;
 }
 
 /*-----------------------Packages section------------------------------------*/
@@ -10553,6 +10610,19 @@ header.sticky .desktop-menu-wrapper .menu li:not(:last-child) a {
   background-position: left bottom;
 }
 
+.addons .simple-text-block {
+  margin-bottom: 40px;
+}
+
+.addons .simple-text-block .section-title {
+  margin-bottom: 25px;
+}
+
+.addons .icon-text-block .icon-container {
+  min-height: 75px;
+  margin-bottom: 25px;
+}
+
 .addons .icon-text-block .small-title {
   text-align: center;
 }
@@ -10721,6 +10791,7 @@ header.sticky .desktop-menu-wrapper .menu li:not(:last-child) a {
 
 .questions-accordion-wrapper .questions-card .btn-custom-link.btn.collapsed i {
   color: #E74138;
+  margin-right: 10px;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
   -webkit-transition: all 0.3s ease-in-out;
@@ -10728,6 +10799,7 @@ header.sticky .desktop-menu-wrapper .menu li:not(:last-child) a {
 }
 
 .questions-accordion-wrapper .questions-card .btn-custom-link.btn i {
+  margin-right: 10px;
   color: #E74138;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
@@ -10854,6 +10926,11 @@ header.sticky .desktop-menu-wrapper .menu li:not(:last-child) a {
   padding: 50px 0;
 }
 
+.describe-package-section .icons-list-main-container {
+  margin-top: 40px;
+  padding: 30px 0;
+}
+
 .describe-package-section .package-title {
   font-size: 60px;
   font-weight: 700;
@@ -10896,17 +10973,17 @@ header.sticky .desktop-menu-wrapper .menu li:not(:last-child) a {
 
 /*-------------------Get started section--------------------------*/
 
-.getStart-section {
+.get-start-section {
   background: #E74138;
   padding: 50px 0;
 }
 
-.getStart-section .buttons-wrapper {
+.get-start-section .buttons-wrapper {
   text-align: center;
   margin-top: 30px;
 }
 
-.getStart-section .buttons-wrapper a {
+.get-start-section .buttons-wrapper a {
   background: #fff;
   color: #E74138;
   width: 325px;
@@ -10918,16 +10995,16 @@ header.sticky .desktop-menu-wrapper .menu li:not(:last-child) a {
   line-height: 1;
 }
 
-.getStart-section .buttons-wrapper a:hover {
+.get-start-section .buttons-wrapper a:hover {
   color: #E74138;
 }
 
-.getStart-section .buttons-wrapper a:first-child {
+.get-start-section .buttons-wrapper a:first-child {
   margin-right: 40px;
 }
 
 @media screen and (max-width: 992px) {
-  .getStart-section .buttons-wrapper a:first-child {
+  .get-start-section .buttons-wrapper a:first-child {
     display: block;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -10935,6 +11012,15 @@ header.sticky .desktop-menu-wrapper .menu li:not(:last-child) a {
 }
 
 /*------------------------Guarantee-addons-section-----------------------------*/
+
+.guarantee-addons-section .icon-container {
+  min-height: 75px;
+}
+
+.guarantee-addons-section .small-title {
+  text-align: center;
+  line-height: 1.5;
+}
 
 .guarantee-text-block {
   text-align: center;
@@ -10976,48 +11062,41 @@ header.sticky .desktop-menu-wrapper .menu li:not(:last-child) a {
 
 .addons-description-container {
   text-align: center;
-}
-
-.addons-icon-container {
-  text-align: center;
-}
-
-.addons-icon-container .small-title {
-  line-height: 1.5;
+  margin-bottom: 40px;
 }
 
 /*--------------------Footer----------------------------*/
 
-footer {
+.site-footer {
   background-color: #0C262D;
   color: #435B62;
   font-size: 12px;
   padding: 30px 0;
 }
 
-footer .copyright-block span {
+.site-footer .copyright-block span {
   color: #fff;
 }
 
-footer .footer-menu {
+.site-footer .footer-menu {
   text-align: right;
 }
 
-footer .footer-menu ul {
+.site-footer .footer-menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-footer .footer-menu ul li {
+.site-footer .footer-menu ul li {
   display: inline-block;
 }
 
-footer .footer-menu ul li a {
+.site-footer .footer-menu ul li a {
   color: #435B62;
 }
 
-footer .footer-menu ul li a:hover {
+.site-footer .footer-menu ul li a:hover {
   text-decoration: none;
 }
 

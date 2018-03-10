@@ -1,0 +1,42 @@
+/*-------------------------Describe package section---------------------------------*/
+
+.describe-package-section {
+  padding: 50px 0;
+  .icons-list-main-container{
+    margin-top: 40px;
+    padding: 30px 0;
+  }
+  .package-title {
+    font-size: 60px;
+    font-weight: 700;
+  }
+  .package-price {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4px;
+  }
+  .package-price-description{
+    margin-top: 20px;
+    p{
+      margin-bottom: 0;
+      font-size: 20px;
+      font-family: 'Roboto', sans-serif;
+    }
+  }
+}
+
+.package-button-wrapper{
+  text-align: right;
+  a{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 600;
+    &:hover{
+      color:#fff;
+    }
+    &:first-child{
+      margin-right: 15px;
+    }
+  }
+}

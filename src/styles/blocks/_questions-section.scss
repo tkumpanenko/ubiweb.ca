@@ -1,0 +1,47 @@
+/*----------------------Questions section---------------------------------*/
+
+.questions-section {
+  background: $grey-bg;
+  padding: 70px 0;
+}
+
+.questions-accordion-wrapper {
+  .questions-card {
+    border: 0;
+    background: transparent;
+    .btn-custom-link {
+      &.btn {
+        text-align: left;
+        padding: 15px 0;
+        font-family: 'Roboto', sans-serif;
+        &.collapsed {
+          color: $body-text-color;
+          i {
+            color: $red;
+            margin-right:10px;
+            transform: rotate(0deg);
+            transition: all 0.3s ease-in-out;
+          }
+        }
+        i {
+          margin-right:10px;
+          color: $red;
+          transform: rotate(90deg);
+          transition: all 0.3s ease-in-out;
+        }
+        color: $red;
+        font-size: 18px;
+        text-decoration: none;
+      }
+    }
+    .questions-card-body {
+      &.card-body {
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        padding: 0;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+/*---------------------About Us section---------------------------*/
+
+.contact-us {
+
+}
+
+.contact-form-wrapper {
+  text-align: center;
+  padding: 60px 20px 40px;
+  .small-title {
+    margin-bottom: 15px;
+  }
+  .form-quote-text {
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .form-field {
+    margin-bottom: 10px;
+    input, textarea {
+      color: #fff;
+      background: transparent;
+      font-size: 12px;
+      border: 0;
+      border-bottom: 1px solid #fff;
+      box-shadow: none;
+      outline: none;
+      width: 300px;
+      max-width: 100%;
+      margin: 0 auto;
+      &:focus {
+        outline: none;
+      }
+      &::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: #fff;
+      }
+      &::-moz-placeholder {
+        /* Firefox 19+ */
+        color: #fff;
+      }
+      &:-ms-input-placeholder {
+        /* IE 10+ */
+        color: #fff;
+      }
+      &:-moz-placeholder {
+        /* Firefox 18- */
+        color: #fff;
+      }
+    }
+  }
+  .form-button-container {
+    margin-top: 35px;
+    input[type='submit'] {
+      background: #fff;
+      color: $red;
+      padding: 10px 35px;
+      line-height: 1;
+      font-weight: 600;
+    }
+  }
+}
+
+.about-us-text-wrapper {
+  text-align: center;
+  width: 300px;
+  max-width: 100%;
+  margin: 0 auto;
+  .about-us-text {
+    p {
+      font-size: 12px;
+      font-family: 'Roboto', sans-serif;
+      line-height: 2;
+    }
+  }
+}
+
+.map-wrapper {
+  height: 100%;
+  .map-container {
+    height: inherit;
+    iframe {
+      height: 100% !important;
+      min-height: 450px;
+    }
+  }
+}

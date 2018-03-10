@@ -1,0 +1,38 @@
+/*-------------------Portfolio section-----------------------------*/
+
+.portfolio-section {
+  padding: 80px 0 120px;
+  .simple-text-block {
+    //margin-bottom: 50px;
+  }
+  .portfolio-slider-wrapper {
+    .swiper-container {
+      padding: 40px 0 80px;
+      .portfolio-slide-block {
+        transition: all 0.3s ease-in-out;
+        a {
+          display: block;
+          img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+          }
+        }
+        &:hover {
+          transition: all 0.3s ease-in-out;
+          transform: scale(1.1);
+        }
+      }
+    }
+    .swiper-pagination {
+      bottom: 0;
+      .swiper-pagination-bullet {
+        width: 15px;
+        height: 15px;
+        &.swiper-pagination-bullet-active {
+          background: $red;
+        }
+      }
+    }
+  }
+}

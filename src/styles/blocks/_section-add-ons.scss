@@ -1,0 +1,25 @@
+/*--------------------Section Add-ons-------------------------*/
+.addons {
+  background: $grey-bg;
+  padding: 70px 0 110px;
+  position: relative;
+  overflow: hidden;
+  background: url('/dist/images/dots-bg.png');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  .simple-text-block{
+    margin-bottom: 40px;
+    .section-title{
+      margin-bottom: 25px;
+    }
+  }
+  .icon-text-block {
+    .icon-container{
+      min-height: 75px;
+      margin-bottom: 25px;
+    }
+    .small-title {
+      text-align: center;
+    }
+  }
+}

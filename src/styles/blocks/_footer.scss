@@ -1,0 +1,30 @@
+/*--------------------Footer----------------------------*/
+
+.site-footer {
+  background-color: $footer-bg;
+  color: $footer-color;
+  font-size: 12px;
+  padding: 30px 0;
+  .copyright-block {
+    span {
+      color: #fff;
+    }
+  }
+  .footer-menu {
+    text-align: right;
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      li {
+        display: inline-block;
+        a {
+          color: $footer-color;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

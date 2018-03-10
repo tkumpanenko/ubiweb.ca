@@ -1,0 +1,26 @@
+/*-----------------Specialize section------------------------------*/
+
+.specialize-section {
+  padding: 0 0 50px;
+  .simple-text-block {
+    text-align: center;
+    margin-bottom: 70px;
+    .section-title{
+      margin-bottom: 25px;
+    }
+  }
+}
+
+.icon-text-block {
+  .icon-container{
+    min-height: 65px;
+    margin-bottom: 15px;
+  }
+  .description-block {
+    text-align: center;
+    font-size: 15px;
+    .small-title{
+      margin-bottom: 15px;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+/*-------------------Get started section--------------------------*/
+
+.get-start-section {
+  background: $red;
+  padding: 50px 0;
+  .buttons-wrapper {
+    text-align: center;
+    margin-top: 30px;
+    a {
+      background: #fff;
+      color: $red;
+      width: 325px;
+      max-width: 100%;
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 20px 15px;
+      line-height: 1;
+      &:hover {
+        color: $red;
+      }
+      &:first-child {
+        margin-right: 40px;
+        @media screen and (max-width: 992px){
+          display: block;
+          margin: 0 auto;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
