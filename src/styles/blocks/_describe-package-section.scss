@@ -9,15 +9,24 @@
   .package-title {
     font-size: 60px;
     font-weight: 700;
+    @media screen and (max-width: 992px){
+      text-align: center;
+    }
   }
   .package-price {
     font-size: 40px;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 4px;
+    @media screen and (max-width: 992px){
+      text-align: center;
+    }
   }
   .package-price-description{
     margin-top: 20px;
+    @media screen and (max-width: 992px){
+      text-align: center;
+    }
     p{
       margin-bottom: 0;
       font-size: 20px;
@@ -28,6 +37,9 @@
 
 .package-button-wrapper{
   text-align: right;
+  @media screen and (max-width: 992px){
+    text-align: center;
+  }
   a{
     color:#fff;
     font-size: 20px;

@@ -21,11 +21,6 @@
       }
       &:first-child {
         margin-right: 40px;
-        @media screen and (max-width: 992px){
-          display: block;
-          margin: 0 auto;
-          margin-bottom: 20px;
-        }
       }
     }
   }

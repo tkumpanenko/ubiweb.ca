@@ -7,10 +7,11 @@ $(document).ready(function () {
 
 
     $(window).bind('scroll', function () {
-        if ($(window).scrollTop() > 20) {
+        if ($(window).scrollTop() > 25) {
             $('header').addClass('sticky');
         } else {
             $('header').removeClass('sticky');
+            $('header').removeClass('active');
         }
     });
 
@@ -57,7 +58,7 @@ $(document).ready(function () {
                 spaceBetween: 10
             },
             480: {
-                slidesPerView: 2,
+                slidesPerView: 1,
                 spaceBetween: 20
             },
             992: {
@@ -123,6 +124,12 @@ $(document).ready(function () {
             $('.mobile-menu').addClass('active');
             $('header').addClass('active');
         }
+    });
+
+
+    $('.mobile-menu a').click(function(){
+        $('.mobile-menu').removeClass('active');
+        $('.mobile-menu-btn').removeClass('active');
     });
 
 

@@ -43,7 +43,7 @@
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#feedback">Testimonials</a></li>
                         <li><a href="#faq">FAQ</a></li>
-                        <li><a href="#about" class="btn custom-btn red-btn menu-button">Contact Us</a></li>
+                        <li><a href="#about">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -76,28 +76,33 @@
 </header>
 
 <div class="hero-banner-wrapper" style="background-image: url(<?= asset('images/hero.jpg') ?>);">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-12">
-                <div class="banner-content-wrapper">
-                    <div class="banner-text-block">
-                        <h2 class="banner-subtitle">we are ubiweb</h2>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <div class="banner-content-wrapper">
+                        <div class="banner-text-block">
+                            <h2 class="banner-subtitle">we are ubiweb</h2>
 
-                        <h1 class="banner-title">Your Online Partner</h1>
+                            <h1 class="banner-title">Your Online Partner</h1>
 
-                        <div class="row justify-content-center banner-description">
-                            <div class="col-md-5">
-                                <p>We are a marketing firm specializing in website creation and getting your business
-                                    noticed</p>
+                            <div class="row justify-content-center banner-description">
+                                <div class="col-md-5">
+                                    <p>We are a marketing firm specializing in website creation and getting your
+                                        business
+                                        noticed</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="banner-button-container">
-                            <button class="btn custom-btn red-btn">Get Started</button>
+                            <div class="banner-button-container">
+                                <button class="btn custom-btn red-btn">Get Started</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    <div class="bottom-banner-triangles d-flex">
+        <div class="left-triangle"></div>
+        <div class="right-triangle"></div>
     </div>
 </div>
 
@@ -943,7 +948,8 @@
                             <div class="card questions-card">
                                 <div class="question-header" id="heading-one">
                                     <button class="btn btn-link btn-custom-link collapsed" data-toggle="collapse"
-                                            data-target="#JS--collapse-one" aria-expanded="true" aria-controls="collapseOne">
+                                            data-target="#JS--collapse-one" aria-expanded="true"
+                                            aria-controls="collapseOne">
                                         <i class="fa fa-chevron-right" aria-hidden="true"></i> Why do I need a website?
                                     </button>
                                 </div>
@@ -968,8 +974,10 @@
                             <div class="card questions-card">
                                 <div class="question-header" id="heading-two">
                                     <button class="btn btn-link btn-custom-link collapsed" data-toggle="collapse"
-                                            data-target="#JS--collapse-two" aria-expanded="true" aria-controls="collapseTwo">
-                                        <i class="fa fa-chevron-right" aria-hidden="true"></i> All of my business is word of mouth, and I am already very busy. Do I need a
+                                            data-target="#JS--collapse-two" aria-expanded="true"
+                                            aria-controls="collapseTwo">
+                                        <i class="fa fa-chevron-right" aria-hidden="true"></i> All of my business is
+                                        word of mouth, and I am already very busy. Do I need a
                                         website?
                                     </button>
                                 </div>
@@ -990,7 +998,8 @@
                                     <button class="btn btn-link btn-custom-link collapsed" data-toggle="collapse"
                                             data-target="#JS--collapse-three" aria-expanded="true"
                                             aria-controls="collapseThree">
-                                        <i class="fa fa-chevron-right" aria-hidden="true"></i> Why should I redo my website?
+                                        <i class="fa fa-chevron-right" aria-hidden="true"></i> Why should I redo my
+                                        website?
                                     </button>
                                 </div>
 
@@ -1010,7 +1019,8 @@
                                     <button class="btn btn-link btn-custom-link collapsed" data-toggle="collapse"
                                             data-target="#JS--collapse-four" aria-expanded="true"
                                             aria-controls="collapseFour">
-                                        <i class="fa fa-chevron-right" aria-hidden="true"></i> Why should I subscribe to a monthly plan if I can just pay for my website all at
+                                        <i class="fa fa-chevron-right" aria-hidden="true"></i> Why should I subscribe to
+                                        a monthly plan if I can just pay for my website all at
                                         once and never pay again?
                                     </button>
                                 </div>
@@ -1031,7 +1041,8 @@
                                     <button class="btn btn-link btn-custom-link collapsed" data-toggle="collapse"
                                             data-target="#JS--collapse-five" aria-expanded="true"
                                             aria-controls="collapseFive">
-                                        <i class="fa fa-chevron-right" aria-hidden="true"></i> Why should I get a website if I am already paying for sponsored placements on
+                                        <i class="fa fa-chevron-right" aria-hidden="true"></i> Why should I get a
+                                        website if I am already paying for sponsored placements on
                                         other sites?
                                     </button>
                                 </div>
@@ -1050,8 +1061,10 @@
                             <div class="card questions-card">
                                 <div class="question-header" id="heading-six">
                                     <button class="btn btn-link btn-custom-link collapsed" data-toggle="collapse"
-                                            data-target="#JS--collapse-six" aria-expanded="true" aria-controls="collapseSix">
-                                        <i class="fa fa-chevron-right" aria-hidden="true"></i> What other fees can I expect from a Ubiweb package?
+                                            data-target="#JS--collapse-six" aria-expanded="true"
+                                            aria-controls="collapseSix">
+                                        <i class="fa fa-chevron-right" aria-hidden="true"></i> What other fees can I
+                                        expect from a Ubiweb package?
                                     </button>
                                 </div>
 
@@ -1145,7 +1158,7 @@
     <section class="describe-package-section">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12 col-lg-6 order-1">
                     <h2 class="package-title red-title">Silver Package</h2>
 
                     <h3 class="package-price dark-title">
@@ -1158,51 +1171,74 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6 align-self-end">
-                    <div class="package-button-wrapper">
+                <div class="col-md-12 col-lg-6 align-self-end order-3 order-lg-2">
+                    <div class="package-button-wrapper d-flex justify-content-center">
                         <a class="btn custom-btn blue-bg" href="javascript:void(0);">Bronze Package</a>
                         <a class="btn custom-btn blue-bg" href="javascript:void(0);">Gold Package</a>
                     </div>
                 </div>
-            </div>
-            <div class="icons-list-main-container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-4">
-                            <div class="icons-list-wrapper">
-                                <ul class="icons-list">
-                                    <li><i class="fa fa-check" aria-hidden="true"></i>Up to 8 pages on your site</li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i>Optimization for 1 keyword/location/phrase</li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i>Creation and optimization of your business' Google Business Page</li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i>Creation and optimization of your business' Facebook Business Page</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-12 col-lg-4">
-                            <div class="icons-list-wrapper">
-                                <ul class="icons-list">
-                                    <li><i class="fa fa-check" aria-hidden="true"></i>Responsive Design</li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i>All graphics and design</li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i>Up to 3 hours of changes and updates per year</li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i>Includes bilingual replication</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-12 col-lg-4">
-                            <div class="icons-list-wrapper">
-                                <ul class="icons-list">
-                                    <li><i class="fa fa-check" aria-hidden="true"></i>Domain name purchase and renewal</li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i>Web hosting</li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i>Maintenance of site</li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i>Guaranteed to show up on Google's first page for your business name within 90 days or your money back </li>
-                                </ul>
+                <div class="col-12 order-2 order-lg-3">
+                    <div class="icons-list-main-container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-md-12 col-lg-4">
+                                        <div class="icons-list-wrapper">
+                                            <ul class="icons-list">
+                                                <li><i class="fa fa-check" aria-hidden="true"></i>Up to 8 pages on your
+                                                    site
+                                                </li>
+                                                <li><i class="fa fa-check" aria-hidden="true"></i>Optimization for 1
+                                                    keyword/location/phrase
+                                                </li>
+                                                <li><i class="fa fa-check" aria-hidden="true"></i>Creation and
+                                                    optimization of your business' Google Business Page
+                                                </li>
+                                                <li><i class="fa fa-check" aria-hidden="true"></i>Creation and
+                                                    optimization of your business' Facebook Business Page
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-4">
+                                        <div class="icons-list-wrapper">
+                                            <ul class="icons-list">
+                                                <li><i class="fa fa-check" aria-hidden="true"></i>Responsive Design</li>
+                                                <li><i class="fa fa-check" aria-hidden="true"></i>All graphics and
+                                                    design
+                                                </li>
+                                                <li><i class="fa fa-check" aria-hidden="true"></i>Up to 3 hours of
+                                                    changes and updates per year
+                                                </li>
+                                                <li><i class="fa fa-check" aria-hidden="true"></i>Includes bilingual
+                                                    replication
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-4">
+                                        <div class="icons-list-wrapper">
+                                            <ul class="icons-list">
+                                                <li><i class="fa fa-check" aria-hidden="true"></i>Domain name purchase
+                                                    and renewal
+                                                </li>
+                                                <li><i class="fa fa-check" aria-hidden="true"></i>Web hosting</li>
+                                                <li><i class="fa fa-check" aria-hidden="true"></i>Maintenance of site
+                                                </li>
+                                                <li><i class="fa fa-check" aria-hidden="true"></i>Guaranteed to show up
+                                                    on Google's first page for your business name within 90 days or your
+                                                    money back
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
+
         </div>
     </section>
 
@@ -1215,7 +1251,7 @@
                     <h2 class="section-title white-title">Get Started Today</h2>
                 </div>
                 <div class="col-12">
-                    <div class="buttons-wrapper">
+                    <div class="buttons-wrapper d-flex justify-content-center">
                         <a href="tel:(438)700-0598" class="btn custom-btn">
                             (438) 700-0598
                         </a>

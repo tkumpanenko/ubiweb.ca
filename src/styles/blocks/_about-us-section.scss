@@ -68,6 +68,10 @@
   width: 300px;
   max-width: 100%;
   margin: 0 auto;
+  @media screen and (max-width: 768px){
+    padding:36px 20px 20px;
+    width: 100%;
+  }
   .about-us-text {
     p {
       font-size: 12px;

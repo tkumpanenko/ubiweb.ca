@@ -85,6 +85,9 @@ body {
       line-height: 2;
       &:not(:last-child){
         margin-bottom: 30px;
+        @media screen and (max-width: 992px){
+          margin-bottom: 10px;
+        }
       }
       i{
         color: $blue;
