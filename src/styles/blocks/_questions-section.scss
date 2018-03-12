@@ -14,24 +14,18 @@
         text-align: left;
         padding: 15px 0;
         font-family: 'Roboto', sans-serif;
-        &.collapsed {
-          color: $body-text-color;
-          i {
-            color: $red;
-            margin-right:10px;
-            transform: rotate(0deg);
-            transition: all 0.3s ease-in-out;
-          }
-        }
-        i {
-          margin-right:10px;
-          color: $red;
-          transform: rotate(90deg);
-          transition: all 0.3s ease-in-out;
-        }
         color: $red;
         font-size: 18px;
         text-decoration: none;
+        &.collapsed {
+          color: $body-text-color;
+        }
+
+        svg {
+          width: 15px;
+          height: auto;
+          margin-right: 10px;
+        }
       }
     }
     .questions-card-body {
@@ -39,7 +33,7 @@
         font-size: 15px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
-        padding: 0;
+        padding: 0 0 0 30px;
         margin-bottom: 15px;
       }
     }

@@ -62,12 +62,22 @@
     .btn {
       &.custom-btn {
         padding: 10px 25px;
+        color:#fff;
+        &:hover,&:focus{
+          color:#fff;
+          outline: none;
+        }
       }
     }
   }
 }
 
 .packages-slider-container {
+  margin: 0 -15px;
+  overflow: hidden;
+  @media screen and (min-width: 769px){
+    margin: 0;
+  }
   .swiper-container {
     padding: 40px 0;
   }

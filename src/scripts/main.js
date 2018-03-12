@@ -7,11 +7,14 @@ $(document).ready(function () {
 
 
     $(window).bind('scroll', function () {
-        if ($(window).scrollTop() > 25) {
+        if ($(window).scrollTop() > 20) {
             $('header').addClass('sticky');
         } else {
             $('header').removeClass('sticky');
-            $('header').removeClass('active');
+            if($('.mobile-menu').hasClass('active')){
+            }else{
+                $('header').removeClass('active');
+            }
         }
     });
 
@@ -22,15 +25,17 @@ $(document).ready(function () {
 
     var swiperPackages = new Swiper('.JS--packages-slider.swiper-container', {
         slidesPerView: 3,
-        spaceBetween:30,
+        spaceBetween:0,
         breakpoints: {
-            320: {
+            520:{
                 slidesPerView: 1,
-                spaceBetween: 10
+                centeredSlides: false,
             },
-            480: {
-                slidesPerView: 1,
-                spaceBetween: 20
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+                centeredSlides: true,
+                loop:true,
             },
             992: {
                 slidesPerView: 2,
@@ -72,6 +77,7 @@ $(document).ready(function () {
     var swiperFeedback = new Swiper('.JS--feedback-slider.swiper-container', {
         slidesPerView: 3,
         loop: true,
+        spaceBetween: 15,
         navigation: {
             nextEl: '.JS--feedback-next',
             prevEl: '.JS--feedback-prev',
@@ -89,9 +95,9 @@ $(document).ready(function () {
                 slidesPerView: 1,
                 spaceBetween: 20
             },
-            992: {
+           1200: {
                 slidesPerView: 2,
-                spaceBetween: 30
+                spaceBetween: 15
             }
         }
 
