@@ -58,13 +58,13 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .package-button-wrapper,
   .buttons-wrapper {
     flex-wrap: wrap;
     .btn {
       width: 100%!important;
-      max-width: 320px;
+      max-width: 320px!important;
       margin: 0 0 15px 0!important;
     }
   }
