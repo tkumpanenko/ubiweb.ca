@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Barebones</title>
+    <title>Ubi Web</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="description" content="The HTML5 Herald">
     <meta name="author" content="SitePoint">

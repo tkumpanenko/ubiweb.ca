@@ -20,6 +20,9 @@
       background: #fff;
       position: relative;
       margin-bottom: 50px;
+      @media (max-width: 400px) {
+        width: 100%;
+      }
       &:after {
         position: absolute;
         content: '';

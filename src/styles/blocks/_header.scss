@@ -33,6 +33,7 @@ body.home {
       }
     }
     &.sticky {
+      overflow: hidden;
       position: fixed;
       width: 100%;
       left: 0;
