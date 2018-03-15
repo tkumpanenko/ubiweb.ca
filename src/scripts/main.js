@@ -11,16 +11,16 @@ $(document).ready(function () {
     $(window).bind('scroll', function () {
         if ($(window).scrollTop() > 120) {
             $('header').addClass('sticky');
+            $('body.simple-page').addClass('sticky-active');
         } else {
-
 
             if($('.mobile-menu').hasClass('active')){
             }else{
                 $('header').removeClass('active');
             }
         }
-
         if ($(window).scrollTop() == 0){
+            $('body.simple-page').removeClass('sticky-active');
             $('header').removeClass('sticky');
         }
 
