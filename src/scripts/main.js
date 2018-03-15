@@ -1,7 +1,7 @@
 import $ from 'jquery';
 
 window.$ = window.jQuery = $;
-import Swiper from 'swiper/dist/js/swiper.min'
+import Swiper from 'swiper/dist/js/swiper.min';
 import 'bootstrap/dist/js/bootstrap';
 
 
