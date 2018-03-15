@@ -545,7 +545,6 @@
         </div>
     </div>
 </footer>
-<script src="/src/scripts/swiper.min.js"></script>
 <script src="<?= asset('scripts/main.js') ?>"></script>
 </body>
 </html>

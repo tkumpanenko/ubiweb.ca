@@ -1,11 +1,12 @@
-@import "vars";
-@import "mixins";
-
 // Vendors
 @import "~bootstrap/scss/bootstrap";
+@import "~font-awesome/scss/font-awesome";
 
+@import "vars";
+@import "mixins";
 @import "base";
 @import "layout";
+
 @import "blocks/blocks";
 @import "blocks/header";
 
