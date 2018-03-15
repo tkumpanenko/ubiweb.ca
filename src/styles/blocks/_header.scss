@@ -235,6 +235,8 @@ body.home {
     }
     a {
       display: block;
+      position: relative;
+      z-index: 9;
       .logo {
         max-width: 100%;
         display: block;
