@@ -1,7 +1,7 @@
 import $ from 'jquery';
-window.$ = window.jQuery = $;
 
-import 'swiper/dist/js/swiper.min'
+window.$ = window.jQuery = $;
+import Swiper from 'swiper/dist/js/swiper.min'
 import 'bootstrap/dist/js/bootstrap';
 
 
@@ -111,7 +111,8 @@ $(document).ready(function () {
 
     $(document).on('click', 'a[href^="#"]', function (event) {
         event.preventDefault();
-        var headerHeight = $('header').outerHeight();
+        // var headerHeight = $('header').outerHeight();
+        var headerHeight = 100;
 
         $('html, body').animate({
             scrollTop: $($.attr(this, 'href')).offset().top - headerHeight
