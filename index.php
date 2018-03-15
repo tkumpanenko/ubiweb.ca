@@ -76,30 +76,30 @@
 </header>
 
 <div class="hero-banner-wrapper" style="background-image: url(<?= asset('images/hero.jpg') ?>);">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12">
-                    <div class="banner-content-wrapper">
-                        <div class="banner-text-block">
-                            <h2 class="banner-subtitle">we are ubiweb</h2>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12">
+                <div class="banner-content-wrapper">
+                    <div class="banner-text-block">
+                        <h2 class="banner-subtitle">we are ubiweb</h2>
 
-                            <h1 class="banner-title">Your Online Partner</h1>
+                        <h1 class="banner-title">Your Online Partner</h1>
 
-                            <div class="row justify-content-center banner-description">
-                                <div class="col-md-5">
-                                    <p>We are a marketing firm specializing in website creation and getting your
-                                        business
-                                        noticed</p>
-                                </div>
+                        <div class="row justify-content-center banner-description">
+                            <div class="col-md-5">
+                                <p>We are a marketing firm specializing in website creation and getting your
+                                    business
+                                    noticed</p>
                             </div>
-                            <div class="banner-button-container">
-                                <button class="btn custom-btn red-btn">Get Started</button>
-                            </div>
+                        </div>
+                        <div class="banner-button-container">
+                            <button class="btn custom-btn red-btn">Get Started</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     <div class="bottom-banner-triangles d-flex">
         <div class="left-triangle"></div>
         <div class="right-triangle"></div>
@@ -379,78 +379,70 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container">
             <div class="packages-slider-container">
                 <div class="row justify-content-center">
+                    <div class="col-md-4">
+                        <div class="packages-card">
+                            <h3 class="small-title dark-title underline-title">Bronze</h3>
+                            <span class="card-price"><sup>$</sup>148</span>
 
-                    <div class="col-xl-9">
-                        <div class="JS--packages-slider swiper-container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="packages-card">
-                                        <h3 class="small-title dark-title underline-title">Bronze</h3>
-                                        <span class="card-price"><sup>$</sup>148</span>
-
-                                        <p class="card-period">per month</p>
-                                        <ul class="card-list">
-                                            <li>8 Pages</li>
-                                            <li>Web &amp; Graphic Design</li>
-                                            <li>Mobile Responsive</li>
-                                            <li>Hosting</li>
-                                            <li>Domain Name</li>
-                                            <li>Emails</li>
-                                        </ul>
-                                        <div class="card-button-container">
-                                            <a href="bronze-package.php" class="btn custom-btn red-btn">Get Started</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="packages-card">
-                                        <h3 class="small-title dark-title underline-title">Silver</h3>
-                                        <span class="card-price"><sup>$</sup>228</span>
-
-                                        <p class="card-period">per month</p>
-                                        <ul class="card-list">
-                                            <li>8 Pages</li>
-                                            <li>1 Keyword Phrase</li>
-                                            <li>Search Engine Optimization</li>
-                                            <li>Web &amp; Graphic Design</li>
-                                            <li>Mobile Responsive</li>
-                                            <li>Domain Name</li>
-                                            <li>Hosting</li>
-                                            <li>Emails</li>
-                                        </ul>
-                                        <div class="card-button-container">
-                                            <a href="silver-package.php" class="btn custom-btn red-btn">Get Started</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="packages-card">
-                                        <h3 class="small-title dark-title underline-title">Gold</h3>
-                                        <span class="card-price"><sup>$</sup>358</span>
-
-                                        <p class="card-period">per month</p>
-                                        <ul class="card-list">
-                                            <li>8 Pages</li>
-                                            <li>1 Keyword Phrase</li>
-                                            <li>Search Engine Optimization</li>
-                                            <li>Web &amp; Graphic Design</li>
-                                            <li>Mobile Responsive</li>
-                                            <li>Domain Name</li>
-                                            <li>Hosting</li>
-                                            <li>Emails</li>
-                                        </ul>
-                                        <div class="card-button-container">
-                                            <a href="gold-package.php" class="btn custom-btn red-btn">Get Started</a>
-                                        </div>
-                                    </div>
-                                </div>
+                            <p class="card-period">per month</p>
+                            <ul class="card-list">
+                                <li>8 Pages</li>
+                                <li>Web &amp; Graphic Design</li>
+                                <li>Mobile Responsive</li>
+                                <li>Hosting</li>
+                                <li>Domain Name</li>
+                                <li>Emails</li>
+                            </ul>
+                            <div class="card-button-container">
+                                <a href="bronze-package.php" class="btn custom-btn red-btn">Get Started</a>
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-4">
+                        <div class="packages-card">
+                            <h3 class="small-title dark-title underline-title">Silver</h3>
+                            <span class="card-price"><sup>$</sup>228</span>
 
+                            <p class="card-period">per month</p>
+                            <ul class="card-list">
+                                <li>8 Pages</li>
+                                <li>1 Keyword Phrase</li>
+                                <li>Search Engine Optimization</li>
+                                <li>Web &amp; Graphic Design</li>
+                                <li>Mobile Responsive</li>
+                                <li>Domain Name</li>
+                                <li>Hosting</li>
+                                <li>Emails</li>
+                            </ul>
+                            <div class="card-button-container">
+                                <a href="silver-package.php" class="btn custom-btn red-btn">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="packages-card">
+                            <h3 class="small-title dark-title underline-title">Gold</h3>
+                            <span class="card-price"><sup>$</sup>358</span>
+
+                            <p class="card-period">per month</p>
+                            <ul class="card-list">
+                                <li>8 Pages</li>
+                                <li>1 Keyword Phrase</li>
+                                <li>Search Engine Optimization</li>
+                                <li>Web &amp; Graphic Design</li>
+                                <li>Mobile Responsive</li>
+                                <li>Domain Name</li>
+                                <li>Hosting</li>
+                                <li>Emails</li>
+                            </ul>
+                            <div class="card-button-container">
+                                <a href="gold-package.php" class="btn custom-btn red-btn">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -870,8 +862,11 @@
                             <div class="JS--feedback-pagination swiper-pagination"></div>
                         </div>
                         <div class="JS--feedback-next swiper-button-next">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.49 31.49" style="enable-background:new 0 0 31.49 31.49;" xml:space="preserve">
-<path style="fill:#ffffff;" d="M21.205,5.007c-0.429-0.444-1.143-0.444-1.587,0c-0.429,0.429-0.429,1.143,0,1.571l8.047,8.047H1.111  C0.492,14.626,0,15.118,0,15.737c0,0.619,0.492,1.127,1.111,1.127h26.554l-8.047,8.032c-0.429,0.444-0.429,1.159,0,1.587  c0.444,0.444,1.159,0.444,1.587,0l9.952-9.952c0.444-0.429,0.444-1.143,0-1.571L21.205,5.007z"/>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.49 31.49"
+                                 style="enable-background:new 0 0 31.49 31.49;" xml:space="preserve">
+<path style="fill:#ffffff;"
+      d="M21.205,5.007c-0.429-0.444-1.143-0.444-1.587,0c-0.429,0.429-0.429,1.143,0,1.571l8.047,8.047H1.111  C0.492,14.626,0,15.118,0,15.737c0,0.619,0.492,1.127,1.111,1.127h26.554l-8.047,8.032c-0.429,0.444-0.429,1.159,0,1.587  c0.444,0.444,1.159,0.444,1.587,0l9.952-9.952c0.444-0.429,0.444-1.143,0-1.571L21.205,5.007z"/>
                                 <g>
                                 </g>
                                 <g>
@@ -905,8 +900,11 @@
 </svg>
                         </div>
                         <div class="JS--feedback-prev swiper-button-prev">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.494 31.494" style="enable-background:new 0 0 31.494 31.494;" xml:space="preserve">
-<path style="fill:#ffffff;" d="M10.273,5.009c0.444-0.444,1.143-0.444,1.587,0c0.429,0.429,0.429,1.143,0,1.571l-8.047,8.047h26.554  c0.619,0,1.127,0.492,1.127,1.111c0,0.619-0.508,1.127-1.127,1.127H3.813l8.047,8.032c0.429,0.444,0.429,1.159,0,1.587  c-0.444,0.444-1.143,0.444-1.587,0l-9.952-9.952c-0.429-0.429-0.429-1.143,0-1.571L10.273,5.009z"/>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.494 31.494"
+                                 style="enable-background:new 0 0 31.494 31.494;" xml:space="preserve">
+<path style="fill:#ffffff;"
+      d="M10.273,5.009c0.444-0.444,1.143-0.444,1.587,0c0.429,0.429,0.429,1.143,0,1.571l-8.047,8.047h26.554  c0.619,0,1.127,0.492,1.127,1.111c0,0.619-0.508,1.127-1.127,1.127H3.813l8.047,8.032c0.429,0.444,0.429,1.159,0,1.587  c-0.444,0.444-1.143,0.444-1.587,0l-9.952-9.952c-0.429-0.429-0.429-1.143,0-1.571L10.273,5.009z"/>
                                 <g>
                                 </g>
                                 <g>
@@ -995,8 +993,11 @@
                             <div class="JS--portfolio-pagination swiper-pagination"></div>
                         </div>
                         <div class="JS--portfolio-next swiper-button-next">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.49 31.49" style="enable-background:new 0 0 31.49 31.49;" xml:space="preserve">
-<path style="fill:#7B7B7B;" d="M21.205,5.007c-0.429-0.444-1.143-0.444-1.587,0c-0.429,0.429-0.429,1.143,0,1.571l8.047,8.047H1.111  C0.492,14.626,0,15.118,0,15.737c0,0.619,0.492,1.127,1.111,1.127h26.554l-8.047,8.032c-0.429,0.444-0.429,1.159,0,1.587  c0.444,0.444,1.159,0.444,1.587,0l9.952-9.952c0.444-0.429,0.444-1.143,0-1.571L21.205,5.007z"/>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.49 31.49"
+                                 style="enable-background:new 0 0 31.49 31.49;" xml:space="preserve">
+<path style="fill:#7B7B7B;"
+      d="M21.205,5.007c-0.429-0.444-1.143-0.444-1.587,0c-0.429,0.429-0.429,1.143,0,1.571l8.047,8.047H1.111  C0.492,14.626,0,15.118,0,15.737c0,0.619,0.492,1.127,1.111,1.127h26.554l-8.047,8.032c-0.429,0.444-0.429,1.159,0,1.587  c0.444,0.444,1.159,0.444,1.587,0l9.952-9.952c0.444-0.429,0.444-1.143,0-1.571L21.205,5.007z"/>
                                 <g>
                                 </g>
                                 <g>
@@ -1030,8 +1031,11 @@
 </svg>
                         </div>
                         <div class="JS--portfolio-prev swiper-button-prev">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.494 31.494" style="enable-background:new 0 0 31.494 31.494;" xml:space="preserve">
-<path style="fill:#7B7B7B;" d="M10.273,5.009c0.444-0.444,1.143-0.444,1.587,0c0.429,0.429,0.429,1.143,0,1.571l-8.047,8.047h26.554  c0.619,0,1.127,0.492,1.127,1.111c0,0.619-0.508,1.127-1.127,1.127H3.813l8.047,8.032c0.429,0.444,0.429,1.159,0,1.587  c-0.444,0.444-1.143,0.444-1.587,0l-9.952-9.952c-0.429-0.429-0.429-1.143,0-1.571L10.273,5.009z"/>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.494 31.494"
+                                 style="enable-background:new 0 0 31.494 31.494;" xml:space="preserve">
+<path style="fill:#7B7B7B;"
+      d="M10.273,5.009c0.444-0.444,1.143-0.444,1.587,0c0.429,0.429,0.429,1.143,0,1.571l-8.047,8.047h26.554  c0.619,0,1.127,0.492,1.127,1.111c0,0.619-0.508,1.127-1.127,1.127H3.813l8.047,8.032c0.429,0.444,0.429,1.159,0,1.587  c-0.444,0.444-1.143,0.444-1.587,0l-9.952-9.952c-0.429-0.429-0.429-1.143,0-1.571L10.273,5.009z"/>
                                 <g>
                                 </g>
                                 <g>
@@ -1090,8 +1094,12 @@
                                     <button class="btn btn-link btn-custom-link collapsed" data-toggle="collapse"
                                             data-target="#JS--collapse-one" aria-expanded="true"
                                             aria-controls="collapseOne">
-                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.49 31.49" style="enable-background:new 0 0 31.49 31.49;" xml:space="preserve">
-<path style="fill:#E74138;" d="M21.205,5.007c-0.429-0.444-1.143-0.444-1.587,0c-0.429,0.429-0.429,1.143,0,1.571l8.047,8.047H1.111  C0.492,14.626,0,15.118,0,15.737c0,0.619,0.492,1.127,1.111,1.127h26.554l-8.047,8.032c-0.429,0.444-0.429,1.159,0,1.587  c0.444,0.444,1.159,0.444,1.587,0l9.952-9.952c0.444-0.429,0.444-1.143,0-1.571L21.205,5.007z"/>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+                                             x="0px" y="0px" viewBox="0 0 31.49 31.49"
+                                             style="enable-background:new 0 0 31.49 31.49;" xml:space="preserve">
+<path style="fill:#E74138;"
+      d="M21.205,5.007c-0.429-0.444-1.143-0.444-1.587,0c-0.429,0.429-0.429,1.143,0,1.571l8.047,8.047H1.111  C0.492,14.626,0,15.118,0,15.737c0,0.619,0.492,1.127,1.111,1.127h26.554l-8.047,8.032c-0.429,0.444-0.429,1.159,0,1.587  c0.444,0.444,1.159,0.444,1.587,0l9.952-9.952c0.444-0.429,0.444-1.143,0-1.571L21.205,5.007z"/>
                                             <g>
                                             </g>
                                             <g>
@@ -1123,7 +1131,7 @@
                                             <g>
                                             </g>
 </svg>
-                                         Why do I need a website?
+                                        Why do I need a website?
                                     </button>
                                 </div>
 
@@ -1149,8 +1157,12 @@
                                     <button class="btn btn-link btn-custom-link collapsed" data-toggle="collapse"
                                             data-target="#JS--collapse-two" aria-expanded="true"
                                             aria-controls="collapseTwo">
-                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.49 31.49" style="enable-background:new 0 0 31.49 31.49;" xml:space="preserve">
-<path style="fill:#E74138;" d="M21.205,5.007c-0.429-0.444-1.143-0.444-1.587,0c-0.429,0.429-0.429,1.143,0,1.571l8.047,8.047H1.111  C0.492,14.626,0,15.118,0,15.737c0,0.619,0.492,1.127,1.111,1.127h26.554l-8.047,8.032c-0.429,0.444-0.429,1.159,0,1.587  c0.444,0.444,1.159,0.444,1.587,0l9.952-9.952c0.444-0.429,0.444-1.143,0-1.571L21.205,5.007z"/>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+                                             x="0px" y="0px" viewBox="0 0 31.49 31.49"
+                                             style="enable-background:new 0 0 31.49 31.49;" xml:space="preserve">
+<path style="fill:#E74138;"
+      d="M21.205,5.007c-0.429-0.444-1.143-0.444-1.587,0c-0.429,0.429-0.429,1.143,0,1.571l8.047,8.047H1.111  C0.492,14.626,0,15.118,0,15.737c0,0.619,0.492,1.127,1.111,1.127h26.554l-8.047,8.032c-0.429,0.444-0.429,1.159,0,1.587  c0.444,0.444,1.159,0.444,1.587,0l9.952-9.952c0.444-0.429,0.444-1.143,0-1.571L21.205,5.007z"/>
                                             <g>
                                             </g>
                                             <g>
@@ -1182,7 +1194,8 @@
                                             <g>
                                             </g>
 </svg>
-                                         All of my business is word of mouth, and I am already very busy. Do I need a website?
+                                        All of my business is word of mouth, and I am already very busy. Do I need a
+                                        website?
                                     </button>
                                 </div>
 
@@ -1202,8 +1215,12 @@
                                     <button class="btn btn-link btn-custom-link collapsed" data-toggle="collapse"
                                             data-target="#JS--collapse-three" aria-expanded="true"
                                             aria-controls="collapseThree">
-                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.49 31.49" style="enable-background:new 0 0 31.49 31.49;" xml:space="preserve">
-<path style="fill:#E74138;" d="M21.205,5.007c-0.429-0.444-1.143-0.444-1.587,0c-0.429,0.429-0.429,1.143,0,1.571l8.047,8.047H1.111  C0.492,14.626,0,15.118,0,15.737c0,0.619,0.492,1.127,1.111,1.127h26.554l-8.047,8.032c-0.429,0.444-0.429,1.159,0,1.587  c0.444,0.444,1.159,0.444,1.587,0l9.952-9.952c0.444-0.429,0.444-1.143,0-1.571L21.205,5.007z"/>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+                                             x="0px" y="0px" viewBox="0 0 31.49 31.49"
+                                             style="enable-background:new 0 0 31.49 31.49;" xml:space="preserve">
+<path style="fill:#E74138;"
+      d="M21.205,5.007c-0.429-0.444-1.143-0.444-1.587,0c-0.429,0.429-0.429,1.143,0,1.571l8.047,8.047H1.111  C0.492,14.626,0,15.118,0,15.737c0,0.619,0.492,1.127,1.111,1.127h26.554l-8.047,8.032c-0.429,0.444-0.429,1.159,0,1.587  c0.444,0.444,1.159,0.444,1.587,0l9.952-9.952c0.444-0.429,0.444-1.143,0-1.571L21.205,5.007z"/>
                                             <g>
                                             </g>
                                             <g>
@@ -1235,7 +1252,7 @@
                                             <g>
                                             </g>
 </svg>
-                                         Why should I redo my website?
+                                        Why should I redo my website?
                                     </button>
                                 </div>
 
@@ -1255,8 +1272,12 @@
                                     <button class="btn btn-link btn-custom-link collapsed" data-toggle="collapse"
                                             data-target="#JS--collapse-four" aria-expanded="true"
                                             aria-controls="collapseFour">
-                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.49 31.49" style="enable-background:new 0 0 31.49 31.49;" xml:space="preserve">
-<path style="fill:#E74138;" d="M21.205,5.007c-0.429-0.444-1.143-0.444-1.587,0c-0.429,0.429-0.429,1.143,0,1.571l8.047,8.047H1.111  C0.492,14.626,0,15.118,0,15.737c0,0.619,0.492,1.127,1.111,1.127h26.554l-8.047,8.032c-0.429,0.444-0.429,1.159,0,1.587  c0.444,0.444,1.159,0.444,1.587,0l9.952-9.952c0.444-0.429,0.444-1.143,0-1.571L21.205,5.007z"/>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+                                             x="0px" y="0px" viewBox="0 0 31.49 31.49"
+                                             style="enable-background:new 0 0 31.49 31.49;" xml:space="preserve">
+<path style="fill:#E74138;"
+      d="M21.205,5.007c-0.429-0.444-1.143-0.444-1.587,0c-0.429,0.429-0.429,1.143,0,1.571l8.047,8.047H1.111  C0.492,14.626,0,15.118,0,15.737c0,0.619,0.492,1.127,1.111,1.127h26.554l-8.047,8.032c-0.429,0.444-0.429,1.159,0,1.587  c0.444,0.444,1.159,0.444,1.587,0l9.952-9.952c0.444-0.429,0.444-1.143,0-1.571L21.205,5.007z"/>
                                             <g>
                                             </g>
                                             <g>
@@ -1288,7 +1309,8 @@
                                             <g>
                                             </g>
 </svg>
-                                         Why should I subscribe to a monthly plan if I can just pay for my website all at once and never pay again?
+                                        Why should I subscribe to a monthly plan if I can just pay for my website all at
+                                        once and never pay again?
                                     </button>
                                 </div>
 
@@ -1308,8 +1330,12 @@
                                     <button class="btn btn-link btn-custom-link collapsed" data-toggle="collapse"
                                             data-target="#JS--collapse-five" aria-expanded="true"
                                             aria-controls="collapseFive">
-                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.49 31.49" style="enable-background:new 0 0 31.49 31.49;" xml:space="preserve">
-<path style="fill:#E74138;" d="M21.205,5.007c-0.429-0.444-1.143-0.444-1.587,0c-0.429,0.429-0.429,1.143,0,1.571l8.047,8.047H1.111  C0.492,14.626,0,15.118,0,15.737c0,0.619,0.492,1.127,1.111,1.127h26.554l-8.047,8.032c-0.429,0.444-0.429,1.159,0,1.587  c0.444,0.444,1.159,0.444,1.587,0l9.952-9.952c0.444-0.429,0.444-1.143,0-1.571L21.205,5.007z"/>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+                                             x="0px" y="0px" viewBox="0 0 31.49 31.49"
+                                             style="enable-background:new 0 0 31.49 31.49;" xml:space="preserve">
+<path style="fill:#E74138;"
+      d="M21.205,5.007c-0.429-0.444-1.143-0.444-1.587,0c-0.429,0.429-0.429,1.143,0,1.571l8.047,8.047H1.111  C0.492,14.626,0,15.118,0,15.737c0,0.619,0.492,1.127,1.111,1.127h26.554l-8.047,8.032c-0.429,0.444-0.429,1.159,0,1.587  c0.444,0.444,1.159,0.444,1.587,0l9.952-9.952c0.444-0.429,0.444-1.143,0-1.571L21.205,5.007z"/>
                                             <g>
                                             </g>
                                             <g>
@@ -1341,7 +1367,7 @@
                                             <g>
                                             </g>
 </svg>
-                                         Why should I get a website if I am already paying for sponsored placements on
+                                        Why should I get a website if I am already paying for sponsored placements on
                                         other sites?
                                     </button>
                                 </div>
@@ -1362,8 +1388,12 @@
                                     <button class="btn btn-link btn-custom-link collapsed" data-toggle="collapse"
                                             data-target="#JS--collapse-six" aria-expanded="true"
                                             aria-controls="collapseSix">
-                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.49 31.49" style="enable-background:new 0 0 31.49 31.49;" xml:space="preserve">
-<path style="fill:#E74138;" d="M21.205,5.007c-0.429-0.444-1.143-0.444-1.587,0c-0.429,0.429-0.429,1.143,0,1.571l8.047,8.047H1.111  C0.492,14.626,0,15.118,0,15.737c0,0.619,0.492,1.127,1.111,1.127h26.554l-8.047,8.032c-0.429,0.444-0.429,1.159,0,1.587  c0.444,0.444,1.159,0.444,1.587,0l9.952-9.952c0.444-0.429,0.444-1.143,0-1.571L21.205,5.007z"/>
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                             xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+                                             x="0px" y="0px" viewBox="0 0 31.49 31.49"
+                                             style="enable-background:new 0 0 31.49 31.49;" xml:space="preserve">
+<path style="fill:#E74138;"
+      d="M21.205,5.007c-0.429-0.444-1.143-0.444-1.587,0c-0.429,0.429-0.429,1.143,0,1.571l8.047,8.047H1.111  C0.492,14.626,0,15.118,0,15.737c0,0.619,0.492,1.127,1.111,1.127h26.554l-8.047,8.032c-0.429,0.444-0.429,1.159,0,1.587  c0.444,0.444,1.159,0.444,1.587,0l9.952-9.952c0.444-0.429,0.444-1.143,0-1.571L21.205,5.007z"/>
                                             <g>
                                             </g>
                                             <g>
@@ -1395,7 +1425,7 @@
                                             <g>
                                             </g>
 </svg>
-                                         What other fees can I expect from a Ubiweb package?
+                                        What other fees can I expect from a Ubiweb package?
                                     </button>
                                 </div>
 

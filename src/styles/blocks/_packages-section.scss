@@ -13,19 +13,33 @@
   }
 }
 
+.packages-slider-container{
+  padding: 50px 0;
+}
+
 .packages-card {
   background: $packages-card-bg;
   text-align: center;
   padding: 35px 15px 75px;
   width: 300px;
+  margin: 0 auto;
   max-width: 100%;
-  height: 100%;
+  height: auto;
+  margin-bottom: 20px;
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
   position: relative;
   &:hover {
     transition: all 0.3s ease-in-out;
-    transform: scale(1.1);
+    transform: scale(1);
+  }
+  @media screen and (min-width: 768px){
+    margin-bottom: 0;
+    height: 100%;
+    &:hover {
+      transition: all 0.3s ease-in-out;
+      transform: scale(1.1);
+    }
   }
   .card-price {
     font-size: 50px;

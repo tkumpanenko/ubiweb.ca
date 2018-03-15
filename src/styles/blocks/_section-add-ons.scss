@@ -4,9 +4,22 @@
   padding: 70px 0 110px;
   position: relative;
   overflow: hidden;
-  background: url('/dist/images/dots-bg.png');
+  background: url('/dist/images/dotted-bg.png');
   background-repeat: no-repeat;
-  background-position: left bottom;
+  background-position: left top;
+  &:after{
+    position: absolute;
+    content: '';
+    right: 0;
+    bottom: 0;
+    width:200px;
+    height: 200px;
+    background: url('/dist/images/red-circle.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+
+  }
   .simple-text-block{
     margin-bottom: 40px;
     .section-title{
