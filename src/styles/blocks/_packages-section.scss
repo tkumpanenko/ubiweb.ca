@@ -142,3 +142,14 @@
     }
   }
 }
+
+@media screen and (max-width: 505px){
+  .contact-popup {
+    // position: absolute;
+    width: 100%;
+    top: 20%;
+    left: 0;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+}
