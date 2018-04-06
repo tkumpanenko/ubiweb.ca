@@ -11,7 +11,7 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.browserSync('ubiweb.ca.test');
+mix.browserSync('ubiweb.local');
 
 mix.js('src/scripts/main.js', 'dist/scripts/')
    .sass('src/styles/main.scss', 'dist/styles/')

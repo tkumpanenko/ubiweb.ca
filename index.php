@@ -358,7 +358,7 @@
         </div>
     </section>
 
-    <!---------------Packages section-----------------------------> -->
+    <!---------------Packages section----------------------------->
 
     <section class="packages-section" id="packages"
              style="background-image:url(<?= asset('images/packages-bg-min.png') ?>);">
@@ -1474,39 +1474,32 @@
         </div>
     </section>
 
-
-    <!--------------------------Contact section--------------------------------------->
+    <!--------------------------Get start today------------------------------------>
+    <section class="get-start-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title white-title">Get Started Today</h2>
+                </div>
+                <div class="col-12">
+                    <div class="buttons-wrapper d-flex justify-content-center">
+                        <a href="tel:(438)700-0598" class="btn custom-btn">
+                            (438) 700-0598
+                        </a>
+                        <a href="mailto:test@gmail.com" class="btn custom-btn">
+                            E-MAIL US
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--------------------------Contact section--------------------------------------->
 
     <section class="contact-us" id="about">
 
         <div class="row align-items-justify no-gutters">
-            <div class="col-md-6 col-lg-6 order-1 order-md-1 order-lg-1 red-bg">
-                <div class="contact-form-wrapper">
-                    <h3 class="small-title white-title">Contact</h3>
-
-                    <p class="form-quote-text">Get your quote today by calling 514-XXX-XXXX <br> or filling in the
-                        form below</p>
-
-                    <form action="">
-                        <div class="form-field">
-                            <input type="text" name="name" id="name" required placeholder="Name *">
-                        </div>
-                        <div class="form-field">
-                            <input type="email" name="email" id="email" required placeholder="E-mail *">
-                        </div>
-                        <div class="form-field">
-                            <input type="text" name="phone" id="phone" required placeholder="Phone Number *">
-                        </div>
-                        <div class="form-field">
-                            <textarea name="message" id="messag" rows="4" placeholder="Message"></textarea>
-                        </div>
-                        <div class="form-button-container">
-                            <input type="submit" class="btn custom-btn white-btn" value="Send">
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div class="col-md-12 order-md-3 order-3 order-lg-3 col-lg-12">
+            <div class="col-md-6 order-md-1 order-1 order-lg-1 col-lg-6">
                 <div class="map-wrapper">
                     <div class="map-container">
                         <iframe width="100%" height="450"
