@@ -4,11 +4,12 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Ubi Web</title>
+    <title>ubiWeb</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="description" content="The HTML5 Herald">
     <meta name="author" content="SitePoint">
-
+    <link rel="shortcut icon" href="<?= asset('images/tab-logo.png') ?>">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="<?= asset('styles/main.css') ?>">
 
     <!--[if lt IE 9]>
@@ -68,7 +69,9 @@
                         <li><a href="#feedback">Testimonials</a></li>
                         <li><a href="#faq">FAQ</a></li>
                         <li><a href="#about" class="btn custom-btn red-btn menu-button">Contact Us</a></li>
+                        <a href="#about">514-XXX-XXXX</a>
                     </ul>
+                    
                 </div>
             </div>
         </div>
@@ -87,13 +90,11 @@
 
                         <div class="row justify-content-center banner-description">
                             <div class="col-md-5">
-                                <p>We are a marketing firm specializing in website creation and getting your
-                                    business
-                                    noticed</p>
+                                <p>A Marketing firm specializing in website creation and getting your business noticed</p>
                             </div>
                         </div>
                         <div class="banner-button-container">
-                            <button class="btn custom-btn red-btn">Get Started</button>
+                            <a href="#packages" class="btn custom-btn red-btn">Get Started</a>
                         </div>
                     </div>
                 </div>
@@ -115,7 +116,6 @@
             <div class="row justify-content-md-center">
                 <div class="col-md-10">
                     <div class="simple-text-block">
-                        <h3 class="section-subtitle black-subtitle">We specialize in</h3>
 
                         <h2 class="section-title red-title">Website Creation & Standardizing <br>Your Online Image</h2>
 
@@ -298,7 +298,7 @@
                                 <h3 class="small-title dark-title">getting noticed</h3>
 
                                 <p>
-                                    With beautiful and responsive designs and local SEO optimization
+                                    Beautiful and responsive designs and local SOE optimization
                                 </p>
                             </div>
                         </div>
@@ -358,7 +358,7 @@
         </div>
     </section>
 
-    <!---------------Packages section----------------------------->
+    <!---------------Packages section-----------------------------> -->
 
     <section class="packages-section" id="packages"
              style="background-image:url(<?= asset('images/packages-bg-min.png') ?>);">
@@ -397,7 +397,7 @@
                                 <li>Emails</li>
                             </ul>
                             <div class="card-button-container">
-                                <a href="bronze-package.php" class="btn custom-btn red-btn">Get Started</a>
+                                <button class="btn custom-btn red-btn btn-contact">Get Started</button>
                             </div>
                         </div>
                     </div>
@@ -418,7 +418,7 @@
                                 <li>Emails</li>
                             </ul>
                             <div class="card-button-container">
-                                <a href="silver-package.php" class="btn custom-btn red-btn">Get Started</a>
+                                <button  class="btn custom-btn red-btn btn-contact">Get Started</button>
                             </div>
                         </div>
                     </div>
@@ -439,10 +439,39 @@
                                 <li>Emails</li>
                             </ul>
                             <div class="card-button-container">
-                                <a href="gold-package.php" class="btn custom-btn red-btn">Get Started</a>
+                                <button class="btn custom-btn red-btn btn-contact">Get Started</button>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-popup">
+            <div class="close close-popup"><i class="fa fa-times"></i></div>
+            <div class="red-bg">
+                <div class="contact-form-wrapper">
+                    <h3 class="small-title white-title">Contact</h3>
+
+                    <p class="form-quote-text">Get your quote today by calling 514-XXX-XXXX <br> or filling in the
+                        form below</p>
+
+                    <form action="">
+                        <div class="form-field">
+                            <input type="text" name="name" id="name" required placeholder="Name *">
+                        </div>
+                        <div class="form-field">
+                            <input type="email" name="email" id="email" required placeholder="E-mail *">
+                        </div>
+                        <div class="form-field">
+                            <input type="text" name="phone" id="phone" required placeholder="Phone Number *">
+                        </div>
+                        <div class="form-field">
+                            <textarea name="message" id="messag" rows="4" placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-button-container">
+                            <input type="submit" class="btn custom-btn white-btn" value="Send">
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -497,20 +526,18 @@
 
     </section>
 
-
     <!-------------------Add-ons section------------------------------>
     <section class="addons" id="addons">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-11">
                     <div class="simple-text-block">
+                        <div class="divider"></div>
                         <h2 class="section-title red-title">Add-ons</h2>
 
                         <div class="simple-text text-center">
-                            <p>Our versatile add-ons are suited to promote your unique enterprise.
-                                Options like the New-Biz Starter Pack (Google Business page/Facebook Business Page),
-                                Bilingual Site, Google Adwords, Logo Refresh, Translation, Copywriting,
-                                Emails and Content Creation focus on reliable publicity to prospective clients.
+                            <p>
+                                Our versatile add-ons are designed to customize our websites to your business's unique needs. Options like the New-Biz Starter Pack, Bilingual Sites, Google Adwords, Logo Refresh, Translation, Copywriting, Emails and Content Creation focus on generating qualified leads for your business.
                             </p>
                         </div>
                     </div>
@@ -1453,7 +1480,7 @@
     <section class="contact-us" id="about">
 
         <div class="row align-items-justify no-gutters">
-            <div class="col-md-6 col-lg-4 order-1 order-md-1 order-lg-1 red-bg">
+            <div class="col-md-6 col-lg-6 order-1 order-md-1 order-lg-1 red-bg">
                 <div class="contact-form-wrapper">
                     <h3 class="small-title white-title">Contact</h3>
 
@@ -1479,7 +1506,7 @@
                     </form>
                 </div>
             </div>
-            <div class="col-md-12 order-md-3 order-3 order-lg-2 col-lg-4">
+            <div class="col-md-12 order-md-3 order-3 order-lg-3 col-lg-12">
                 <div class="map-wrapper">
                     <div class="map-container">
                         <iframe width="100%" height="450"
@@ -1488,7 +1515,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4 order-2 order-md-2 order-lg-3 align-self-center">
+            <div class="col-md-6 col-lg-6 order-2 order-md-2 order-lg-2 align-self-center">
                 <div class="about-us-text-wrapper">
                     <h3 class="small-title red-title">About us</h3>
 

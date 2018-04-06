@@ -19,6 +19,9 @@
         text-decoration: none;
         &.collapsed {
           color: $body-text-color;
+          &:hover {
+            color: $red;
+          }
         }
 
         svg {

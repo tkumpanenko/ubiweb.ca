@@ -25,6 +25,11 @@ body.home {
             }
           }
         }
+        a {
+          color: #ffffff;
+          font-size: 15px;
+          font-weight: 600;
+        }
       }
     }
     .mobile-menu-btn {
@@ -50,6 +55,11 @@ body.home {
                 color: $dark;
               }
             }
+          }
+          a {
+            color: $dark;
+            font-size: 15px;
+            font-weight: 600;
           }
         }
       }
