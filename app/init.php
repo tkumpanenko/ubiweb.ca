@@ -13,3 +13,8 @@ function asset( $path ) {
 
   return $root . $assets[$path];
 }
+
+$admin_email =  "support@ubiweb.ca";
+$site_key = "6Lfg3jcUAAAAAKb9xDen0TRRmUejPFU34y2verI9";
+$data_callback = "ubiRecaptchaFormSubmission";
+

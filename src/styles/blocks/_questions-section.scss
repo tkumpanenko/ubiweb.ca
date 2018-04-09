@@ -42,3 +42,9 @@
     }
   }
 }
+
+.faq-btn--active {
+  svg {
+    transform: rotate(90deg);
+  }
+}

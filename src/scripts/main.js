@@ -143,4 +143,8 @@ $(document).ready(function () {
     $(".close-popup").click(function(){
         $( ".contact-popup" ).fadeOut();
     });
+
+    $(".faq-btn").click(function(){
+        $(this).toggleClass('faq-btn--active');
+    });
 });
