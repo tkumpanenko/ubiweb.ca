@@ -145,6 +145,11 @@ $(document).ready(function () {
     });
 
     $(".faq-btn").click(function(){
-        $(this).toggleClass('faq-btn--active');
+        if ($(this).hasClass('faq-btn--active')) {
+            $(".faq-btn").removeClass("faq-btn--active");
+        } else {
+            $(".faq-btn").removeClass("faq-btn--active");            
+            $(this).toggleClass('faq-btn--active');
+        }
     });
 });

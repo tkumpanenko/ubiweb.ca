@@ -195,7 +195,7 @@
         </div>
     </section>
 
-    <!---------------Packages section-----------------------------> -->
+    <!---------------Packages section----------------------------->
 
     <section class="packages-section" id="packages"
              style="background-image:url(<?= asset('images/packages-bg-min.png') ?>);">
@@ -777,9 +777,7 @@
             <div class="col-md-6 order-md-1 order-1 order-lg-1 col-lg-6">
                 <div class="map-wrapper">
                     <div class="map-container">
-                        <iframe width="100%" height="450"
-                                src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Montreal+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed"
-                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <div id="map"></div>
                     </div>
                 </div>
             </div>
@@ -831,6 +829,22 @@
     </div>
 </footer>
 <script src="<?= asset('scripts/main.js') ?>"></script>
+<script>
+      function initMap() {
+        var ubiweb = {lat: 45.474122, lng: -73.592063};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: ubiweb
+        });
+        var marker = new google.maps.Marker({
+          position: ubiweb,
+          map: map
+        });
+      }
+    </script>
+        <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnI-F4YeWDWUqRtiNZgIiffe9XRtvUQes&callback=initMap">
+    </script>
 <script src="https://www.google.com/recaptcha/api.js"></script>
 <script src="https://contact.ubiweb.ca/js/submit.js"></script>
 </body>
