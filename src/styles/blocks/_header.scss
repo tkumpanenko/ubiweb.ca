@@ -19,16 +19,22 @@ body.home {
     .desktop-menu-wrapper {
       .menu {
         li {
-          &:not(:last-child) {
+          a {
+            color: white;
+            font-size: 15px;
+            font-weight: 600;
+          }
+          &:nth-child(7) {
             a {
-              color: #fff;
+              color: white;
             }
           }
         }
         a {
-          color: #ffffff;
+          color: white;
           font-size: 15px;
           font-weight: 600;
+          text-decoration: none;
         }
       }
     }
@@ -126,7 +132,7 @@ body.home {
 .mobile-menu-wrapper {
   display: none;
   padding: 0 20px;
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 1200px) {
     display: block;
   }
   .logo-wrapper {
@@ -231,7 +237,7 @@ body.home {
 }
 
 .desktop-menu-wrapper {
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 1200px) {
     display: none;
   }
   .logo-wrapper {

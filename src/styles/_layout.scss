@@ -1,4 +1,28 @@
 /*----------------Hero banner---------------------------*/
+.mobile-banner {
+  display: none;
+}
+.video-container {
+  position: relative;
+  overflow: hidden;
+  max-height: 100vh;
+  background-color: black;
+  video {
+    opacity: 0.5;
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+  }
+  .overlay-desc {
+    background: rgba(0,0,0,0);
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 .hero-banner-wrapper {
   position: relative;
   min-height: 740px;
@@ -6,6 +30,8 @@
   background-size: cover;
   background-position: center center;
   overflow-y: hidden;
+  height: 100%;
+  width: 100%;
   .bottom-banner-triangles {
     position: absolute;
     bottom: -1px;
@@ -97,6 +123,21 @@
     margin-bottom: 20px;
 }
 
+/*----------------Media Queries---------------------------*/
+@media screen and (max-width: 768px) {
+  .mobile-banner {
+    display: block;
+    background-color: black;
+    min-height: 700px;
+    img {
+      opacity: 0.5;
+      position: absolute;
+    }
+  }
+  .video-container {
+    display: none;
+  }
+}
 
 
 

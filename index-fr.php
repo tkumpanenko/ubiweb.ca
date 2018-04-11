@@ -91,17 +91,17 @@
                     <div class="col-12">
                         <div class="banner-content-wrapper">
                             <div class="banner-text-block">
-                                <h2 class="banner-subtitle">we are ubiweb</h2>
+                                <h2 class="banner-subtitle">Nous sommes Ubiweb</h2>
 
-                                <h1 class="banner-title">Your Online Partner</h1>
+                                <h1 class="banner-title">Votre partenaire numérique</h1>
 
                                 <div class="row justify-content-center banner-description">
                                     <div class="col-md-5">
-                                        <p>A Marketing firm specializing in website creation and getting your business noticed</p>
+                                        <p>Notre spécialité est de créer des sites web conviviales, faits sur mesure et ce pour le succès des petites / moyennes entreprises.</p>
                                     </div>
                                 </div>
                                 <div class="banner-button-container">
-                                    <a href="#packages" class="btn custom-btn red-btn">Get Started</a>
+                                    <a href="#packages" class="btn custom-btn red-btn">Commencer</a>
                                 </div>
                             </div>
                         </div>
@@ -117,36 +117,32 @@
 </div>
 
 <!-- Mobile banner with picture -->
-<!-- style="background-image: url('https://ubiweb.ca/assets/videos/background.jpg');" -->
-<div style="background: black;">
-    <div class="hero-banner-wrapper mobile-banner">
-        <img src="https://ubiweb.ca/assets/videos/background.jpg" alt=""/>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12">
-                    <div class="banner-content-wrapper">
-                        <div class="banner-text-block">
-                            <h2 class="banner-subtitle">we are ubiweb</h2>
-    
-                            <h1 class="banner-title">Your Online Partner</h1>
-    
-                            <div class="row justify-content-center banner-description">
-                                <div class="col-md-5">
-                                    <p>A Marketing firm specializing in website creation and getting your business noticed</p>
-                                </div>
+<div class="hero-banner-wrapper mobile-banner" style="background-image: url('https://ubiweb.ca/assets/videos/background.jpg');">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12">
+                <div class="banner-content-wrapper">
+                    <div class="banner-text-block">
+                        <h2 class="banner-subtitle">Nous sommes Ubiweb</h2>
+
+                        <h1 class="banner-title">Votre partenaire numérique</h1>
+
+                        <div class="row justify-content-center banner-description">
+                            <div class="col-md-5">
+                                <p>>Notre spécialité est de créer des sites web conviviales, faits sur mesure et ce pour le succès des petites / moyennes entreprises.</p>
                             </div>
-                            <div class="banner-button-container">
-                                <a href="#packages" class="btn custom-btn red-btn">Get Started</a>
-                            </div>
+                        </div>
+                        <div class="banner-button-container">
+                            <a href="#packages" class="btn custom-btn red-btn">Commencer</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="bottom-banner-triangles d-flex">
-            <div class="left-triangle"></div>
-            <div class="right-triangle"></div>
-        </div>
+    </div>
+    <div class="bottom-banner-triangles d-flex">
+        <div class="left-triangle"></div>
+        <div class="right-triangle"></div>
     </div>
 </div>
 
@@ -379,7 +375,7 @@
                         <div class="row justify-content-lg-end">
                             <div class="col-xl-6">
                                 <div class="guarantee-title-wrapper">
-                                    <h2 class="guarantee-title">90 <br>day</h2>
+                                    <h2 class="guarantee-title">90 <br>jours</h2>
 
                                     <h3 class="guarantee-subtitle">guarantee to <br> find your name</h3>
                                 </div>
@@ -667,7 +663,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="simple-text-block">
-                        <h2 class="section-title dark-title">Frequently Asked Questions</h2>
+                        <h2 class="section-title dark-title">Frequently Asked Questions (not french)</h2>
                     </div>
                 </div>
             </div>
@@ -681,24 +677,13 @@
                                             data-target="#JS--collapse-one" aria-expanded="true"
                                             aria-controls="collapseOne">
                                             <?= file_get_contents(__DIR__ . '/dist/images/faq-arrow.svg') ?>
-                                        Why do I need a website?
+                                        Pourquoi est-ce que je devrais investir dans la conception d’un site web?
                                     </button>
                                 </div>
 
                                 <div id="JS--collapse-one" class="collapse show" data-parent="#question-accordion">
                                     <div class="card-body questions-card-body">
-                                        We live in a world where people heavily use Google,
-                                        Facebook and other social media platforms to stay connected.
-                                        81% of customers research businesses online before they decide who to do
-                                        business with.
-                                        94% of B2B customers do their research online beforehand too.
-                                        Not having a personalized website to exemplify the quality
-                                        of your business means losing potential clients in 2018.
-                                        Your business will lose opportunities when people who have
-                                        heard of you or did business with you years ago seek you out
-                                        and come up empty-handed. This situation could lead to them assuming
-                                        that the business has closed down, likely leaving them to be solicited
-                                        for their business by your more appealing competitors with websites.
+                                        Les sites web sont, depuis quelques années, la façon la plus ‘’moderne’’ de faire de la publicité. Il s’agit du nouveau bouche -à-oreille. Leurs côtés pratiques et riches d’informations attirent de plus en plus les gens comme source crédible d’informations et de partages. Statistiquement parlant, 81% des clients potentiels, recherchent une entreprise en ligne avant de passer en mode action. Les compétiteurs redoutables, sont souvent ceux qui possède un site web fiable, de qualité, qui reflète leur côté professionnel, ce à quoi le client potentiel s’identifie. Sans site web, les clients qui vous recherchent peuvent même aller jusqu’à assumer que votre entreprise à fermer ses portes.
                                     </div>
                                 </div>
                             </div>
@@ -708,14 +693,13 @@
                                             data-target="#JS--collapse-two" aria-expanded="true"
                                             aria-controls="collapseTwo">
                                             <?= file_get_contents(__DIR__ . '/dist/images/faq-arrow.svg') ?>
-                                        All of my business is word of mouth, and I am already very busy. Do I need a
-                                        website?
+                                        Ai-je besoin d’un site web considérant que mon entreprise opère déjà à pleine capacité? 
                                     </button>
                                 </div>
 
                                 <div id="JS--collapse-two" class="collapse" data-parent="#question-accordion">
                                     <div class="card-body questions-card-body">
-                                        The essential function of a website is to protect your word of mouth. Referrals and previous customers are accountable for 85% or more of clientele for 99% of businesses. Protecting those numbers is crucial. For example, would you show up to a site with no lettering on your vehicles, or carry no business cards with you? Having no website in 2018 is the equivalent of that. 
+                                        La fonction première de votre site web est de protéger votre bouche à oreille. Souvent, vos références ainsi que les clients existants occupent plus de 85% de votre temps en y ajoutant la nouvelle cliente et la rétention de celle-ci on arrive tout au plus à 99% de votre clientèle potentielle. Protéger vos chiffres s’avère crucial dans le monde compétitif que nous travaillons. De nos jours, les petites, moyennes entreprises sont constamment en compétition contre de grands joueurs et ressortir dans les résultats de recherches avec votre site web est nécessaire.  
                                     </div>
                                 </div>
                             </div>
@@ -725,13 +709,13 @@
                                             data-target="#JS--collapse-three" aria-expanded="true"
                                             aria-controls="collapseThree">
                                             <?= file_get_contents(__DIR__ . '/dist/images/faq-arrow.svg') ?>
-                                        Why should I redo my website?
+                                        Je possède déjà un site web. Pourquoi est-il important de moderniser celui-ci? 
                                     </button>
                                 </div>
 
                                 <div id="JS--collapse-three" class="collapse" data-parent="#question-accordion">
                                     <div class="card-body questions-card-body">
-                                        Your website is a reflection of your business, having a dated or lousy website is worse than not having a website at all. It can make your business look unprofessional and obsolete. Your website represents your business and the quality of your product, or service, online.
+                                        Ne pas avoir de site web donne une mauvaise perception sur votre entreprise. On la jugera dépassée et sans intérêt. Votre site web reflète votre image. Les gens associeront cette même image à vos produits, vos services et la qualité de votre implication. Avoir un site web désuet est pire que de ne pas en avoir du tout. Vous envoyez une image de laisser-aller, de manque de rigueur et un manque flagrant de considération pour l’expérience client.
                                     </div>
                                 </div>
                             </div>
@@ -741,14 +725,13 @@
                                             data-target="#JS--collapse-four" aria-expanded="true"
                                             aria-controls="collapseFour">
                                             <?= file_get_contents(__DIR__ . '/dist/images/faq-arrow.svg') ?>
-                                        Why should I subscribe to a monthly plan if I can just pay for my website all at
-                                        once and never pay again?
+                                        Quels sont les avantages aux paiements mensuels vs le paiement unique?
                                     </button>
                                 </div>
 
                                 <div id="JS--collapse-four" class="collapse" data-parent="#question-accordion">
                                     <div class="card-body questions-card-body">
-                                        In a long-term analysis, monthly packages are almost always cheaper.  In addition, Ubiweb’s services give your business insurance against imponderables. For example, a similar site compared to our bronze package will range in price from $4000-$6000, not including yearly hosting or domain fees ($500/yr). Most websites must be revamped after 3-4 years to stay relevant. After three years with other agencies, on the low end of the spectrum, you'll have spent around $5500. In addition, if a major change to Google's algorithm occurs (every 2 years on average), you'd need to spend more on updates to your site. With a Ubiweb monthly package, you can rest assured that in most cases the long-term costs are equivalent, with the bonus insurance that extra changes are covered, your costs are fixed, and you can keep cash in your company instead of paying unexpected fees to maintain your site
+                                        Quand on parle de long-terme, les forfaits mensuels en résultent pratiquement toujours à être plus économique. De plus, la gamme de services offerts par Ubiweb.
                                     </div>
                                 </div>
                             </div>
@@ -758,14 +741,13 @@
                                             data-target="#JS--collapse-five" aria-expanded="true"
                                             aria-controls="collapseFive">
                                             <?= file_get_contents(__DIR__ . '/dist/images/faq-arrow.svg') ?>
-                                        Why should I get a website if I am already paying for sponsored placements on
-                                        other sites?
+                                        Je paye déjà pour différents placements commandités sur différentes plates-forme, pourquoi est-ce que je devrais posséder mon propre site? 
                                     </button>
                                 </div>
 
                                 <div id="JS--collapse-five" class="collapse" data-parent="#question-accordion">
                                     <div class="card-body questions-card-body">
-                                        While a decent sponsored placement on a decent site can be a worthwhile investment when done properly, they are insufficient at representing your brand and protecting your references. With your own website, you are in control of your company's image.  
+                                        En possédant votre propre site web, vous êtes en plein contrôle de l’image que vous décidez de véhiculer. Les placements commandités sont souvent vus comme une solution tampon avant la mise en place d’un système efficace. Ils sont utiles afin d’augmenter l’exposition d’une entreprise en ligne, toutefois très peu concluant quand vient le temps de protéger vos références et l’éducation du client quant à vos différentes offres de produits et/ou services. Dans un monde idéal, vous voulez propulsez votre contenu et avoir des fondations solides (site web) avant de débourser pour faire la promotion de votre entreprise. Une expérience client enrichie ferra la différence.
                                     </div>
                                 </div>
                             </div>
@@ -775,13 +757,13 @@
                                             data-target="#JS--collapse-six" aria-expanded="true"
                                             aria-controls="collapseSix">
                                             <?= file_get_contents(__DIR__ . '/dist/images/faq-arrow.svg') ?>
-                                        What other fees can I expect from a Ubiweb package?
+                                        Quels sont les frais supplémentaires auxquels je dois m’attendre de la part de Ubiweb?
                                     </button>
                                 </div>
 
                                 <div id="JS--collapse-six" class="collapse" data-parent="#question-accordion">
                                     <div class="card-body questions-card-body">
-                                        All Ubiweb packages come complete. There are absolutely no additional fees. All packages include hosting, domain names, etc. 
+                                        Aucun frais caché ! Ubiweb est fière d’agir à titre de partenaire dans la concrétisation de vos différents besoins multimédias et ce, en toute transparence. Nos solutions n’ont aucun frais additionnel et la plupart de nos forfaits incluent ; l’hébergement, le nom de domaine, la garantie de la première page sur Google et les adresses courriels. Nos solutions ont été bâties afin de vous aider dans votre cheminement web, la propulsion de votre image, le tout sans les mauvaises surprises. 
                                     </div>
                                 </div>
                             </div>
@@ -797,7 +779,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="section-title white-title">Get Started Today</h2>
+                    <h2 class="section-title white-title">Contactez-nous maintenant pour une soumission personnalisée! </h2>
                 </div>
                 <div class="col-12">
                     <div class="buttons-wrapper d-flex justify-content-center">
@@ -805,7 +787,7 @@
                             (438) 700-0598
                         </a>
                         <a class="btn custom-btn btn-contact">
-                            E-MAIL US
+                            E-MAIL
                         </a>
                     </div>
                 </div>
