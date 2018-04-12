@@ -11,6 +11,9 @@ $(document).ready(function () {
     $(window).bind('scroll', function () {
         if ($(window).scrollTop() > 120) {
             $('header').addClass('sticky');
+            $('.logo').hide();
+            $('.logo_sticky').show();
+
             $('body.simple-page').addClass('sticky-active');
         } else {
 
@@ -22,6 +25,8 @@ $(document).ready(function () {
         if ($(window).scrollTop() == 0){
             $('body.simple-page').removeClass('sticky-active');
             $('header').removeClass('sticky');
+            $('.logo_sticky').hide();
+            $('.logo').show();
         }
 
 
