@@ -137,6 +137,9 @@ body.home {
   }
   .logo-wrapper {
     a {
+      .logo_sticky {
+        display: none;
+      }
       img {
         width: 120px;
       }
@@ -237,6 +240,13 @@ body.home {
 }
 
 .desktop-menu-wrapper {
+  .logo-wrapper {
+    a {
+      .logo_sticky {
+        display: none;
+      }
+    }
+  }
   @media screen and (max-width: 1200px) {
     display: none;
   }
@@ -259,8 +269,10 @@ body.home {
       z-index: 9;
       .logo {
         max-width: 100%;
-        display: none;
         height: auto;
+      }
+      .logo_sticky {
+        display: none;
       }
     }
   }

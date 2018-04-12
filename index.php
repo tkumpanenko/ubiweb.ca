@@ -25,7 +25,8 @@
         <div class="row align-items-center justify-content-between">
             <div class="col-auto">
                 <div class="logo-wrapper">
-                    <a href="/"> <img src="<?= asset('images/logo.png') ?>" alt="logo" class="logo"></a>
+                    <a href="/"> <img src="<?= asset('images/ubiweb-noText-white.png') ?>" alt="logo" class="logo"></a>
+                    <a href="/"> <img src="<?= asset('images/logo.png') ?>" alt="logo" class="logo_sticky"></a>
                 </div>
             </div>
             <div class="col-auto">
