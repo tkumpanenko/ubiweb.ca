@@ -1,4 +1,4 @@
-<?php require_once("app/init.php"); ?>
+<?php require_once("../app/init.php"); ?>
 <!doctype html>
 
 <html lang="en">
@@ -46,7 +46,7 @@
                         <li><a href="#feedback">Témoignages</a></li>
                         <li><a href="#faq">FAQ</a></li>
                         <li><a href="#about">Contact</a></li>
-                        <li><a href="index.php">EN</a></li>
+                        <li><a href="../index.php">EN</a></li>
                     </ul>
                 </div>
             </div>
@@ -73,7 +73,7 @@
                         <li><a href="#faq">FAQ</a></li>
                         <li><a href="#about" class="btn custom-btn red-btn menu-button">Contactez nous</a></li>
                         <a href="#about">438-700-0598</a>
-                        <li class="ml-3"><a href="index.php">EN</a></li>
+                        <li class="ml-3"><a href="../index.php">EN</a></li>
                     </ul>
                 </div>
             </div>

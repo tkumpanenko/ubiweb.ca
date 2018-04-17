@@ -46,7 +46,7 @@
                         <li><a href="#feedback">Testimonials</a></li>
                         <li><a href="#faq">FAQ</a></li>
                         <li><a href="#about">Contact</a></li>
-                        <li><a href="index-fr.php">FR</a></li>
+                        <li><a href="fr/index-fr.php">FR</a></li>
                     </ul>
                 </div>
             </div>
@@ -73,7 +73,7 @@
                         <li><a href="#faq">FAQ</a></li>
                         <li><a href="#about" class="btn custom-btn red-btn menu-button">Contact Us</a></li>
                         <a href="#about">438-700-0598</a>
-                        <li class="ml-3"><a href="index-fr.php">FR</a></li>
+                        <li class="ml-3"><a href="fr/index-fr.php">FR</a></li>
                     </ul>
                 </div>
             </div>
