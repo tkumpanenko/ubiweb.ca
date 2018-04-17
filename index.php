@@ -46,6 +46,7 @@
                         <li><a href="#feedback">Testimonials</a></li>
                         <li><a href="#faq">FAQ</a></li>
                         <li><a href="#about">Contact</a></li>
+                        <li><a href="index-fr.php">FR</a></li>
                     </ul>
                 </div>
             </div>
@@ -72,8 +73,8 @@
                         <li><a href="#faq">FAQ</a></li>
                         <li><a href="#about" class="btn custom-btn red-btn menu-button">Contact Us</a></li>
                         <a href="#about">438-700-0598</a>
+                        <li class="ml-3"><a href="index-fr.php">FR</a></li>
                     </ul>
-                    
                 </div>
             </div>
         </div>
@@ -276,7 +277,6 @@
                                 <li>Mobile Responsive</li>
                                 <li>Hosting</li>
                                 <li>Domain Name</li>
-                                <li>Emails</li>
                             </ul>
                             <div class="card-button-container">
                                 <button class="btn custom-btn red-btn btn-contact">Get Started</button>
@@ -311,8 +311,8 @@
 
                             <p class="card-period">per month</p>
                             <ul class="card-list">
-                                <li>8 Pages</li>
-                                <li>1 Keyword Phrase</li>
+                                <li>10 Pages</li>
+                                <li>3 Keyword Phrase</li>
                                 <li>Search Engine Optimization</li>
                                 <li>Web &amp; Graphic Design</li>
                                 <li>Mobile Responsive</li>

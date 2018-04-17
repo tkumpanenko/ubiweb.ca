@@ -25,7 +25,8 @@
         <div class="row align-items-center justify-content-between">
             <div class="col-auto">
                 <div class="logo-wrapper">
-                    <a href="/"> <img src="<?= asset('images/logo.png') ?>" alt="logo" class="logo"></a>
+                    <a href="/"> <img src="<?= asset('images/ubiweb-noText-white.png') ?>" alt="logo" class="logo"></a>
+                    <a href="/"> <img src="<?= asset('images/logo.png') ?>" alt="logo" class="logo_sticky"></a>
                 </div>
             </div>
             <div class="col-auto">
@@ -38,13 +39,14 @@
             <div class="col-12">
                 <div class="mobile-menu">
                     <ul class="menu">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#packages">Packages</a></li>
-                        <li><a href="#addons">Add-Ons</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#feedback">Testimonials</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#packages">Forfaits</a></li>
+                        <li><a href="#addons">Ajouts</a></li>
+                        <li><a href="#portfolio">Nos Réalisations</a></li>
+                        <li><a href="#feedback">Témoignages</a></li>
                         <li><a href="#faq">FAQ</a></li>
                         <li><a href="#about">Contact</a></li>
+                        <li><a href="index.php">EN</a></li>
                     </ul>
                 </div>
             </div>
@@ -57,21 +59,22 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-auto">
                     <div class="logo-wrapper">
-                        <a href="/"> <img src="<?= asset('images/logo.png') ?>" alt="logo" class="logo"></a>
+                        <a href="/"> <img src="<?= asset('images/ubiweb-noText-white.png') ?>" alt="logo" class="logo"></a>
+                        <a href="/"> <img src="<?= asset('images/logo.png') ?>" alt="logo" class="logo_sticky"></a>
                     </div>
                 </div>
                 <div class="col-auto">
                     <ul class="menu">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#packages">Packages</a></li>
-                        <li><a href="#addons">Add-Ons</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#feedback">Testimonials</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#packages">Forfaits</a></li>
+                        <li><a href="#addons">Ajouts</a></li>
+                        <li><a href="#portfolio">Nos Réalisations</a></li>
+                        <li><a href="#feedback">Témoignages</a></li>
                         <li><a href="#faq">FAQ</a></li>
-                        <li><a href="#about" class="btn custom-btn red-btn menu-button">Contact Us</a></li>
+                        <li><a href="#about" class="btn custom-btn red-btn menu-button">Contactez nous</a></li>
                         <a href="#about">438-700-0598</a>
+                        <li class="ml-3"><a href="index.php">EN</a></li>
                     </ul>
-                    
                 </div>
             </div>
         </div>
@@ -93,11 +96,11 @@
                             <div class="banner-text-block">
                                 <h2 class="banner-subtitle">Nous sommes Ubiweb</h2>
 
-                                <h1 class="banner-title">Votre partenaire numérique</h1>
+                                <h1 class="banner-title">Votre Partenaire Numérique</h1>
 
                                 <div class="row justify-content-center banner-description">
                                     <div class="col-md-5">
-                                        <p>Notre spécialité est de créer des sites web conviviales, faits sur mesure et ce pour le succès des petites / moyennes entreprises.</p>
+                                        <p>Notre spécialité? Vous créer un site web professionnel, sur mesure et à la hauteur de votre ambition!</p>
                                     </div>
                                 </div>
                                 <div class="banner-button-container">
@@ -117,32 +120,36 @@
 </div>
 
 <!-- Mobile banner with picture -->
-<div class="hero-banner-wrapper mobile-banner" style="background-image: url('https://ubiweb.ca/assets/videos/background.jpg');">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-12">
-                <div class="banner-content-wrapper">
-                    <div class="banner-text-block">
-                        <h2 class="banner-subtitle">Nous sommes Ubiweb</h2>
-
-                        <h1 class="banner-title">Votre partenaire numérique</h1>
-
-                        <div class="row justify-content-center banner-description">
-                            <div class="col-md-5">
-                                <p>>Notre spécialité est de créer des sites web conviviales, faits sur mesure et ce pour le succès des petites / moyennes entreprises.</p>
+<!-- style="background-image: url('https://ubiweb.ca/assets/videos/background.jpg');" -->
+<div style="background: black;">
+    <div class="hero-banner-wrapper mobile-banner">
+        <img src="https://ubiweb.ca/assets/videos/background.jpg" alt=""/>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <div class="banner-content-wrapper">
+                        <div class="banner-text-block">
+                            <h2 class="banner-subtitle">Nous sommes Ubiweb</h2>
+    
+                            <h1 class="banner-title">Votre partenaire numérique</h1>
+    
+                            <div class="row justify-content-center banner-description">
+                                <div class="col-md-5">
+                                    <p>Notre spécialité? Vous créer un site web professionnel, sur mesure et à la hauteur de votre ambition!</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="banner-button-container">
-                            <a href="#packages" class="btn custom-btn red-btn">Commencer</a>
+                            <div class="banner-button-container">
+                                <a href="#packages" class="btn custom-btn red-btn">Commencer</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="bottom-banner-triangles d-flex">
-        <div class="left-triangle"></div>
-        <div class="right-triangle"></div>
+        <div class="bottom-banner-triangles d-flex">
+            <div class="left-triangle"></div>
+            <div class="right-triangle"></div>
+        </div>
     </div>
 </div>
 
@@ -156,14 +163,11 @@
                 <div class="col-md-10">
                     <div class="simple-text-block">
 
-                        <h2 class="section-title red-title">Website Creation & Standardizing <br>Your Online Image</h2>
+                        <h2 class="section-title red-title">Création de Sites Web et Optimisation <br>de Votre Image en Ligne</h2>
 
                         <div class="simple-text">
-                            <p>Our comprehensive services include professional small business web building and
-                                everything encompassing your online vision and online marketing strategy. We ensure that
-                                our experienced team will design you a functional, engaging webpage at a competitive
-                                rate. Ubiweb's strategic methods are user-friendly and deliver the results that you need
-                                as a small business.
+                            <p>
+                                Êtes-vous à la recherche d’une équipe ayant le pouvoir de rehausser votre positionnement d’entreprise avec une image et un positionnement à la hauteur de votre vision ? Nos pages web sont stylisées, fonctionnelles et vous offre le retour sur investissement dont votre entreprise a besoin.
                             </p>
                         </div>
                     </div>
@@ -177,9 +181,9 @@
                             <?= file_get_contents(__DIR__ . '/dist/images/affordable-pricing.svg') ?>
                             </div>
                             <div class="description-block">
-                                <h3 class="small-title dark-title">Affordable Pricing</h3>
+                                <h3 class="small-title dark-title">Un prix abordable</h3>
                                 <p>
-                                    Avoid breaking the bank with our affordable monthly payment plans
+                                    Évitez de faire un gros paiement coûteux avec nos forfaits mensuels abordables
                                 </p>
                             </div>
                         </div>
@@ -191,10 +195,9 @@
                                 <?= file_get_contents(__DIR__ . '/dist/images/customization.svg') ?>
                             </div>
                             <div class="description-block">
-                                <h3 class="small-title dark-title">Customization</h3>
-
+                                <h3 class="small-title dark-title">Personnalisation</h3>
                                 <p>
-                                    Consultations and optional add-ons allow us to get the best results for your business
+                                    Nos différents programmes sont tous disponibles avec des ajouts personnalisés afin de répondre à vos besoins spécifiques.
                                 </p>
                             </div>
                         </div>
@@ -206,10 +209,9 @@
                                 <?= file_get_contents(__DIR__ . '/dist/images/getting-noticed.svg') ?>
                             </div>
                             <div class="description-block">
-                                <h3 class="small-title dark-title">getting noticed</h3>
-
+                                <h3 class="small-title dark-title">Soyez vu par votre clientèle</h3>
                                 <p>
-                                    Beautiful and responsive designs and local SEO optimization
+                                    Des designs épatant, réactifs, et une optimisation pour moteur de recherche
                                 </p>
                             </div>
                         </div>
@@ -221,10 +223,9 @@
                                 <?= file_get_contents(__DIR__ . '/dist/images/excellent-support.svg') ?>
                             </div>
                             <div class="description-block">
-                                <h3 class="small-title dark-title">Excellent support</h3>
-
+                                <h3 class="small-title dark-title">Service client</h3>
                                 <p>
-                                    Get peace of mind with our quick turn around times and high-end support
+                                    Obtenez la tranquillité d'esprit avec nos délais d'exécution rapides et un soutien inégalé
                                 </p>
                             </div>
                         </div>
@@ -242,13 +243,11 @@
             <div class="row justify-content-center">
                 <div class="col-md-10">
                     <div class="simple-text-block">
-                        <h2 class="section-title white-title">Packages</h2>
+                        <h2 class="section-title white-title">Forfaits</h2>
 
                         <div class="simple-text white-text">
-                            <p>As a Ubiweb member, you'll benefit from our affordable monthly payment plans, 1st-page
-                                guarantee for your name in search engine results and customizable add-ons catering to
-                                your specific needs. Our packages are each equipped with features that accelerate the
-                                growth and performance of your business.
+                            <p>
+                                Tous nos programmes sont équipés d’éléments conçus pour alimenter la croissance ainsi que la performance de votre entreprise. Notre mandat est de vous sauver le maximum de temps afin que vous puissiez consacrer celui-ci là où il est vraiment utile. Vous êtes l’expert dans votre domaine, nous le sommes dans le nôtre. Laissez-nous le soin de vous bâtir une page web à la fois attrayante et facile d’utilisation. Votre succès est notre succès.
                             </p>
                         </div>
                     </div>
@@ -263,59 +262,56 @@
                             <h3 class="small-title dark-title underline-title">Bronze</h3>
                             <span class="card-price"><sup>$</sup>148</span>
 
-                            <p class="card-period">per month</p>
+                            <p class="card-period">par mois</p>
                             <ul class="card-list">
                                 <li>8 Pages</li>
-                                <li>Web &amp; Graphic Design</li>
-                                <li>Mobile Responsive</li>
-                                <li>Hosting</li>
-                                <li>Domain Name</li>
-                                <li>Emails</li>
+                                <li>Conceptions designs et graphiques</li>
+                                <li>Adaptatif pour les téléphones intelligents</li>
+                                <li>Hébergement</li>
+                                <li>Nom de domaine</li>
                             </ul>
                             <div class="card-button-container">
-                                <button class="btn custom-btn red-btn btn-contact">Get Started</button>
+                                <button class="btn custom-btn red-btn btn-contact">Commencer</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="packages-card">
-                            <h3 class="small-title dark-title underline-title">Silver</h3>
+                            <h3 class="small-title dark-title underline-title">Argent</h3>
                             <span class="card-price"><sup>$</sup>228</span>
 
-                            <p class="card-period">per month</p>
+                            <p class="card-period">par mois</p>
                             <ul class="card-list">
                                 <li>8 Pages</li>
-                                <li>1 Keyword Phrase</li>
-                                <li>Search Engine Optimization</li>
-                                <li>Web &amp; Graphic Design</li>
-                                <li>Mobile Responsive</li>
-                                <li>Domain Name</li>
-                                <li>Hosting</li>
-                                <li>Emails</li>
+                                <li>1 phrase (mots-clés) optimisée pour les moteurs de recherche</li>
+                                <li>Conceptions designs et graphiques</li>
+                                <li>adaptatif pour les téléphones intelligents</li>
+                                <li>Hébergement</li>
+                                <li>nom de domaine</li>
+                                <li>adresses courriels</li>
                             </ul>
                             <div class="card-button-container">
-                                <button  class="btn custom-btn red-btn btn-contact">Get Started</button>
+                                <button  class="btn custom-btn red-btn btn-contact">Commencer</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="packages-card">
-                            <h3 class="small-title dark-title underline-title">Gold</h3>
+                            <h3 class="small-title dark-title underline-title">Or</h3>
                             <span class="card-price"><sup>$</sup>358</span>
 
-                            <p class="card-period">per month</p>
+                            <p class="card-period">par mois</p>
                             <ul class="card-list">
-                                <li>8 Pages</li>
-                                <li>1 Keyword Phrase</li>
-                                <li>Search Engine Optimization</li>
-                                <li>Web &amp; Graphic Design</li>
-                                <li>Mobile Responsive</li>
-                                <li>Domain Name</li>
-                                <li>Hosting</li>
-                                <li>Emails</li>
+                                <li>10 Pages</li>
+                                <li>3 phrases (mots-clés) optimisées pour les moteurs de recherche</li>
+                                <li>Conception designs et graphiques</li>
+                                <li>adaptatif pour les téléphones intelligents</li>
+                                <li>Hébergement</li>
+                                <li>nom de domaine</li>
+                                <li>adresses courriels</li>
                             </ul>
                             <div class="card-button-container">
-                                <button class="btn custom-btn red-btn btn-contact">Get Started</button>
+                                <button class="btn custom-btn red-btn btn-contact">Commencer</button>
                             </div>
                         </div>
                     </div>
@@ -334,13 +330,13 @@
                         <input type="hidden" name="to" value="<?php echo $admin_email;?>" />
 	                    <input type="hidden" name="subject" value="Ubiweb Contact" />
                         <div class="form-field">
-                            <input type="text" name="_name" id="name" required placeholder="Name *">
+                            <input type="text" name="_name" id="name" required placeholder="Nom *">
                         </div>
                         <div class="form-field">
-                            <input type="text" name="_company" id="email" required placeholder="E-mail *">
+                            <input type="text" name="_company" id="email" required placeholder="Adresse E-mail * *">
                         </div>
                         <div class="form-field">
-                            <input type="text" name="_phone" id="phone" required placeholder="Phone Number *">
+                            <input type="text" name="_phone" id="phone" required placeholder="Numéro de Téléphone *">
                         </div>
                         <div class="form-field">
                             <textarea name="_message" id="message" placeholder="Message"></textarea>
@@ -352,10 +348,10 @@
 	                            class="g-recaptcha btn custom-btn white-btn"
                                 data-sitekey= "<?php echo $site_key;?>"
                                 data-callback="<?php echo $data_callback;?>">
-	                            Send
+	                            Envoyer
                             </button>
-	                        <div data-form-response="success" class="alert alert-success" style="display:none; margin-top: 50px;">Your message was sent successfully</div>
-	                        <div data-form-response="error" class="alert alert-danger" style="display:none; margin-top: 50px;">There was an error trying to send the form. Please contact: <a   href="mailto:<?php echo $admin_email;?>"><?php echo $admin_email;?></a></div>
+	                        <div data-form-response="success" class="alert alert-success" style="display:none; margin-top: 50px;">Votre message a bien été envoyé</div>
+	                        <div data-form-response="error" class="alert alert-danger" style="display:none; margin-top: 50px;">Il y avait une erreur. S'il vous plaît contactez: <a href="mailto:<?php echo $admin_email;?>"><?php echo $admin_email;?></a></div>
                         </div>
                     </form>
                 </div>
@@ -377,7 +373,7 @@
                                 <div class="guarantee-title-wrapper">
                                     <h2 class="guarantee-title">90 <br>jours</h2>
 
-                                    <h3 class="guarantee-subtitle">guarantee to <br> find your name</h3>
+                                    <h3 class="guarantee-subtitle">garantie pour<br>vous trouver</h3>
                                 </div>
                             </div>
                         </div>
@@ -387,19 +383,16 @@
                     <div class="promise-text-block">
                         <div class="row">
                             <div class="col-xl-6">
-                                <h3 class="small-title dark-title">our promise</h3>
+                                <h3 class="small-title dark-title">Notre promesse</h3>
 
                                 <div class="promise-description">
                                     <p>
-                                        All Ubiweb packages guarantee that you'll find your website on Google's
-                                        first search page within 90 days of its creation or your money back.
-                                        This successfully results in higher traffic on your website,
-                                        connecting your business with consumers online.
+                                        L’objectif ultime avec un site web est d’être vu. Ceci vous paraît simple et ça l’est pour nous également. Votre but principal est d’être connecté avec les acheteurs potentiels au moment même où ceux-ci effectuent des recherches pour vos produits et/ou services. Quasiment tous les programmes offerts par Ubiweb sont équipés d’une garantie qui nous engage à vous faire apparaître sur la première page de Google à l’intérieur de vos premiers 90 jours de contrat. Si toutefois nous ne parvenons pas à respecter notre engagement nous vous remettrons votre argent.
                                     </p>
                                 </div>
                                 <div class="small-description">
                                     <p>
-                                        * Ubiweb's 90 day guarantee is only applicable to certain website packages (consult your Ubiweb Web consultant for more details). The 1st page guarantee refers to Google's SERP for your company name, appearing anywhere within the 1st page and/or map results.
+                                        * La garantie de 90 jours s'applique à certains forfaits de site web seulement (contactez votre représentant web Ubiweb pour plus de détails). La garantie 1re page fait référence au SERP de Google pour votre nom d'entreprise, et ce n'importe où sur la première page des résultats de recherche et/ou Google Maps.
                                     </p>
                                 </div>
                             </div>
@@ -408,7 +401,6 @@
                 </div>
             </div>
         </div>
-
     </section>
 
     <!-------------------Add-ons section------------------------------>
@@ -418,11 +410,11 @@
                 <div class="col-md-11">
                     <div class="simple-text-block">
                         <div class="divider"></div>
-                        <h2 class="section-title red-title">Add-ons</h2>
+                        <h2 class="section-title red-title">Options Ajouts Sur Mesure</h2>
 
                         <div class="simple-text text-center">
                             <p>
-                                Our versatile add-ons are designed to customize our websites to your business's unique needs. Options like the New-Biz Starter Pack, Bilingual Sites, Google Adwords, Logo Refresh, Translation, Copywriting, Emails and Content Creation focus on generating qualified leads for your business.
+                                Nos différentes options pour sites web sont personnalisées et adaptées à l’image de votre entreprise. Différentes options s’offrent à vous telles que:
                             </p>
                         </div>
                     </div>
@@ -435,7 +427,7 @@
                             <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In  -->
                             <?= file_get_contents(__DIR__ . '/dist/images/new-biz.svg') ?>
                         </div>
-                        <h3 class="small-title dark-title">NEW-BIZ STARTER PACK</h3>
+                        <h3 class="small-title dark-title">La trousse entreprise départ qui comprend</h3>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-2">
@@ -444,7 +436,7 @@
                             <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In  -->
                             <?= file_get_contents(__DIR__ . '/dist/images/translation.svg') ?>
                         </div>
-                        <h3 class="small-title dark-title">Translation &amp; Bilingual Site</h3>
+                        <h3 class="small-title dark-title">La traduction de votre site: Anglais & Français</h3>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-2">
@@ -453,7 +445,7 @@
                             <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In  -->
                             <?= file_get_contents(__DIR__ . '/dist/images/adwords.svg') ?>
                         </div>
-                        <h3 class="small-title dark-title">GOOGLE ADWORDS</h3>
+                        <h3 class="small-title dark-title">Campagne Google Adwords (MMR)</h3>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-2">
@@ -462,7 +454,7 @@
                             <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In  -->
                             <?= file_get_contents(__DIR__ . '/dist/images/copywriting.svg') ?>
                         </div>
-                        <h3 class="small-title dark-title">Copywriting &amp; Content Creation</h3>
+                        <h3 class="small-title dark-title">Création de contenu unique</h3>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-2">
@@ -471,7 +463,8 @@
                             <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In  -->
                             <?= file_get_contents(__DIR__ . '/dist/images/logo.svg') ?>
                         </div>
-                        <h3 class="small-title dark-title">Logo Refresh</h3>
+                        <h3 class="small-title dark-title">Rafraîchissement de votre image d’entreprise</h3>
+
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-2">
@@ -480,7 +473,7 @@
                             <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In  -->
                             <?= file_get_contents(__DIR__ . '/dist/images/emails.svg') ?>
                         </div>
-                        <h3 class="small-title dark-title">Emails</h3>
+                        <h3 class="small-title dark-title">Ajout d’adresses emails</h3>
                     </div>
                 </div>
             </div>
@@ -496,11 +489,11 @@
             <div class="row">
                 <div class="col-12">
                     <div class="simple-text-block">
-                        <h2 class="section-title white-title">Our feedback has been outstanding</h2>
+                        <h2 class="section-title white-title">Témoignages</h2>
 
                         <div class="simple-text text-center white-text">
                             <p>
-                                Here are just a few responses from our receptive associates:
+                                Votre opinion compte! Voici ce que nos partenaires avaient à dire au sujet de Ubiweb.
                             </p>
                         </div>
                     </div>
@@ -589,11 +582,12 @@
             <div class="row justify-content-center">
                 <div class="col-md-10">
                     <div class="simple-text-block">
-                        <h2 class="section-title red-title">Portfolio</h2>
+                        <h2 class="section-title red-title">Nos Réalisations</h2>
 
                         <div class="simple-text text-center">
-                            <p>Distinction is essential to standing out online.<br>
-                                Here are examples of websites from our happy customers:
+                            <p>
+                                La satisfaction de nos clients est constamment au cœur de notre travail.<br>
+                                C’est pour cette même raison que nous nous assurons que nos efforts sont maximisé à leurs pleins potentiel. Avoir un site web unique fera la différence sur votre retour sur investissement. Voici quelques exemples de clients satisfaits:
                             </p>
                         </div>
                     </div>
@@ -663,7 +657,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="simple-text-block">
-                        <h2 class="section-title dark-title">Frequently Asked Questions (not french)</h2>
+                        <h2 class="section-title dark-title">FAQ</h2>
                     </div>
                 </div>
             </div>
@@ -693,13 +687,13 @@
                                             data-target="#JS--collapse-two" aria-expanded="true"
                                             aria-controls="collapseTwo">
                                             <?= file_get_contents(__DIR__ . '/dist/images/faq-arrow.svg') ?>
-                                        Ai-je besoin d’un site web considérant que mon entreprise opère déjà à pleine capacité? 
+                                            Ai-je besoin d’un site web considérant que mon entreprise opère déjà à pleine capacité?
                                     </button>
                                 </div>
 
                                 <div id="JS--collapse-two" class="collapse" data-parent="#question-accordion">
                                     <div class="card-body questions-card-body">
-                                        La fonction première de votre site web est de protéger votre bouche à oreille. Souvent, vos références ainsi que les clients existants occupent plus de 85% de votre temps en y ajoutant la nouvelle cliente et la rétention de celle-ci on arrive tout au plus à 99% de votre clientèle potentielle. Protéger vos chiffres s’avère crucial dans le monde compétitif que nous travaillons. De nos jours, les petites, moyennes entreprises sont constamment en compétition contre de grands joueurs et ressortir dans les résultats de recherches avec votre site web est nécessaire.  
+                                        La fonction première de votre site web est de protéger votre bouche à oreille. Souvent, vos références ainsi que les clients existants occupent plus de 85% de votre temps en y ajoutant la nouvelle cliente et la rétention de celle-ci on arrive tout au plus à 99% de votre clientèle potentielle. Protéger vos chiffres s’avère crucial dans le monde compétitif que nous travaillons. De nos jours, les petites, moyennes entreprises sont constamment en compétition contre de grands joueurs et ressortir dans les résultats de recherches avec votre site web est nécessaire.
                                     </div>
                                 </div>
                             </div>
@@ -709,13 +703,13 @@
                                             data-target="#JS--collapse-three" aria-expanded="true"
                                             aria-controls="collapseThree">
                                             <?= file_get_contents(__DIR__ . '/dist/images/faq-arrow.svg') ?>
-                                        Je possède déjà un site web. Pourquoi est-il important de moderniser celui-ci? 
+                                        Je possède déjà un site web. Pourquoi est-il important de moderniser celui-ci?
                                     </button>
                                 </div>
 
                                 <div id="JS--collapse-three" class="collapse" data-parent="#question-accordion">
                                     <div class="card-body questions-card-body">
-                                        Ne pas avoir de site web donne une mauvaise perception sur votre entreprise. On la jugera dépassée et sans intérêt. Votre site web reflète votre image. Les gens associeront cette même image à vos produits, vos services et la qualité de votre implication. Avoir un site web désuet est pire que de ne pas en avoir du tout. Vous envoyez une image de laisser-aller, de manque de rigueur et un manque flagrant de considération pour l’expérience client.
+                                        Avoir un vieux qui n'est pas à jour donne une mauvaise perception sur votre entreprise. On la jugera dépassée et sans intérêt. Votre site web reflète votre image.  Les gens associeront cette même image à vos produits, vos services et la qualité de votre implication. Avoir un site web désuet est pire que de ne pas en avoir du tout. Vous envoyez une image de laisser-aller, de manque de rigueur et un manque flagrant de considération pour l’expérience client.
                                     </div>
                                 </div>
                             </div>
@@ -731,7 +725,11 @@
 
                                 <div id="JS--collapse-four" class="collapse" data-parent="#question-accordion">
                                     <div class="card-body questions-card-body">
-                                        Quand on parle de long-terme, les forfaits mensuels en résultent pratiquement toujours à être plus économique. De plus, la gamme de services offerts par Ubiweb.
+                                        À long terme, les forfaits mensuels sont presque toujours plus avantageux. De plus, nos services mettent votre entreprise à l'abri des imprévus. Par exemple, un site similaire à notre forfait bronze vous coûtera de 4000$ à 6000$ et ce, sans compter les frais d'hébergement et de domaine (500$ par année). Il est recommandé de rafraîchir votre site web aux 3-4 ans pour rester actuel. Après 3 ans, vous aurez déjà dépensé un minimum de 5500$ avec une autre entreprise et vous devrez dépenser encore plus pour tenir votre site à jour si Google effectue des changements importants à son algorithme (ce qui arrive habituellement aux 2 ans).
+
+                                        Avec un forfait mensuel Ubiweb, le coût long terme s'équivaut. Vous avez la tranquillité d'esprit en sachant que vous n'aurez pas de surprises coûteuses avec votre site web et que vous pourrez garder vos liquidités là où elles comptent, dans votre entreprise!
+
+                                        on parle de long-terme, les forfaits mensuels en résultent pratiquement toujours à être plus économique. De plus, la gamme de services offerts par Ubiweb 
                                     </div>
                                 </div>
                             </div>
@@ -741,13 +739,13 @@
                                             data-target="#JS--collapse-five" aria-expanded="true"
                                             aria-controls="collapseFive">
                                             <?= file_get_contents(__DIR__ . '/dist/images/faq-arrow.svg') ?>
-                                        Je paye déjà pour différents placements commandités sur différentes plates-forme, pourquoi est-ce que je devrais posséder mon propre site? 
+                                        Je paye déjà pour différents placements commandités sur différentes plates-forme, pourquoi est-ce que je devrais posséder mon propre site?
                                     </button>
                                 </div>
 
                                 <div id="JS--collapse-five" class="collapse" data-parent="#question-accordion">
                                     <div class="card-body questions-card-body">
-                                        En possédant votre propre site web, vous êtes en plein contrôle de l’image que vous décidez de véhiculer. Les placements commandités sont souvent vus comme une solution tampon avant la mise en place d’un système efficace. Ils sont utiles afin d’augmenter l’exposition d’une entreprise en ligne, toutefois très peu concluant quand vient le temps de protéger vos références et l’éducation du client quant à vos différentes offres de produits et/ou services. Dans un monde idéal, vous voulez propulsez votre contenu et avoir des fondations solides (site web) avant de débourser pour faire la promotion de votre entreprise. Une expérience client enrichie ferra la différence.
+                                        En possédant votre propre site web, vous êtes en plein contrôle de l’image que vous décidez de véhiculer. Les placements commandités sont souvent vus comme une solution temporaire avant la mise en place d’un système efficace. Ils sont utiles afin d’augmenter l’exposition d’une entreprise en ligne, toutefois très peu concluant quand vient le temps de protéger vos références et l’éducation du client quant à vos différentes offres de produits et/ou services. Dans un monde idéal, vous voulez propulsez votre contenu et avoir des fondations solides (site web) avant de débourser pour faire la promotion de votre entreprise. Une expérience client enrichie ferra la différence. 
                                     </div>
                                 </div>
                             </div>
@@ -763,7 +761,7 @@
 
                                 <div id="JS--collapse-six" class="collapse" data-parent="#question-accordion">
                                     <div class="card-body questions-card-body">
-                                        Aucun frais caché ! Ubiweb est fière d’agir à titre de partenaire dans la concrétisation de vos différents besoins multimédias et ce, en toute transparence. Nos solutions n’ont aucun frais additionnel et la plupart de nos forfaits incluent ; l’hébergement, le nom de domaine, la garantie de la première page sur Google et les adresses courriels. Nos solutions ont été bâties afin de vous aider dans votre cheminement web, la propulsion de votre image, le tout sans les mauvaises surprises. 
+                                        Aucun frais caché ! Ubiweb est fière d’agir à titre de partenaire dans la concrétisation de vos différents besoins multimédias et ce, en toute transparence. Nos solutions n’ont aucun frais additionnel et la plupart de nos forfaits incluent ; l’hébergement, le nom de domaine, la garantie de la première page sur Google et les adresses courriels. Nos solutions ont été bâties afin de vous aider dans votre cheminement web, la propulsion de votre image, le tout sans les mauvaises surprises.
                                     </div>
                                 </div>
                             </div>
@@ -779,7 +777,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="section-title white-title">Contactez-nous maintenant pour une soumission personnalisée! </h2>
+                    <h2 class="section-title white-title">Contactez-nous maintenant pour une soumission personnalisée!</h2>
                 </div>
                 <div class="col-12">
                     <div class="buttons-wrapper d-flex justify-content-center">
@@ -787,7 +785,7 @@
                             (438) 700-0598
                         </a>
                         <a class="btn custom-btn btn-contact">
-                            E-MAIL
+                            Envoyez-nous un email
                         </a>
                     </div>
                 </div>
@@ -808,21 +806,15 @@
             </div>
             <div class="col-md-6 col-lg-6 order-2 order-md-2 order-lg-2 align-self-center">
                 <div class="about-us-text-wrapper">
-                    <h3 class="small-title red-title">About us</h3>
+                    <h3 class="small-title red-title">À propos de nous </h3>
 
                     <div class="about-us-text">
                         <p>
-                            Ubiweb operates under the parent company "Code Comment" since 2015.
-                            Code Comment recognized a scarcity of custom web solutions for small business owners.
-                            Code Comment conceived Ubiweb to meet these business demands. With an archive of over
-                            200
-                            customers who trust our skilled workmanship, we boast a 94% renewal rate with our
-                            clients.
+                            Depuis les dernière années, nous avons su bénéficier de l’expertise de Code Comment à titre de maison mère de Ubiweb. C’est à travers des années d’expérience que nous en sommes venus à la conclusion qu’il y a une énorme rareté pour les clients en termes de solutions web pour Entrepreneurs. Ubiweb s’est vu naître dans le but de combler ce besoin dans le marcher. 
                         </p>
 
                         <p>
-                            We have expanded into 2 locations (Montreal and the South Shore) to offer you
-                            flexibility and convenience.
+                            Avec plus de 200 clients qui nous font confiance pour leurs solutions numériques et un taux de renouvellement de plus de 94%, nous avons récemment pris la décision d’agrandir nos ressources et nous comptons maintenant parmi nous 2 succursales (Montréal & Rive-Sud) afin d’être flexible pour nos clients.
                         </p>
                     </div>
                 </div>
@@ -845,8 +837,8 @@
             <div class="col-sm-6">
                 <div class="footer-menu">
                     <ul>
-                        <li><a href="javascript:void(0);">Privacy</a></li>
-                        <li><a href="javascript:void(0);">Policy</a></li>
+                        <li><a href="javascript:void(0);">Politique de</a></li>
+                        <li><a href="javascript:void(0);">Confidentialité</a></li>
                     </ul>
                 </div>
             </div>
