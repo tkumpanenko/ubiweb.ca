@@ -2,11 +2,9 @@ import $ from 'jquery';
 
 window.$ = window.jQuery = $;
 import Swiper from 'swiper/dist/js/swiper.min';
-import 'bootstrap/dist/js/bootstrap';
 
 
 $(document).ready(function () {
-
 
     $(window).bind('scroll', function () {
         if ($(window).scrollTop() > 120) {
@@ -94,7 +92,6 @@ $(document).ready(function () {
         }
 
     });
-
 
 
 

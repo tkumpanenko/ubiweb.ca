@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/9.3.0_1/bin/node /usr/local/bin/yarn watcg
+  /usr/local/Cellar/node/9.3.0_1/bin/node /usr/local/bin/yarn wathc
 
 PATH: 
   /Users/maxlester/bin:/usr/local/bin:/Users/maxlester/.composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -8172,7 +8172,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/yeast/-/yeast-0.1.2.tgz#008e06d8094320c372dbc2f8ed76a0ca6c8ac419"
 
 Trace: 
-  Error: Command "watcg" not found. Did you mean "watch"?
+  Error: Command "wathc" not found.
       at new MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
       at /usr/local/lib/node_modules/yarn/lib/cli.js:87307:17
       at Generator.next (<anonymous>)

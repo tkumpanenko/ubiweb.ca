@@ -244,84 +244,86 @@
     <!---------------Packages section----------------------------->
 
     <section class="packages-section" id="packages"
-             style="background-image:url(<?= asset('images/packages-bg-min.png') ?>);">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-                    <div class="simple-text-block">
-                        <h2 class="section-title white-title">Packages</h2>
-
-                        <div class="simple-text white-text">
-                            <p>As a Ubiweb member, you'll benefit from our affordable monthly payment plans, 1st-page
-                                guarantee for your name in search engine results and customizable add-ons catering to
-                                your specific needs. Our packages are each equipped with features that accelerate the
-                                growth and performance of your business.
-                            </p>
+             style="background-image:url(<?= asset('images/packages-bg-1.jpg') ?>);">
+        <div class="packages-wrapper">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+                        <div class="simple-text-block">
+                            <h2 class="section-title white-title">Packages</h2>
+    
+                            <div class="simple-text white-text">
+                                <p>As a Ubiweb member, you'll benefit from our affordable monthly payment plans, 1st-page
+                                    guarantee for your name in search engine results and customizable add-ons catering to
+                                    your specific needs. Our packages are each equipped with features that accelerate the
+                                    growth and performance of your business.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="packages-slider-container">
-                <div class="row justify-content-center">
-                    <div class="col-md-4">
-                        <div class="packages-card">
-                            <h3 class="small-title dark-title underline-title">Bronze</h3>
-                            <span class="card-price"><sup>$</sup>148</span>
-
-                            <p class="card-period">per month</p>
-                            <ul class="card-list">
-                                <li>8 Pages</li>
-                                <li>Web &amp; Graphic Design</li>
-                                <li>Mobile Responsive</li>
-                                <li>Hosting</li>
-                                <li>Domain Name</li>
-                            </ul>
-                            <div class="card-button-container">
-                                <button class="btn custom-btn red-btn btn-contact">Get Started</button>
+            <div class="container">
+                <div class="packages-slider-container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4">
+                            <div class="packages-card">
+                                <h3 class="small-title dark-title underline-title">Bronze</h3>
+                                <span class="card-price"><sup>$</sup>148</span>
+    
+                                <p class="card-period">per month</p>
+                                <ul class="card-list">
+                                    <li>8 Pages</li>
+                                    <li>Web &amp; Graphic Design</li>
+                                    <li>Mobile Responsive</li>
+                                    <li>Hosting</li>
+                                    <li>Domain Name</li>
+                                </ul>
+                                <div class="card-button-container">
+                                    <button class="btn custom-btn red-btn btn-contact">Get Started</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="packages-card">
-                            <h3 class="small-title dark-title underline-title">Silver</h3>
-                            <span class="card-price"><sup>$</sup>228</span>
-
-                            <p class="card-period">per month</p>
-                            <ul class="card-list">
-                                <li>8 Pages</li>
-                                <li>1 Keyword Phrase</li>
-                                <li>Search Engine Optimization</li>
-                                <li>Web &amp; Graphic Design</li>
-                                <li>Mobile Responsive</li>
-                                <li>Domain Name</li>
-                                <li>Hosting</li>
-                                <li>Emails</li>
-                            </ul>
-                            <div class="card-button-container">
-                                <button  class="btn custom-btn red-btn btn-contact">Get Started</button>
+                        <div class="col-md-4">
+                            <div class="packages-card">
+                                <h3 class="small-title dark-title underline-title">Silver</h3>
+                                <span class="card-price"><sup>$</sup>228</span>
+    
+                                <p class="card-period">per month</p>
+                                <ul class="card-list">
+                                    <li>8 Pages</li>
+                                    <li>1 Keyword Phrase</li>
+                                    <li>Search Engine Optimization</li>
+                                    <li>Web &amp; Graphic Design</li>
+                                    <li>Mobile Responsive</li>
+                                    <li>Domain Name</li>
+                                    <li>Hosting</li>
+                                    <li>Emails</li>
+                                </ul>
+                                <div class="card-button-container">
+                                    <button  class="btn custom-btn red-btn btn-contact">Get Started</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="packages-card">
-                            <h3 class="small-title dark-title underline-title">Gold</h3>
-                            <span class="card-price"><sup>$</sup>358</span>
-
-                            <p class="card-period">per month</p>
-                            <ul class="card-list">
-                                <li>10 Pages</li>
-                                <li>3 Keyword Phrase</li>
-                                <li>Search Engine Optimization</li>
-                                <li>Web &amp; Graphic Design</li>
-                                <li>Mobile Responsive</li>
-                                <li>Domain Name</li>
-                                <li>Hosting</li>
-                                <li>Emails</li>
-                            </ul>
-                            <div class="card-button-container">
-                                <button class="btn custom-btn red-btn btn-contact">Get Started</button>
+                        <div class="col-md-4">
+                            <div class="packages-card">
+                                <h3 class="small-title dark-title underline-title">Gold</h3>
+                                <span class="card-price"><sup>$</sup>358</span>
+    
+                                <p class="card-period">per month</p>
+                                <ul class="card-list">
+                                    <li>10 Pages</li>
+                                    <li>3 Keyword Phrase</li>
+                                    <li>Search Engine Optimization</li>
+                                    <li>Web &amp; Graphic Design</li>
+                                    <li>Mobile Responsive</li>
+                                    <li>Domain Name</li>
+                                    <li>Hosting</li>
+                                    <li>Emails</li>
+                                </ul>
+                                <div class="card-button-container">
+                                    <button class="btn custom-btn red-btn btn-contact">Get Started</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -497,89 +499,91 @@
     <!--------------------------Feedback section------------------------------------------>
 
     <section class="feedback-section" id="feedback"
-             style="background-image:url(<?= asset('images/feedback-bg-min.png') ?>); ">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="simple-text-block">
-                        <h2 class="section-title white-title">Our feedback has been outstanding</h2>
-
-                        <div class="simple-text text-center white-text">
-                            <p>
-                                Here are just a few responses from our receptive associates:
-                            </p>
+             style="background-image:url(<?= asset('images/hero.jpg') ?>); ">
+        <div class="feedback-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="simple-text-block">
+                            <h2 class="section-title white-title">Our feedback has been outstanding</h2>
+    
+                            <div class="simple-text text-center white-text">
+                                <p>
+                                    Here are just a few responses from our receptive associates:
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="feedback-slider-wrapper">
-                        <div class="JS--feedback-slider swiper-container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="feedback-block">
-                                        <div class="feedback-content red-bg">
-                                            <div class="feedback-title-block">
-                                                <h3 class="small-title">"Je n'hésiterais pas à recommander vos services"</h3>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="feedback-slider-wrapper">
+                            <div class="JS--feedback-slider swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="feedback-block">
+                                            <div class="feedback-content red-bg">
+                                                <div class="feedback-title-block">
+                                                    <h3 class="small-title">"Je n'hésiterais pas à recommander vos services"</h3>
+                                                </div>
+                                                <div class="feedback-description">
+                                                    <p>
+                                                    "Merci Patrick et Thomas pour votre aide  avec mon Site Web. Cela a fait en sorte que mon chiffre d’affaire a augmenté de façon significative! Je n'hésiterais pas à recommander vos services, et encore merci à toute l’équipe Ubiweb."
+                                                    </p>
+                                                </div>
                                             </div>
-                                            <div class="feedback-description">
-                                                <p>
-                                                "Merci Patrick et Thomas pour votre aide  avec mon Site Web. Cela a fait en sorte que mon chiffre d’affaire a augmenté de façon significative! Je n'hésiterais pas à recommander vos services, et encore merci à toute l’équipe Ubiweb."
-                                                </p>
+                                            <div class="feedback-author-block">
+                                                <span class="client-name">Réal Ladouceur - Propriétaire</span>
+                                                <span class="company-name">Gestion Parasitaire 2 Rives</span>
                                             </div>
                                         </div>
-                                        <div class="feedback-author-block">
-                                            <span class="client-name">Réal Ladouceur - Propriétaire</span>
-                                            <span class="company-name">Gestion Parasitaire 2 Rives</span>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="feedback-block">
+                                            <div class="feedback-content white-bg">
+                                                <div class="feedback-title-block">
+                                                    <h3 class="small-title">"We could not conduct our business without you! Many Thanks"</h3>
+                                                </div>
+                                                <div class="feedback-description">
+                                                    <p>
+                                                    "We would like to take a moment and thank you for the quality of service provided by your company. We sincerely appreciate your efficient efforts, customer service, the level of detail and accountability on building our website and improving our social media presence. I am specifically grateful that you guys have made the process simple. We could not conduct our business without you! Many Thanks"
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="feedback-author-block">
+                                                <span class="client-name">Maria</span>
+                                                <span class="company-name">The Stone Company Inc</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="feedback-block">
+                                            <div class="feedback-content red-bg">
+                                                <div class="feedback-title-block">
+                                                    <h3 class="small-title">"Let you guys know that you're very good at what you do"</h3>
+                                                </div>
+                                                <div class="feedback-description">
+                                                    <p>
+                                                    "Before going with your company we had already spent thousands of dollars with other companies to have 2 websites created. The end result was never what was originally promised. Our experience with Ubiweb over the past year has been completely different and I just wanted to reach out to you and let you guys know that you're very good at what you do, and we REALLY appreciate it! Thanks again!"
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="feedback-author-block">
+                                                <span class="client-name">Alain - President</span>
+                                                <span class="company-name">Hydraulique Rives Sud</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="feedback-block">
-                                        <div class="feedback-content white-bg">
-                                            <div class="feedback-title-block">
-                                                <h3 class="small-title">"We could not conduct our business without you! Many Thanks"</h3>
-                                            </div>
-                                            <div class="feedback-description">
-                                                <p>
-                                                "We would like to take a moment and thank you for the quality of service provided by your company. We sincerely appreciate your efficient efforts, customer service, the level of detail and accountability on building our website and improving our social media presence. I am specifically grateful that you guys have made the process simple. We could not conduct our business without you! Many Thanks"
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="feedback-author-block">
-                                            <span class="client-name">Maria</span>
-                                            <span class="company-name">The Stone Company Inc</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="feedback-block">
-                                        <div class="feedback-content red-bg">
-                                            <div class="feedback-title-block">
-                                                <h3 class="small-title">"Let you guys know that you're very good at what you do"</h3>
-                                            </div>
-                                            <div class="feedback-description">
-                                                <p>
-                                                "Before going with your company we had already spent thousands of dollars with other companies to have 2 websites created. The end result was never what was originally promised. Our experience with Ubiweb over the past year has been completely different and I just wanted to reach out to you and let you guys know that you're very good at what you do, and we REALLY appreciate it! Thanks again!"
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="feedback-author-block">
-                                            <span class="client-name">Alain - President</span>
-                                            <span class="company-name">Hydraulique Rives Sud</span>
-                                        </div>
-                                    </div>
-                                </div>
+                                <!-- Add Arrows -->
+                                <div class="JS--feedback-pagination swiper-pagination"></div>
                             </div>
-                            <!-- Add Arrows -->
-                            <div class="JS--feedback-pagination swiper-pagination"></div>
-                        </div>
-                        <div class="JS--feedback-next swiper-button-next">
-                        <?= file_get_contents(__DIR__ . '/dist/images/next-arrow.svg') ?>
-                        </div>
-                        <div class="JS--feedback-prev swiper-button-prev">
-                        <?= file_get_contents(__DIR__ . '/dist/images/prev-arrow.svg') ?>
+                            <div class="JS--feedback-next swiper-button-next">
+                            <?= file_get_contents(__DIR__ . '/dist/images/next-arrow.svg') ?>
+                            </div>
+                            <div class="JS--feedback-prev swiper-button-prev">
+                            <?= file_get_contents(__DIR__ . '/dist/images/prev-arrow.svg') ?>
+                            </div>
                         </div>
                     </div>
                 </div>

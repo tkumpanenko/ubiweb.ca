@@ -178,7 +178,7 @@
                     <div class="col-md-6 col-lg-3">
                         <div class="icon-text-block">
                             <div class="icon-container">
-                            <?= file_get_contents(__DIR__ . '/dist/images/affordable-pricing.svg') ?>
+                            <?= file_get_contents(__DIR__ . '../../dist/images/affordable-pricing.svg') ?>
                             </div>
                             <div class="description-block">
                                 <h3 class="small-title dark-title">Un prix abordable</h3>
@@ -191,8 +191,7 @@
                     <div class="col-md-6 col-lg-3">
                         <div class="icon-text-block">
                             <div class="icon-container">
-                                <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In  -->
-                                <?= file_get_contents(__DIR__ . '/dist/images/customization.svg') ?>
+                                <?= file_get_contents(__DIR__ . '../../dist/images/customization.svg') ?>
                             </div>
                             <div class="description-block">
                                 <h3 class="small-title dark-title">Personnalisation</h3>
@@ -206,7 +205,7 @@
                         <div class="icon-text-block">
                             <div class="icon-container">
                                 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In  -->
-                                <?= file_get_contents(__DIR__ . '/dist/images/getting-noticed.svg') ?>
+                                <?= file_get_contents(__DIR__ . '../../dist/images/getting-noticed.svg') ?>
                             </div>
                             <div class="description-block">
                                 <h3 class="small-title dark-title">Soyez vu par votre clientèle</h3>
@@ -220,7 +219,7 @@
                         <div class="icon-text-block">
                             <div class="icon-container">
                                 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In  -->
-                                <?= file_get_contents(__DIR__ . '/dist/images/excellent-support.svg') ?>
+                                <?= file_get_contents(__DIR__ . '../../dist/images/excellent-support.svg') ?>
                             </div>
                             <div class="description-block">
                                 <h3 class="small-title dark-title">Service client</h3>
@@ -238,80 +237,82 @@
     <!---------------Packages section----------------------------->
 
     <section class="packages-section" id="packages"
-             style="background-image:url(<?= asset('images/packages-bg-min.png') ?>);">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-                    <div class="simple-text-block">
-                        <h2 class="section-title white-title">Forfaits</h2>
-
-                        <div class="simple-text white-text">
-                            <p>
-                                Tous nos programmes sont équipés d’éléments conçus pour alimenter la croissance ainsi que la performance de votre entreprise. Notre mandat est de vous sauver le maximum de temps afin que vous puissiez consacrer celui-ci là où il est vraiment utile. Vous êtes l’expert dans votre domaine, nous le sommes dans le nôtre. Laissez-nous le soin de vous bâtir une page web à la fois attrayante et facile d’utilisation. Votre succès est notre succès.
-                            </p>
+             style="background-image:url(<?= asset('images/packages-bg-1.jpg') ?>);">
+        <div class="packages-wrapper">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+                        <div class="simple-text-block">
+                            <h2 class="section-title white-title">Forfaits</h2>
+    
+                            <div class="simple-text white-text">
+                                <p>
+                                    Tous nos programmes sont équipés d’éléments conçus pour alimenter la croissance ainsi que la performance de votre entreprise. Notre mandat est de vous sauver le maximum de temps afin que vous puissiez consacrer celui-ci là où il est vraiment utile. Vous êtes l’expert dans votre domaine, nous le sommes dans le nôtre. Laissez-nous le soin de vous bâtir une page web à la fois attrayante et facile d’utilisation. Votre succès est notre succès.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="packages-slider-container">
-                <div class="row justify-content-center">
-                    <div class="col-md-4">
-                        <div class="packages-card">
-                            <h3 class="small-title dark-title underline-title">Bronze</h3>
-                            <span class="card-price"><sup>$</sup>148</span>
-
-                            <p class="card-period">par mois</p>
-                            <ul class="card-list">
-                                <li>8 Pages</li>
-                                <li>Conceptions designs et graphiques</li>
-                                <li>Adaptatif pour les téléphones intelligents</li>
-                                <li>Hébergement</li>
-                                <li>Nom de domaine</li>
-                            </ul>
-                            <div class="card-button-container">
-                                <button class="btn custom-btn red-btn btn-contact">Commencer</button>
+            <div class="container">
+                <div class="packages-slider-container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4">
+                            <div class="packages-card">
+                                <h3 class="small-title dark-title underline-title">Bronze</h3>
+                                <span class="card-price"><sup>$</sup>148</span>
+    
+                                <p class="card-period">par mois</p>
+                                <ul class="card-list">
+                                    <li>8 Pages</li>
+                                    <li>Conceptions designs et graphiques</li>
+                                    <li>Adaptatif pour les téléphones intelligents</li>
+                                    <li>Hébergement</li>
+                                    <li>Nom de domaine</li>
+                                </ul>
+                                <div class="card-button-container">
+                                    <button class="btn custom-btn red-btn btn-contact">Commencer</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="packages-card">
-                            <h3 class="small-title dark-title underline-title">Argent</h3>
-                            <span class="card-price"><sup>$</sup>228</span>
-
-                            <p class="card-period">par mois</p>
-                            <ul class="card-list">
-                                <li>8 Pages</li>
-                                <li>1 phrase (mots-clés) optimisée pour les moteurs de recherche</li>
-                                <li>Conceptions designs et graphiques</li>
-                                <li>adaptatif pour les téléphones intelligents</li>
-                                <li>Hébergement</li>
-                                <li>nom de domaine</li>
-                                <li>adresses courriels</li>
-                            </ul>
-                            <div class="card-button-container">
-                                <button  class="btn custom-btn red-btn btn-contact">Commencer</button>
+                        <div class="col-md-4">
+                            <div class="packages-card">
+                                <h3 class="small-title dark-title underline-title">Argent</h3>
+                                <span class="card-price"><sup>$</sup>228</span>
+    
+                                <p class="card-period">par mois</p>
+                                <ul class="card-list">
+                                    <li>8 Pages</li>
+                                    <li>1 phrase (mots-clés) optimisée pour les moteurs de recherche</li>
+                                    <li>Conceptions designs et graphiques</li>
+                                    <li>adaptatif pour les téléphones intelligents</li>
+                                    <li>Hébergement</li>
+                                    <li>nom de domaine</li>
+                                    <li>adresses courriels</li>
+                                </ul>
+                                <div class="card-button-container">
+                                    <button  class="btn custom-btn red-btn btn-contact">Commencer</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="packages-card">
-                            <h3 class="small-title dark-title underline-title">Or</h3>
-                            <span class="card-price"><sup>$</sup>358</span>
-
-                            <p class="card-period">par mois</p>
-                            <ul class="card-list">
-                                <li>10 Pages</li>
-                                <li>3 phrases (mots-clés) optimisées pour les moteurs de recherche</li>
-                                <li>Conception designs et graphiques</li>
-                                <li>adaptatif pour les téléphones intelligents</li>
-                                <li>Hébergement</li>
-                                <li>nom de domaine</li>
-                                <li>adresses courriels</li>
-                            </ul>
-                            <div class="card-button-container">
-                                <button class="btn custom-btn red-btn btn-contact">Commencer</button>
+                        <div class="col-md-4">
+                            <div class="packages-card">
+                                <h3 class="small-title dark-title underline-title">Or</h3>
+                                <span class="card-price"><sup>$</sup>358</span>
+    
+                                <p class="card-period">par mois</p>
+                                <ul class="card-list">
+                                    <li>10 Pages</li>
+                                    <li>3 phrases (mots-clés) optimisées pour les moteurs de recherche</li>
+                                    <li>Conception designs et graphiques</li>
+                                    <li>adaptatif pour les téléphones intelligents</li>
+                                    <li>Hébergement</li>
+                                    <li>nom de domaine</li>
+                                    <li>adresses courriels</li>
+                                </ul>
+                                <div class="card-button-container">
+                                    <button class="btn custom-btn red-btn btn-contact">Commencer</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -425,7 +426,7 @@
                     <div class="icon-text-block">
                         <div class="icon-container d-flex justify-content-center align-items-end">
                             <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In  -->
-                            <?= file_get_contents(__DIR__ . '/dist/images/new-biz.svg') ?>
+                            <?= file_get_contents(__DIR__ . '../../dist/images/new-biz.svg') ?>
                         </div>
                         <h3 class="small-title dark-title">La trousse entreprise départ qui comprend</h3>
                     </div>
@@ -434,7 +435,7 @@
                     <div class="icon-text-block">
                         <div class="icon-container d-flex justify-content-center align-items-end">
                             <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In  -->
-                            <?= file_get_contents(__DIR__ . '/dist/images/translation.svg') ?>
+                            <?= file_get_contents(__DIR__ . '../../dist/images/translation.svg') ?>
                         </div>
                         <h3 class="small-title dark-title">La traduction de votre site: Anglais & Français</h3>
                     </div>
@@ -443,7 +444,7 @@
                     <div class="icon-text-block">
                         <div class="icon-container d-flex justify-content-center align-items-end">
                             <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In  -->
-                            <?= file_get_contents(__DIR__ . '/dist/images/adwords.svg') ?>
+                            <?= file_get_contents(__DIR__ . '../../dist/images/adwords.svg') ?>
                         </div>
                         <h3 class="small-title dark-title">Campagne Google Adwords (MMR)</h3>
                     </div>
@@ -452,7 +453,7 @@
                     <div class="icon-text-block">
                         <div class="icon-container d-flex justify-content-center align-items-end">
                             <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In  -->
-                            <?= file_get_contents(__DIR__ . '/dist/images/copywriting.svg') ?>
+                            <?= file_get_contents(__DIR__ . '../../dist/images/copywriting.svg') ?>
                         </div>
                         <h3 class="small-title dark-title">Création de contenu unique</h3>
                     </div>
@@ -461,7 +462,7 @@
                     <div class="icon-text-block">
                         <div class="icon-container d-flex justify-content-center align-items-end">
                             <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In  -->
-                            <?= file_get_contents(__DIR__ . '/dist/images/logo.svg') ?>
+                            <?= file_get_contents(__DIR__ . '../../dist/images/logo.svg') ?>
                         </div>
                         <h3 class="small-title dark-title">Rafraîchissement de votre image d’entreprise</h3>
 
@@ -471,7 +472,7 @@
                     <div class="icon-text-block">
                         <div class="icon-container d-flex justify-content-center align-items-end">
                             <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In  -->
-                            <?= file_get_contents(__DIR__ . '/dist/images/emails.svg') ?>
+                            <?= file_get_contents(__DIR__ . '../../dist/images/emails.svg') ?>
                         </div>
                         <h3 class="small-title dark-title">Ajout d’adresses emails</h3>
                     </div>
@@ -484,89 +485,91 @@
     <!--------------------------Feedback section------------------------------------------>
 
     <section class="feedback-section" id="feedback"
-             style="background-image:url(<?= asset('images/feedback-bg-min.png') ?>); ">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="simple-text-block">
-                        <h2 class="section-title white-title">Témoignages</h2>
-
-                        <div class="simple-text text-center white-text">
-                            <p>
-                                Votre opinion compte! Voici ce que nos partenaires avaient à dire au sujet de Ubiweb.
-                            </p>
+             style="background-image:url(<?= asset('images/hero.jpg') ?>); ">
+        <div class="feedback-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="simple-text-block">
+                            <h2 class="section-title white-title">Témoignages</h2>
+    
+                            <div class="simple-text text-center white-text">
+                                <p>
+                                    Votre opinion compte! Voici ce que nos partenaires avaient à dire au sujet de Ubiweb.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="feedback-slider-wrapper">
-                        <div class="JS--feedback-slider swiper-container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="feedback-block">
-                                        <div class="feedback-content red-bg">
-                                            <div class="feedback-title-block">
-                                                <h3 class="small-title">"Je n'hésiterais pas à recommander vos services"</h3>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="feedback-slider-wrapper">
+                            <div class="JS--feedback-slider swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="feedback-block">
+                                            <div class="feedback-content red-bg">
+                                                <div class="feedback-title-block">
+                                                    <h3 class="small-title">"Je n'hésiterais pas à recommander vos services"</h3>
+                                                </div>
+                                                <div class="feedback-description">
+                                                    <p>
+                                                    "Merci Patrick et Thomas pour votre aide  avec mon Site Web. Cela a fait en sorte que mon chiffre d’affaire a augmenté de façon significative! Je n'hésiterais pas à recommander vos services, et encore merci à toute l’équipe Ubiweb."
+                                                    </p>
+                                                </div>
                                             </div>
-                                            <div class="feedback-description">
-                                                <p>
-                                                "Merci Patrick et Thomas pour votre aide  avec mon Site Web. Cela a fait en sorte que mon chiffre d’affaire a augmenté de façon significative! Je n'hésiterais pas à recommander vos services, et encore merci à toute l’équipe Ubiweb."
-                                                </p>
+                                            <div class="feedback-author-block">
+                                                <span class="client-name">Réal Ladouceur - Propriétaire</span>
+                                                <span class="company-name">Gestion Parasitaire 2 Rives</span>
                                             </div>
                                         </div>
-                                        <div class="feedback-author-block">
-                                            <span class="client-name">Réal Ladouceur - Propriétaire</span>
-                                            <span class="company-name">Gestion Parasitaire 2 Rives</span>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="feedback-block">
+                                            <div class="feedback-content white-bg">
+                                                <div class="feedback-title-block">
+                                                    <h3 class="small-title">"We could not conduct our business without you! Many Thanks"</h3>
+                                                </div>
+                                                <div class="feedback-description">
+                                                    <p>
+                                                    "We would like to take a moment and thank you for the quality of service provided by your company. We sincerely appreciate your efficient efforts, customer service, the level of detail and accountability on building our website and improving our social media presence. I am specifically grateful that you guys have made the process simple. We could not conduct our business without you! Many Thanks"
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="feedback-author-block">
+                                                <span class="client-name">Maria</span>
+                                                <span class="company-name">The Stone Company Inc</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="feedback-block">
+                                            <div class="feedback-content red-bg">
+                                                <div class="feedback-title-block">
+                                                    <h3 class="small-title">"Let you guys know that you're very good at what you do"</h3>
+                                                </div>
+                                                <div class="feedback-description">
+                                                    <p>
+                                                    "Before going with your company we had already spent thousands of dollars with other companies to have 2 websites created. The end result was never what was originally promised. Our experience with Ubiweb over the past year has been completely different and I just wanted to reach out to you and let you guys know that you're very good at what you do, and we REALLY appreciate it! Thanks again!"
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="feedback-author-block">
+                                                <span class="client-name">Alain - President</span>
+                                                <span class="company-name">Hydraulique Rives Sud</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="feedback-block">
-                                        <div class="feedback-content white-bg">
-                                            <div class="feedback-title-block">
-                                                <h3 class="small-title">"We could not conduct our business without you! Many Thanks"</h3>
-                                            </div>
-                                            <div class="feedback-description">
-                                                <p>
-                                                "We would like to take a moment and thank you for the quality of service provided by your company. We sincerely appreciate your efficient efforts, customer service, the level of detail and accountability on building our website and improving our social media presence. I am specifically grateful that you guys have made the process simple. We could not conduct our business without you! Many Thanks"
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="feedback-author-block">
-                                            <span class="client-name">Maria</span>
-                                            <span class="company-name">The Stone Company Inc</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="feedback-block">
-                                        <div class="feedback-content red-bg">
-                                            <div class="feedback-title-block">
-                                                <h3 class="small-title">"Let you guys know that you're very good at what you do"</h3>
-                                            </div>
-                                            <div class="feedback-description">
-                                                <p>
-                                                "Before going with your company we had already spent thousands of dollars with other companies to have 2 websites created. The end result was never what was originally promised. Our experience with Ubiweb over the past year has been completely different and I just wanted to reach out to you and let you guys know that you're very good at what you do, and we REALLY appreciate it! Thanks again!"
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="feedback-author-block">
-                                            <span class="client-name">Alain - President</span>
-                                            <span class="company-name">Hydraulique Rives Sud</span>
-                                        </div>
-                                    </div>
-                                </div>
+                                <!-- Add Arrows -->
+                                <div class="JS--feedback-pagination swiper-pagination"></div>
                             </div>
-                            <!-- Add Arrows -->
-                            <div class="JS--feedback-pagination swiper-pagination"></div>
-                        </div>
-                        <div class="JS--feedback-next swiper-button-next">
-                        <?= file_get_contents(__DIR__ . '/dist/images/next-arrow.svg') ?>
-                        </div>
-                        <div class="JS--feedback-prev swiper-button-prev">
-                        <?= file_get_contents(__DIR__ . '/dist/images/prev-arrow.svg') ?>
+                            <div class="JS--feedback-next swiper-button-next">
+                            <?= file_get_contents(__DIR__ . '../../dist/images/next-arrow.svg') ?>
+                            </div>
+                            <div class="JS--feedback-prev swiper-button-prev">
+                            <?= file_get_contents(__DIR__ . '../../dist/images/prev-arrow.svg') ?>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -639,10 +642,10 @@
                             <div class="JS--portfolio-pagination swiper-pagination"></div>
                         </div>
                         <div class="JS--portfolio-next swiper-button-next">
-                        <?= file_get_contents(__DIR__ . '/dist/images/next-arrow-sites.svg') ?>
+                        <?= file_get_contents(__DIR__ . '../../dist/images/next-arrow-sites.svg') ?>
                         </div>
                         <div class="JS--portfolio-prev swiper-button-prev">
-                        <?= file_get_contents(__DIR__ . '/dist/images/prev-arrow-sites.svg') ?>
+                        <?= file_get_contents(__DIR__ . '../../dist/images/prev-arrow-sites.svg') ?>
                         </div>
                     </div>
                 </div>
@@ -670,7 +673,7 @@
                                     <button class="btn btn-link btn-custom-link faq-btn faq-btn--active" data-toggle="collapse"
                                             data-target="#JS--collapse-one" aria-expanded="true"
                                             aria-controls="collapseOne">
-                                            <?= file_get_contents(__DIR__ . '/dist/images/faq-arrow.svg') ?>
+                                            <?= file_get_contents(__DIR__ . '../../dist/images/faq-arrow.svg') ?>
                                         Pourquoi est-ce que je devrais investir dans la conception d’un site web?
                                     </button>
                                 </div>
@@ -686,7 +689,7 @@
                                     <button class="btn btn-link btn-custom-link collapsed faq-btn" data-toggle="collapse"
                                             data-target="#JS--collapse-two" aria-expanded="true"
                                             aria-controls="collapseTwo">
-                                            <?= file_get_contents(__DIR__ . '/dist/images/faq-arrow.svg') ?>
+                                            <?= file_get_contents(__DIR__ . '../../dist/images/faq-arrow.svg') ?>
                                             Ai-je besoin d’un site web considérant que mon entreprise opère déjà à pleine capacité?
                                     </button>
                                 </div>
@@ -702,7 +705,7 @@
                                     <button class="btn btn-link btn-custom-link collapsed faq-btn" data-toggle="collapse"
                                             data-target="#JS--collapse-three" aria-expanded="true"
                                             aria-controls="collapseThree">
-                                            <?= file_get_contents(__DIR__ . '/dist/images/faq-arrow.svg') ?>
+                                            <?= file_get_contents(__DIR__ . '../../dist/images/faq-arrow.svg') ?>
                                         Je possède déjà un site web. Pourquoi est-il important de moderniser celui-ci?
                                     </button>
                                 </div>
@@ -718,7 +721,7 @@
                                     <button class="btn btn-link btn-custom-link collapsed faq-btn" data-toggle="collapse"
                                             data-target="#JS--collapse-four" aria-expanded="true"
                                             aria-controls="collapseFour">
-                                            <?= file_get_contents(__DIR__ . '/dist/images/faq-arrow.svg') ?>
+                                            <?= file_get_contents(__DIR__ . '../../dist/images/faq-arrow.svg') ?>
                                         Quels sont les avantages aux paiements mensuels vs le paiement unique?
                                     </button>
                                 </div>
@@ -738,7 +741,7 @@
                                     <button class="btn btn-link btn-custom-link collapsed faq-btn" data-toggle="collapse"
                                             data-target="#JS--collapse-five" aria-expanded="true"
                                             aria-controls="collapseFive">
-                                            <?= file_get_contents(__DIR__ . '/dist/images/faq-arrow.svg') ?>
+                                            <?= file_get_contents(__DIR__ . '../../dist/images/faq-arrow.svg') ?>
                                         Je paye déjà pour différents placements commandités sur différentes plates-forme, pourquoi est-ce que je devrais posséder mon propre site?
                                     </button>
                                 </div>
@@ -754,7 +757,7 @@
                                     <button class="btn btn-link btn-custom-link collapsed faq-btn" data-toggle="collapse"
                                             data-target="#JS--collapse-six" aria-expanded="true"
                                             aria-controls="collapseSix">
-                                            <?= file_get_contents(__DIR__ . '/dist/images/faq-arrow.svg') ?>
+                                            <?= file_get_contents(__DIR__ . '../../dist/images/faq-arrow.svg') ?>
                                         Quels sont les frais supplémentaires auxquels je dois m’attendre de la part de Ubiweb?
                                     </button>
                                 </div>
