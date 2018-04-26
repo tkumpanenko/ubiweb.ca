@@ -815,6 +815,9 @@
                         <p>
                             Depuis les dernière années, nous avons su bénéficier de l’expertise de Code Comment à titre de maison mère de Ubiweb. C’est à travers des années d’expérience que nous en sommes venus à la conclusion qu’il y a une énorme rareté pour les clients en termes de solutions web pour Entrepreneurs. Ubiweb s’est vu naître dans le but de combler ce besoin dans le marcher. 
                         </p>
+                        <p>
+                            Avec plus de 200 clients qui nous font confiance pour leurs solutions numériques et un taux de renouvellement de plus de 94%, nous avons pris la décision d’agrandir nos ressources avec notre nouveaux bureaux a Montréal.
+                        </p>
                     </div>
                 </div>
             </div>
