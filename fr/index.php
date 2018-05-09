@@ -25,8 +25,8 @@
         <div class="row align-items-center justify-content-between">
             <div class="col-auto">
                 <div class="logo-wrapper">
-                    <a href="/"> <img src="<?= asset('images/ubiweb-noText-white.png') ?>" alt="logo" class="logo"></a>
-                    <a href="/"> <img src="<?= asset('images/logo.png') ?>" alt="logo" class="logo_sticky"></a>
+                    <a href="/fr"> <img src="<?= asset('images/ubiweb-noText-white.png') ?>" alt="logo" class="logo"></a>
+                    <a href="/fr"> <img src="<?= asset('images/logo.png') ?>" alt="logo" class="logo_sticky"></a>
                 </div>
             </div>
             <div class="col-auto">
@@ -46,7 +46,7 @@
                         <li><a href="#feedback">Témoignages</a></li>
                         <li><a href="#faq">FAQ</a></li>
                         <li><a href="#about">Contact</a></li>
-                        <li><a href="../index.php">EN</a></li>
+                        <li><a href="/">EN</a></li>
                     </ul>
                 </div>
             </div>
@@ -59,8 +59,8 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-auto">
                     <div class="logo-wrapper">
-                        <a href="/"> <img src="<?= asset('images/ubiweb-noText-white.png') ?>" alt="logo" class="logo"></a>
-                        <a href="/"> <img src="<?= asset('images/logo.png') ?>" alt="logo" class="logo_sticky"></a>
+                        <a href="/fr"> <img src="<?= asset('images/ubiweb-noText-white.png') ?>" alt="logo" class="logo"></a>
+                        <a href="/fr"> <img src="<?= asset('images/logo.png') ?>" alt="logo" class="logo_sticky"></a>
                     </div>
                 </div>
                 <div class="col-auto">
@@ -73,7 +73,7 @@
                         <li><a href="#faq">FAQ</a></li>
                         <li><a href="#about" class="btn custom-btn red-btn menu-button">Contactez nous</a></li>
                         <a href="#about">438-700-0598</a>
-                        <li class="ml-3"><a href="../index.php">EN</a></li>
+                        <li class="ml-3"><a href="/">EN</a></li>
                     </ul>
                 </div>
             </div>
@@ -815,9 +815,8 @@
                         <p>
                             Depuis les dernière années, nous avons su bénéficier de l’expertise de Code Comment à titre de maison mère de Ubiweb. C’est à travers des années d’expérience que nous en sommes venus à la conclusion qu’il y a une énorme rareté pour les clients en termes de solutions web pour Entrepreneurs. Ubiweb s’est vu naître dans le but de combler ce besoin dans le marcher. 
                         </p>
-
                         <p>
-                            Avec plus de 200 clients qui nous font confiance pour leurs solutions numériques et un taux de renouvellement de plus de 94%, nous avons récemment pris la décision d’agrandir nos ressources et nous comptons maintenant parmi nous 2 succursales (Montréal & Rive-Sud) afin d’être flexible pour nos clients.
+                            Avec plus de 200 clients qui nous font confiance pour leurs solutions numériques et un taux de renouvellement de plus de 94%, nous avons pris la décision d’agrandir nos ressources avec notre nouveaux bureaux a Montréal.
                         </p>
                     </div>
                 </div>

@@ -10,6 +10,7 @@
     <meta name="author" content="SitePoint">
     <link rel="shortcut icon" href="<?= asset('images/tab-logo.png') ?>">
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="<?= asset('styles/main.css') ?>">
 
     <!--[if lt IE 9]>
@@ -46,7 +47,7 @@
                         <li><a href="#feedback">Testimonials</a></li>
                         <li><a href="#faq">FAQ</a></li>
                         <li><a href="#about">Contact</a></li>
-                        <li><a href="fr/index-fr.php">FR</a></li>
+                        <li><a href="/fr">FR</a></li>
                     </ul>
                 </div>
             </div>
@@ -73,7 +74,7 @@
                         <li><a href="#faq">FAQ</a></li>
                         <li><a href="#about" class="btn custom-btn red-btn menu-button">Contact Us</a></li>
                         <a href="#about">438-700-0598</a>
-                        <li class="ml-3"><a href="fr/index-fr.php">FR</a></li>
+                        <li class="ml-3"><a href="/fr">FR</a></li>
                     </ul>
                 </div>
             </div>
@@ -842,11 +843,6 @@
                             200
                             customers who trust our skilled workmanship, we boast a 94% renewal rate with our
                             clients.
-                        </p>
-
-                        <p>
-                            We have expanded into 2 locations (Montreal and the South Shore) to offer you
-                            flexibility and convenience.
                         </p>
                     </div>
                 </div>
