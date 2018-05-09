@@ -19,6 +19,9 @@
         text-decoration: none;
         &.collapsed {
           color: $body-text-color;
+          &:hover {
+            color: $red;
+          }
         }
 
         svg {
@@ -37,5 +40,11 @@
         margin-bottom: 15px;
       }
     }
+  }
+}
+
+.faq-btn--active {
+  svg {
+    transform: rotate(90deg);
   }
 }

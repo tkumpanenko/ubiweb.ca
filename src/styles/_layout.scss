@@ -1,13 +1,38 @@
-
-
 /*----------------Hero banner---------------------------*/
+.mobile-banner {
+  display: none;
+}
+.video-container {
+  position: relative;
+  overflow: hidden;
+  max-height: 70vh;
+  background-color: black;
+  min-height: 515px;
+  video {
+    opacity: 0.3;
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+  }
+  .overlay-desc {
+    background: rgba(0,0,0,0);
+    position: absolute;
+    top: 25%; right: 0; bottom: 0; left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 .hero-banner-wrapper {
   position: relative;
-  min-height: 740px;
+  // min-height: 740px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   overflow-y: hidden;
+  height: 100%;
+  width: 100%;
   .bottom-banner-triangles {
     position: absolute;
     bottom: -1px;
@@ -88,6 +113,45 @@
   }
 }
 
+/*----------------Divider---------------------------*/
+.divider {
+    content: "";
+    width: 75px;
+    height: 5px;
+    background: $red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+/*----------------Media Queries---------------------------*/
+@media (max-width:1200px) and (min-width:855px) {
+  .overlay-desc {
+    top: 15% !important;
+    .hero-banner-wrapper {
+      .banner-content-wrapper {
+        .banner-button-container {
+          margin-top: 25px;
+        }
+      } 
+    } 
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .mobile-banner {
+    display: block;
+    background-color: black;
+    min-height: 700px;
+    img {
+      opacity: 0.5;
+      position: absolute;
+    }
+  }
+  .video-container {
+    display: none;
+  }
+}
 
 
 

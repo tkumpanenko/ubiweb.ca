@@ -4,13 +4,14 @@ window.$ = window.jQuery = $;
 import Swiper from 'swiper/dist/js/swiper.min';
 import 'bootstrap/dist/js/bootstrap';
 
-
 $(document).ready(function () {
-
 
     $(window).bind('scroll', function () {
         if ($(window).scrollTop() > 120) {
             $('header').addClass('sticky');
+            $('.logo').hide();
+            $('.logo_sticky').show();
+
             $('body.simple-page').addClass('sticky-active');
         } else {
 
@@ -22,6 +23,8 @@ $(document).ready(function () {
         if ($(window).scrollTop() == 0){
             $('body.simple-page').removeClass('sticky-active');
             $('header').removeClass('sticky');
+            $('.logo_sticky').hide();
+            $('.logo').show();
         }
 
 
@@ -93,7 +96,6 @@ $(document).ready(function () {
 
 
 
-
     $(document).on('click', 'a[href^="#"]', function (event) {
         event.preventDefault();
         // var headerHeight = $('header').outerHeight();
@@ -126,6 +128,30 @@ $(document).ready(function () {
         $('.mobile-menu').removeClass('active');
         $('.mobile-menu-btn').removeClass('active');
     });
+    
+    $(".btn-contact").click(function(){
+        $( ".contact-popup" ).fadeIn();
+    });
 
+    $(document).mouseup(function(e) {
+        var container = $(".contact-popup");
 
+        // if the target of the click isn't the container nor a descendant of the container
+        if (!container.is(e.target) && container.has(e.target).length === 0) {
+            container.hide();
+        }
+    });
+
+    $(".close-popup").click(function(){
+        $( ".contact-popup" ).fadeOut();
+    });
+
+    $(".faq-btn").click(function(){
+        if ($(this).hasClass('faq-btn--active')) {
+            $(".faq-btn").removeClass("faq-btn--active");
+        } else {
+            $(".faq-btn").removeClass("faq-btn--active");            
+            $(this).toggleClass('faq-btn--active');
+        }
+    });
 });

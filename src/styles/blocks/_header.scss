@@ -19,11 +19,22 @@ body.home {
     .desktop-menu-wrapper {
       .menu {
         li {
-          &:not(:last-child) {
+          a {
+            color: white;
+            font-size: 15px;
+            font-weight: 600;
+          }
+          &:nth-child(7) {
             a {
-              color: #fff;
+              color: white;
             }
           }
+        }
+        a {
+          color: white;
+          font-size: 15px;
+          font-weight: 600;
+          text-decoration: none;
         }
       }
     }
@@ -49,7 +60,15 @@ body.home {
               a {
                 color: $dark;
               }
+              .red-btn {
+                color: white;
+              }
             }
+          }
+          a {
+            color: $dark;
+            font-size: 15px;
+            font-weight: 600;
           }
         }
       }
@@ -113,11 +132,14 @@ body.home {
 .mobile-menu-wrapper {
   display: none;
   padding: 0 20px;
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 1200px) {
     display: block;
   }
   .logo-wrapper {
     a {
+      .logo_sticky {
+        display: none;
+      }
       img {
         width: 120px;
       }
@@ -218,21 +240,28 @@ body.home {
 }
 
 .desktop-menu-wrapper {
-  @media screen and (max-width: 992px) {
+  .logo-wrapper {
+    a {
+      .logo_sticky {
+        display: none;
+      }
+    }
+  }
+  @media screen and (max-width: 1200px) {
     display: none;
   }
   .logo-wrapper {
-    background: rgba(255, 255, 255, 0.25);
+    background: transparent;
     position: relative;
     &:after {
-      position: absolute;
-      content: '';
-      display: block;
-      height: 100%;
-      width: 100%;
-      top: 0;
-      left: 0;
-      box-shadow: 0px 0px 48px 48px rgba(255, 255, 255, 0.25);
+      // position: absolute;
+      // content: '';
+      // display: block;
+      // height: 100%;
+      // width: 100%;
+      // top: 0;
+      // left: 0;
+      // box-shadow: 0px 0px 48px 48px rgba(255, 255, 255, 0.25);
     }
     a {
       display: block;
@@ -240,8 +269,10 @@ body.home {
       z-index: 9;
       .logo {
         max-width: 100%;
-        display: block;
         height: auto;
+      }
+      .logo_sticky {
+        display: none;
       }
     }
   }
