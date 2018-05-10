@@ -1,0 +1,27 @@
+// Vendors
+@import "vars";
+@import "mixins";
+
+@import "~bootstrap/scss/bootstrap";
+@import "~swiper/dist/css/swiper.min.css";
+// @import "~font-awesome/scss/font-awesome";
+
+@import "base";
+@import "layout";
+
+@import "blocks/blocks";
+@import "blocks/header";
+
+@import "blocks/specialize-section";
+@import "blocks/packages-section";
+@import "blocks/guarantee-sections";
+@import "blocks/section-add-ons";
+@import "blocks/feedback-section";
+@import "blocks/portfolio-section";
+@import "blocks/questions-section";
+@import "blocks/about-us-section";
+@import "blocks/describe-package-section";
+@import "blocks/get-started-section";
+@import "blocks/guarantee-addons-section";
+
+@import "blocks/footer";

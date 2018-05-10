@@ -1,0 +1,49 @@
+/*------------------------Guarantee-addons-section-----------------------------*/
+.guarantee-addons-section {
+  .icon-container {
+    min-height: 75px;
+  }
+  .small-title {
+    text-align: center;
+    line-height: 1.5;
+  }
+}
+
+.guarantee-text-block {
+  text-align: center;
+  .middle-title{
+    margin-bottom: 45px;
+  }
+  .promise-description {
+    .small-title{
+      margin-bottom: 20px;
+    }
+    p {
+      color: #fff;
+      font-family: 'Roboto', sans-serif;
+      &.small-promise-text {
+        margin-top: 40px;
+        font-size: 10px;
+        font-style: italic;
+        letter-spacing: 1px;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.addons-small-container {
+  text-align: center;
+  p {
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+.addons-column-wrapper, .guarantee-column-wrapper {
+  padding: 70px 0;
+}
+
+.addons-description-container {
+  text-align: center;
+  margin-bottom: 40px;
+}
