@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <title>ubiWeb</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <meta name="description" content="The HTML5 Herald">
+    <meta name="description" content="Nous sommes Ubiweb, votre partenaire numérique. Notre spécialité? Vous créer un site web professionnel, sur mesure et à la hauteur de votre ambition!">
     <meta name="author" content="SitePoint">
     <link rel="shortcut icon" href="<?= asset('images/tab-logo.png') ?>">
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
@@ -520,7 +520,7 @@
                                             </div>
                                             <div class="feedback-author-block">
                                                 <span class="client-name">Réal Ladouceur - Propriétaire</span>
-                                                <span class="company-name">Gestion Parasitaire 2 Rives</span>
+                                                <span class="company-name">Gestion Parasitaire</span>
                                             </div>
                                         </div>
                                     </div>
@@ -528,11 +528,11 @@
                                         <div class="feedback-block">
                                             <div class="feedback-content white-bg">
                                                 <div class="feedback-title-block">
-                                                    <h3 class="small-title">"We could not conduct our business without you! Many Thanks"</h3>
+                                                    <h3 class="small-title">"Je suis particulièrement reconnaissant que vous ayez simplifié le processus."</h3>
                                                 </div>
                                                 <div class="feedback-description">
                                                     <p>
-                                                    "We would like to take a moment and thank you for the quality of service provided by your company. We sincerely appreciate your efficient efforts, customer service, the level of detail and accountability on building our website and improving our social media presence. I am specifically grateful that you guys have made the process simple. We could not conduct our business without you! Many Thanks"
+                                                    "Nous aimerions prendre un moment et vous remercier pour la qualité du service fourni par votre entreprise. Nous apprécions sincèrement vos efforts, votre service à la clientèle, le niveau de détail et la créativité dans la création de notre site Web, et l'amélioration de notre présence sur les médias sociaux. Je suis particulièrement reconnaissant que vous ayez simplifié le processus. Nous ne pourrions pas avoir le succès en ligne que nous avons actuellement avec notre entreprise sans vous! Merci beaucoup!"
                                                     </p>
                                                 </div>
                                             </div>
@@ -546,11 +546,11 @@
                                         <div class="feedback-block">
                                             <div class="feedback-content red-bg">
                                                 <div class="feedback-title-block">
-                                                    <h3 class="small-title">"Let you guys know that you're very good at what you do"</h3>
+                                                    <h3 class="small-title">"Je voulais juste vous contacter pour vous dire que vous êtes très bon dans ce que vous faites"</h3>
                                                 </div>
                                                 <div class="feedback-description">
                                                     <p>
-                                                    "Before going with your company we had already spent thousands of dollars with other companies to have 2 websites created. The end result was never what was originally promised. Our experience with Ubiweb over the past year has been completely different and I just wanted to reach out to you and let you guys know that you're very good at what you do, and we REALLY appreciate it! Thanks again!"
+                                                    "Avant d'aller avec Ubiweb, nous avions déjà dépensé des milliers de dollars avec d'autres entreprises pour créer 2 sites Web. Le résultat final n'a jamais été ce qui avait été promis aux début. Notre expérience avec Ubiweb au cours de la dernière année a été complètement différente, et je voulais juste vous contacter pour vous dire que vous êtes très bon dans ce que vous faites, et nous l'apprécions vraiment! Merci encore!"
                                                     </p>
                                                 </div>
                                             </div>
