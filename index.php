@@ -571,7 +571,7 @@
                                             </div>
                                             <div class="feedback-author-block">
                                                 <span class="client-name">Alain - President</span>
-                                                <span class="company-name">Hydraulique Rives Sud</span>
+                                                <span class="company-name">Hydraulique Rive Sud</span>
                                             </div>
                                         </div>
                                     </div>
