@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <title>ubiWeb</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <meta name="description" content="The HTML5 Herald">
+    <meta name="description" content="We are Ubiweb, your online partner. A marketing firm specializing in website creation and getting your business noticed">
     <meta name="author" content="SitePoint">
     <link rel="shortcut icon" href="<?= asset('images/tab-logo.png') ?>">
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
@@ -525,17 +525,17 @@
                                         <div class="feedback-block">
                                             <div class="feedback-content red-bg">
                                                 <div class="feedback-title-block">
-                                                    <h3 class="small-title">"Je n'hésiterais pas à recommander vos services"</h3>
+                                                    <h3 class="small-title">"I would not hesitate to recommend your services"</h3>
                                                 </div>
                                                 <div class="feedback-description">
                                                     <p>
-                                                    "Merci Patrick et Thomas pour votre aide  avec mon Site Web. Cela a fait en sorte que mon chiffre d’affaire a augmenté de façon significative! Je n'hésiterais pas à recommander vos services, et encore merci à toute l’équipe Ubiweb."
+                                                    "Thank you to Thomas and the entire Ubiweb team for your help in building my website. My new web presence and increased SEO has directly impacted the bottom line of my business in a significantly positive way! I would not hesitate to recommend your services, and thank you again to the entire team."
                                                     </p>
                                                 </div>
                                             </div>
                                             <div class="feedback-author-block">
-                                                <span class="client-name">Réal Ladouceur - Propriétaire</span>
-                                                <span class="company-name">Gestion Parasitaire 2 Rives</span>
+                                                <span class="client-name">Réal Ladouceur - Owner</span>
+                                                <span class="company-name">Gestion Parasitaire</span>
                                             </div>
                                         </div>
                                     </div>
