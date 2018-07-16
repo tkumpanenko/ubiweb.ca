@@ -1,0 +1,50 @@
+/*----------------------Questions section---------------------------------*/
+
+.questions-section {
+  background: $grey-bg;
+  padding: 70px 0;
+}
+
+.questions-accordion-wrapper {
+  .questions-card {
+    border: 0;
+    background: transparent;
+    .btn-custom-link {
+      &.btn {
+        text-align: left;
+        padding: 15px 0;
+        font-family: 'Roboto', sans-serif;
+        color: $red;
+        font-size: 18px;
+        text-decoration: none;
+        &.collapsed {
+          color: $body-text-color;
+          &:hover {
+            color: $red;
+          }
+        }
+
+        svg {
+          width: 15px;
+          height: auto;
+          margin-right: 10px;
+        }
+      }
+    }
+    .questions-card-body {
+      &.card-body {
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        padding: 0 0 0 30px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+.faq-btn--active {
+  svg {
+    transform: rotate(90deg);
+  }
+}

@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Prompt:300,300i,400,400i,500,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+body {
+  font-family: 'Prompt', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: $body-text-color;
+  p {
+    font-family: 'Roboto', sans-serif;
+  }
+  li {
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+html,
+body {
+  height: 100%;
+  &.simple-page{
+    &.sticky-active{
+      padding-top: 120px;
+    }
+  }
+}
+
+.simple-text {
+  &.white-text {
+    color: #fff;
+  }
+  &.text-center {
+    text-align: center;
+  }
+}
+
+.btn {
+  white-space: normal;
+}
+
+.red-bg {
+  background: $red;
+}
+
+.blue-bg {
+  background: $blue;
+}
+
+.white-title {
+  color: #fff;
+}
+
+.red-title {
+  color: $red;
+}
+
+.dark-title {
+  color: $dark;
+}
+
+.big-title {
+  font-size: 103px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.middle-title {
+  font-size: 25px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/*--------------Icon text box-------------------*/
+
+.icon-text-block {
+  .icon-container {
+    text-align: center;
+  }
+}
+
+/*---------------Icons list-------------------*/
+.icons-list-wrapper {
+  .icons-list {
+    margin: 0;
+    list-style-type: none;
+    padding: 0 30px;
+    @media screen and (max-width: 992px){
+      padding: 0;
+    }
+    li {
+      color: $dark-subtitle;
+      padding-left:30px;
+      position: relative;
+      line-height: 2;
+      &:not(:last-child){
+        margin-bottom: 30px;
+        @media screen and (max-width: 992px){
+          margin-bottom: 10px;
+        }
+      }
+      i{
+        color: $blue;
+        position: absolute;
+        left:0;
+        top:0;
+        display: block;
+        line-height: inherit;
+      }
+    }
+  }
+}
+
+/*-----------Custom button-----------------------*/
+.custom-btn {
+  color: #fff;
+  border-radius: 50px;
+  outline: none;
+  padding: 15px 40px;
+  line-height: 1;
+  &.btn {
+    &.red-btn {
+      background-color: $red;
+    }
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+/*-----------------Section titles & subtitles----------------------------*/
+.section-title {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  &.red-title {
+    color: $red;
+  }
+  &.white-title {
+    color: #fff;
+  }
+  &.dark-title {
+    color: $card-period;
+  }
+}
+
+.section-subtitle {
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  &.black-subtitle {
+    color: $dark-subtitle;
+  }
+}
+
+.small-title {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  &.dark-title {
+    color: $dark-small-title;
+  }
+  &.red-title {
+    color: $red;
+  }
+  &.white-title {
+    color: #fff;
+  }
+  &.underline-title {
+    position: relative;
+    padding-bottom: 10px;
+    &:after {
+      position: absolute;
+      content: '';
+      display: block;
+      height: 2px;
+      background-color: $dark-small-title;
+      width: 20px;
+      left: 50%;
+      bottom: 0;
+      transform: translate(-50%, 0);
+    }
+  }
+}
+
+/*------------------Base swiper --------------------------*/
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
