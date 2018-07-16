@@ -1,3 +1,5 @@
+
+
 <?php require_once("app/init.php"); ?>
 <!doctype html>
 
@@ -101,7 +103,7 @@
 
                                 <div class="row justify-content-center banner-description">
                                     <div class="col-md-5">
-                                        <p>A Marketing firm specializing in website creation and getting your business noticed</p>
+                                        <p>A marketing firm specializing in website creation and getting your business noticed</p>
                                     </div>
                                 </div>
                                 <div class="banner-button-container">
@@ -337,7 +339,7 @@
                 <div class="contact-form-wrapper">
                     <h3 class="small-title white-title">Contact</h3>
 
-                    <p class="form-quote-text">Get your quote today by calling 438-700-0598 <br> or filling in the
+                    <p class="form-quote-text">Get your quote today by calling 438-700-0598 <br> or filling in the contact form below
                     <form id="recaptcha" action="https://contact.ubiweb.ca/mail-captcha" action="post">
                         <input type="hidden" name="autobody" value="true" />
                         <input type="hidden" name="to" value="<?php echo $admin_email;?>" />
@@ -357,7 +359,7 @@
                         <div class="form-button-container">
                             <button
                                 type="submit"
-                                style="color: black;"
+                                style="color: black; background-color: white;"
 	                            class="g-recaptcha btn custom-btn white-btn"
                                 data-sitekey= "<?php echo $site_key;?>"
                                 data-callback="<?php echo $data_callback;?>">

@@ -345,7 +345,7 @@
                         <div class="form-button-container">
                             <button 
                                 type="submit"
-                                style="color: black;"
+                                style="color: black; background: white;"
 	                            class="g-recaptcha btn custom-btn white-btn"
                                 data-sitekey= "<?php echo $site_key;?>"
                                 data-callback="<?php echo $data_callback;?>">
